@@ -1,0 +1,20 @@
+.big-box {
+	height: 500px;
+}
+
+.align-box {
+	margin-left: 4rem;
+	padding-left: 2.5rem;
+	padding-top: 3rem;
+}
+
+.footer-text {
+	font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+	.align-box {
+		margin-left: 0;
+		padding-left: 15px;
+	}
+}

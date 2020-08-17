@@ -12,6 +12,11 @@
 	font-size: 0.8rem;
 }
 
+.img-div {
+	height: auto;
+	width: 200px;
+}
+
 @media screen and (max-width: 768px) {
 	.align-box {
 		margin-left: 0;

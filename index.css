@@ -1,3 +1,8 @@
+body {
+	background-image: url(images/215.jpg);
+	background-repeat: no-repeat;
+}
+
 .big-box {
 	height: 500px;
 }
@@ -12,9 +17,21 @@
 	font-size: 0.8rem;
 }
 
-.img-div {
-	height: auto;
+.image-div {
+	background-color: #007bff;
+	border-radius: 100px;
+	color: whitesmoke;
+	height: 200px;
+	text-align: center;
+	padding: 20px 5px;
 	width: 200px;
+}
+
+.testimonial-img {
+	border-radius: 150px;
+	height: 300px;
+	margin: 5px auto;
+	width: 300px;
 }
 
 @media screen and (max-width: 768px) {

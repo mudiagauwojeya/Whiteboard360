@@ -1,42 +1,55 @@
 body {
-	background-image: url(images/215.jpg);
-	background-repeat: no-repeat;
+   background-image: url(images/pawel-czerwinski-OY3slACa3ec-unsplash.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: whitesmoke;
+}
+
+nav, .jumbotron {
+	background: none;
 }
 
 .big-box {
-	height: 500px;
+   height: 500px;
+   margin-bottom: -2px;
 }
 
-.align-box {
-	margin-left: 4rem;
-	padding-left: 2.5rem;
-	padding-top: 3rem;
+.footer-box {
+   background-color: #e9ecef;
 }
 
 .footer-text {
-	font-size: 0.8rem;
+   font-size: 0.8rem;
 }
 
 .image-div {
-	background-color: #007bff;
-	border-radius: 100px;
-	color: whitesmoke;
-	height: 200px;
-	text-align: center;
-	padding: 20px 5px;
-	width: 200px;
+   background-color: #007bff;
+   border-radius: 100px;
+   color: whitesmoke;
+   height: 200px;
+   padding: 20px 5px;
+   text-align: center;
+   width: 200px;
 }
 
 .testimonial-img {
-	border-radius: 150px;
-	height: 300px;
-	margin: 5px auto;
-	width: 300px;
+   border-radius: 150px;
+   height: 300px;
+   margin: 5px auto;
+   width: 300px;
+}
+
+.half-btn {
+   width: 50%;
 }
 
 @media screen and (max-width: 768px) {
-	.align-box {
-		margin-left: 0;
-		padding-left: 15px;
-	}
+   .align-box {
+      margin-left: 0;
+      padding-left: 15px;
+   }
+
+   .half-btn {
+      width: 100%;
+   }
 }

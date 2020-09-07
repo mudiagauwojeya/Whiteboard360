@@ -9,8 +9,12 @@ nav, .jumbotron {
 	background: none;
 }
 
+.centered {
+   text-align: center;
+}
+
 .big-box {
-   height: 500px;
+   height: 20%;
    margin-bottom: -2px;
 }
 
@@ -34,9 +38,9 @@ nav, .jumbotron {
 
 .testimonial-img {
    border-radius: 150px;
-   height: 300px;
+   height: 200px;
    margin: 5px auto;
-   width: 300px;
+   width: 200px;
 }
 
 .half-btn {
@@ -44,6 +48,9 @@ nav, .jumbotron {
 }
 
 @media screen and (max-width: 768px) {
+   body {
+      height: auto;
+   }
    .align-box {
       margin-left: 0;
       padding-left: 15px;

@@ -1,0 +1,11 @@
+.test {
+  background-color: #eeddcc;
+  color: red;
+  display: inline-block;
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  display: grid;
+}
+
+/*# sourceMappingURL=styles.css.map */

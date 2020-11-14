@@ -1,0 +1,25 @@
+{
+  "name": "whiteboard360",
+  "version": "1.0.0",
+  "description": "The official website of whiteboard360",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moody2times/Whiteboard360.git"
+  },
+  "author": "Moody Mudiaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moody2times/Whiteboard360/issues"
+  },
+  "homepage": "https://github.com/moody2times/Whiteboard360#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.1.0"
+  }
+}

@@ -8,6 +8,7 @@
     "watch": "sass --watch sass/styles.scss css/styles.css",
     "server": "live-server",
     "start": "npm-run-all --parallel watch server",
+    
     "prefix": "postcss --use autoprefixer -b 'last versions' css/styles.css -o css/styles.prefix.css",
     "compress": "sass --style=compressed css/styles.prefix.css css/styles.min.css",
     "build": "npm-run-all prefix compress"

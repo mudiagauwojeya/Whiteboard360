@@ -1,3 +1,4 @@
+// universal reset
 *,
 *::after,
 *::before {
@@ -6,20 +7,28 @@
     padding: 0;
 }
 
+//document root
 :root {
     font-size: 62.5%;
+    --body-color: #333;
+    --text-color: #fff;
+    --color-primary: #42b0f0;
+    --color-secondary: #1291db;
+    --color-tertiary: #0b4363;
 }
 
+//body
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--body-color);
+    color: var(--text-color);
     font-size: 1.6rem;
     letter-spacing: .4rem;
 }
 
+//grid container for the body
 .container {
     display: grid;
-    grid-template-rows: 8rem 80vh max-content;
+    grid-template-rows: 80vh max-content;
 }
 
 // ::selection {}

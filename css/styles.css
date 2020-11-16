@@ -8,18 +8,95 @@
 
 :root {
   font-size: 62.5%;
+  --body-color: #333;
+  --text-color: #fff;
+  --color-primary: #42b0f0;
+  --color-secondary: #1291db;
+  --color-tertiary: #0b4363;
 }
 
 body {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--body-color);
+  color: var(--text-color);
   font-size: 1.6rem;
   letter-spacing: 0.4rem;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 8rem 80vh max-content;
+  grid-template-rows: 80vh max-content;
+}
+
+.navigation {
+  background-color: var(--color-tertiary);
+  position: fixed;
+  width: 100%;
+}
+.navigation__brand {
+  width: 8rem;
+}
+.navigation__logo {
+  width: 100%;
+}
+.navigation__bg {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 6.1rem;
+  width: 6.1rem;
+  position: absolute;
+  right: 1.4rem;
+  top: 0.5rem;
+}
+.navigation__checkbox {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation__checkbox-label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation__btn, .navigation__btn::after, .navigation__btn::before {
+  background-color: var(--body-color);
+  display: inline-block;
+  height: 2px;
+  transform-origin: center;
+  transition: transform 300ms ease;
+  width: 4rem;
+  position: absolute;
+}
+.navigation__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation__btn::after, .navigation__btn::before {
+  content: "";
+}
+.navigation__btn::after {
+  top: 0.9rem;
+}
+.navigation__btn::before {
+  top: -0.8rem;
+}
+.navigation__checkbox:checked + .navigation__checkbox-label > .navigation__btn {
+  background-color: #fff;
+}
+.navigation__checkbox:checked + .navigation__checkbox-label > .navigation__btn::after, .navigation__checkbox:checked + .navigation__checkbox-label > .navigation__btn::before {
+  left: 0;
+  top: 0;
+}
+.navigation__checkbox:checked + .navigation__checkbox-label > .navigation__btn::after {
+  transform: rotate(-140deg);
+}
+.navigation__checkbox:checked + .navigation__checkbox-label > .navigation__btn::before {
+  transform: rotate(140deg);
 }
 
 /*# sourceMappingURL=styles.css.map */

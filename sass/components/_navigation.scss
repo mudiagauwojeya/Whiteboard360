@@ -1,0 +1,87 @@
+.navigation {
+    background-color: var(--color-tertiary);
+    position: fixed;
+    width: 100%;
+
+
+    &__brand {
+        width: 8rem;
+    }
+
+    &__logo {
+        width: 100%;
+    }
+
+    &__bg {
+        background-color: #fff;
+        border-radius: 50%;
+        height: 6.1rem;
+        width: 6.1rem;
+
+        position: absolute;
+        right: 1.4rem;
+        top: .5rem;
+    }
+
+    &__checkbox {
+        opacity: 0;
+        @include centered;
+    }
+
+    &__checkbox-label {
+        display: block;
+        @include centered;
+    }
+
+    //hamburger menu button
+    &__btn,
+    &__btn::after,
+    &__btn::before {
+        background-color: var(--body-color);
+        display: inline-block;
+        height: 2px;
+        transform-origin: center;
+        transition: transform 300ms ease;
+        width: 4rem;
+
+        position: absolute;
+    }
+
+    &__btn {
+        @include centered;
+    }
+
+    &__btn::after,
+    &__btn::before {
+        content: "";
+    }
+
+     &__btn::after {
+         top: .9rem;
+     }
+
+     &__btn::before {
+         top: -.8rem;
+     }
+
+     //hamburger menu button onclick behaviour
+     &__checkbox:checked + &__checkbox-label > &__btn {
+         background-color: #fff;
+     }
+
+     &__checkbox:checked + &__checkbox-label > &__btn::after,
+     &__checkbox:checked+&__checkbox-label > &__btn::before {
+         left: 0;
+         top: 0;
+     }
+
+      &__checkbox:checked+&__checkbox-label>&__btn::after {
+         transform: rotate(-140deg);
+      }
+
+      &__checkbox:checked+&__checkbox-label>&__btn::before {
+         transform: rotate(140deg);
+      }
+
+
+}

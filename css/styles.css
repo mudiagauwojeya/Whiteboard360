@@ -86,6 +86,7 @@ body {
 .navigation__menu-list {
   list-style: none;
   text-align: center;
+  width: 30rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -102,12 +103,18 @@ body {
   padding: 3rem;
   text-decoration: none;
   text-transform: uppercase;
+  width: 100%;
 }
 .navigation__menu-link:visited {
   color: var(--color-primary);
 }
+.navigation__menu-link:hover {
+  background-color: var(--color-tertiary);
+  color: var(--text-color);
+}
 .navigation__menu-close {
   color: var(--color-tertiary);
+  cursor: pointer;
   display: inline;
   font-size: 5rem;
   padding: 2rem;

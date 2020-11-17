@@ -71,6 +71,7 @@
         &-list {
             list-style: none;
             text-align: center;
+            width: 30rem;
 
             @include centered;
         }
@@ -90,15 +91,22 @@
                 padding: 3rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                width: 100%;
             }
 
             &:visited {
                 color: var(--color-primary);
             }
+
+            &:hover {
+                background-color: var(--color-tertiary);
+                color: var(--text-color);
+            }
         }
 
         &-close {
             color: var(--color-tertiary);
+            cursor: pointer;
             display: inline;
             font-size: 5rem;
             padding: 2rem;

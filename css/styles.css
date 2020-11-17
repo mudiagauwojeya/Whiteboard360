@@ -35,6 +35,7 @@ body {
   z-index: 100;
 }
 .navigation__brand {
+  margin-left: 1.8rem;
   width: 8rem;
 }
 .navigation__logo {
@@ -119,7 +120,21 @@ body {
   font-size: 5rem;
   padding: 2rem;
   position: absolute;
-  right: 1rem;
+  right: 0.8rem;
+  top: -1.5rem;
+}
+
+.header {
+  margin-top: 7rem;
+}
+.header__bg {
+  background-image: url("../../images/banner-blob-small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 7rem 2rem;
+  margin: 0 auto;
+  width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */

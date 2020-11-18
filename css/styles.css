@@ -3,7 +3,7 @@
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
   }
   to {
-    box-shadow: 0.1rem 0.1rem 0.5rem 0.5rem rgba(66, 176, 240, 0.5);
+    box-shadow: 0.1rem 0.1rem 0.4rem 0.4rem rgba(66, 176, 240, 0.5);
   }
 }
 *,
@@ -18,8 +18,8 @@
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e6e6e6;
-  --color-primary: #62c4fd;
-  --color-secondary: #1ba6f7;
+  --color-primary: #41aeee;
+  --color-secondary: #0da4fc;
   --color-tertiary: #0b4363;
   --font-content: "Open sans", sans-serif;
   --font-heading: "Lora", serif;
@@ -51,7 +51,7 @@ body {
 }
 
 .btn {
-  animation: glow 1s ease infinite alternate;
+  animation: glow 1s ease infinite alternate-reverse;
   background-color: var(--color-secondary);
   border: none;
   border-radius: 10rem;
@@ -70,6 +70,24 @@ body {
 }
 .btn__link:visited {
   color: var(--color-tertiary);
+}
+
+.media {
+  padding: 7rem 2rem;
+  margin-top: 30rem;
+}
+.media__container {
+  background-image: url("../images/blue-blob-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30rem;
+}
+.media__file {
+  border: 0.5rem solid var(--color-primary);
+  border-radius: 0.9rem;
+  display: block;
+  width: 100%;
 }
 
 .navigation {

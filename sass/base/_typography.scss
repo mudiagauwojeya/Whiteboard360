@@ -1,0 +1,9 @@
+.heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-primary {
+    @extend .heading;
+}

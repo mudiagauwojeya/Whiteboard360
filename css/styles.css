@@ -7,25 +7,35 @@
 }
 
 :root {
-  font-size: 62.5%;
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e6e6e6;
   --color-primary: #42b0f0;
   --color-secondary: #1291db;
   --color-tertiary: #0b4363;
+  --font-body: "Open sans", sans-serif;
+  --font-heading: "Lora", serif;
+  font-size: 62.5%;
 }
 
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  font-family: var(--font-body);
   font-size: 1.6rem;
+  font-weight: 400;
   letter-spacing: 0.2rem;
 }
 
 .container {
   display: grid;
   grid-template-rows: 80vh max-content;
+}
+
+.heading, .heading-primary {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .navigation {

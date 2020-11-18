@@ -1,12 +1,12 @@
 .navigation {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-secondary);
     position: fixed;
     width: 100%;
     z-index: 100;
 
 
     &__brand {
-        margin-left: 1.8rem;
+        margin-left: .5rem;
         width: 8rem;
     }
 
@@ -29,7 +29,7 @@
     &__btn,
     &__btn::after,
     &__btn::before {
-        background-color: var(--color-primary);
+        background-color: var(--color-tertiary);
         display: block;
         height: 2px;
         transform-origin: center;

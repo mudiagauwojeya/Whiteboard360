@@ -13,7 +13,7 @@
   --color-primary: #42b0f0;
   --color-secondary: #1291db;
   --color-tertiary: #0b4363;
-  --font-body: "Open sans", sans-serif;
+  --font-content: "Open sans", sans-serif;
   --font-heading: "Lora", serif;
   font-size: 62.5%;
 }
@@ -21,8 +21,8 @@
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  font-family: var(--font-body);
-  font-size: 1.6rem;
+  font-family: var(--font-content);
+  font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
 }
@@ -38,14 +38,18 @@ body {
   text-transform: uppercase;
 }
 
+.heading-primary {
+  font-size: 3.4rem;
+}
+
 .navigation {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-secondary);
   position: fixed;
   width: 100%;
   z-index: 100;
 }
 .navigation__brand {
-  margin-left: 1.8rem;
+  margin-left: 0.5rem;
   width: 8rem;
 }
 .navigation__logo {
@@ -61,7 +65,7 @@ body {
   top: 0.5rem;
 }
 .navigation__btn, .navigation__btn::after, .navigation__btn::before {
-  background-color: var(--color-primary);
+  background-color: var(--color-tertiary);
   display: block;
   height: 2px;
   transform-origin: center;
@@ -135,6 +139,7 @@ body {
 }
 
 .header {
+  padding: 7rem 2rem;
   margin-top: 7rem;
 }
 .header__bg {
@@ -142,9 +147,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 7rem 2rem;
-  margin: 0 auto;
-  width: 90%;
+  height: 40rem;
+  padding: 10rem 0 0;
+}
+.header__paragraph {
+  background-color: rgba(11, 67, 99, 0.7);
+  border-radius: 0.5rem;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

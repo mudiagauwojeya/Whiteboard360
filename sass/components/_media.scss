@@ -1,0 +1,19 @@
+.media {
+    padding: 7rem 2rem;
+    margin-top: 30rem;
+
+    &__container {
+        background-image: url("../images/blue-blob-1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30rem;
+    }
+    
+    &__file {
+        border: .5rem solid var(--color-primary);
+        border-radius: .9rem;
+        display: block;
+        width: 100%;
+    }
+}

@@ -10,6 +10,14 @@
         width: 8rem;
     }
 
+    &__brand-link {
+        &:link,
+        &:active,
+        &:visited {
+            text-decoration: none;
+        }
+    }
+
     &__logo {
         width: 100%;
     }

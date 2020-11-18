@@ -1,0 +1,27 @@
+.btn {
+    animation: glow 1s ease infinite alternate;
+    background-color: var(--color-secondary);
+    border: none;
+    border-radius: 10rem;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: 4rem;
+
+    &__link {
+
+        &:link,
+        &:active {
+            color: var(--text-color);
+            display: block;
+            font-weight: 400;
+            padding: 1.6rem 6rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        &:visited {
+            color: var(--color-tertiary);
+        }
+    }
+}

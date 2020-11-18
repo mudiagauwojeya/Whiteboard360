@@ -1,3 +1,11 @@
+@keyframes glow {
+  from {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+  }
+  to {
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.5rem rgba(66, 176, 240, 0.5);
+  }
+}
 *,
 *::after,
 *::before {
@@ -10,8 +18,8 @@
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e6e6e6;
-  --color-primary: #42b0f0;
-  --color-secondary: #1291db;
+  --color-primary: #62c4fd;
+  --color-secondary: #1ba6f7;
   --color-tertiary: #0b4363;
   --font-content: "Open sans", sans-serif;
   --font-heading: "Lora", serif;
@@ -42,6 +50,28 @@ body {
   font-size: 3.4rem;
 }
 
+.btn {
+  animation: glow 1s ease infinite alternate;
+  background-color: var(--color-secondary);
+  border: none;
+  border-radius: 10rem;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  margin-top: 4rem;
+}
+.btn__link:link, .btn__link:active {
+  color: var(--text-color);
+  display: block;
+  font-weight: 400;
+  padding: 1.6rem 6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn__link:visited {
+  color: var(--color-tertiary);
+}
+
 .navigation {
   background-color: var(--color-secondary);
   position: fixed;
@@ -51,6 +81,9 @@ body {
 .navigation__brand {
   margin-left: 0.5rem;
   width: 8rem;
+}
+.navigation__brand-link:link, .navigation__brand-link:active, .navigation__brand-link:visited {
+  text-decoration: none;
 }
 .navigation__logo {
   width: 100%;
@@ -151,9 +184,9 @@ body {
   padding: 10rem 0 0;
 }
 .header__paragraph {
-  background-color: rgba(11, 67, 99, 0.7);
+  background-color: rgba(51, 51, 51, 0.5);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -176,7 +176,7 @@ body {
   margin-top: 7rem;
 }
 .header__bg {
-  background-image: url("../../images/banner-blob-small.png");
+  background-image: url("../images/banner-blob-small.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

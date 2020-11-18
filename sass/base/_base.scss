@@ -9,19 +9,22 @@
 
 //document root
 :root {
-    font-size: 62.5%;
     --body-color: #333;
     --text-color: #fff;
     --bg-color: #e6e6e6;
     --color-primary: #42b0f0;
     --color-secondary: #1291db;
     --color-tertiary: #0b4363;
+    --font-body: "Ubuntu", sans-serif;
+    --font-heading: "Merriweather", serif;
+    font-size: 62.5%;
 }
 
 //body
 body {
     background-color: var(--body-color);
     color: var(--text-color);
+    font-family: var(--font-body);
     font-size: 1.6rem;
     letter-spacing: .2rem;
 }

@@ -32,8 +32,9 @@ body {
 
 //grid container for the body
 .container {
-    display: grid;
-    grid-template-rows: 80vh max-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 // ::selection {}

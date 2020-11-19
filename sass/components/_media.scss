@@ -1,13 +1,12 @@
 .media {
+    margin-top: 10rem;
     padding: 7rem 2rem;
-    margin-top: 30rem;
-
+    
     &__container {
-        background-image: url("../images/blue-blob-1.png");
-        background-position: center;
+        background-image: url("../images/blue-blob-3.png");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 30rem;
+        width: 32rem;
     }
     
     &__file {

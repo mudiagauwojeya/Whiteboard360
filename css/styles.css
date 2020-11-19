@@ -3,7 +3,7 @@
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
   }
   to {
-    box-shadow: 0.1rem 0.1rem 0.4rem 0.4rem rgba(66, 176, 240, 0.5);
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.5rem rgba(66, 176, 240, 0.5);
   }
 }
 *,
@@ -36,8 +36,9 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-rows: 80vh max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 .heading, .heading-primary {
@@ -51,7 +52,7 @@ body {
 }
 
 .btn {
-  animation: glow 1s ease infinite alternate-reverse;
+  animation: glow 1s ease infinite alternate;
   background-color: var(--color-secondary);
   border: none;
   border-radius: 10rem;
@@ -73,15 +74,14 @@ body {
 }
 
 .media {
+  margin-top: 10rem;
   padding: 7rem 2rem;
-  margin-top: 30rem;
 }
 .media__container {
-  background-image: url("../images/blue-blob-1.png");
-  background-position: center;
+  background-image: url("../images/blue-blob-3.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 30rem;
+  width: 32rem;
 }
 .media__file {
   border: 0.5rem solid var(--color-primary);

@@ -86,8 +86,8 @@ body {
 }
 .media__section-intro {
   background-image: url("../images/blue-blob-3.png");
-  background-position: 50% 50%;
-  background-size: 350%;
+  background-position: 60% 50%;
+  background-size: 250%;
   background-repeat: no-repeat;
   height: 30vh;
   margin-bottom: 2rem;

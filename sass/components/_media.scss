@@ -23,18 +23,19 @@
 
         position: absolute;
         left: 3rem;
-        top: 9rem;
+        top: 10rem;
     }
 
     &__container {
         margin: 2rem 0;
-        width: 32rem;
+        width: 36rem;
     }
 
     &__file {
         border: .5rem solid var(--color-primary);
         border-radius: .9rem;
         display: block;
+
         width: 100%;
     }
 }

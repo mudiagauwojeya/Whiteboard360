@@ -1,6 +1,14 @@
 .header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
     padding: 7rem 2rem;
     margin-top: 7rem;
+
+    &__title {
+       text-align: center;
+    }
     
     &__bg {
         background-image: url("../images/banner-blob-small.png");
@@ -8,11 +16,12 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 40rem;
+        margin: 2rem 0 3rem;
         padding: 10rem 0 0;
     }
 
     &__paragraph {
-        background-color: rgba(#333, .5);
+        @include textbox;
         border-radius: .5rem;
         padding: 2rem 0;
     }

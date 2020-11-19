@@ -41,7 +41,7 @@ body {
   justify-content: space-between;
 }
 
-.heading, .heading-primary {
+.heading, .heading-secondary, .heading-primary {
   font-family: var(--font-heading);
   font-weight: 700;
   text-transform: uppercase;
@@ -49,6 +49,10 @@ body {
 
 .heading-primary {
   font-size: 3.4rem;
+}
+
+.heading-secondary {
+  font-size: 2.3rem;
 }
 
 .btn {
@@ -59,7 +63,7 @@ body {
   display: inline-block;
   font-family: inherit;
   font-size: inherit;
-  margin-top: 4rem;
+  margin: 0 auto;
 }
 .btn__link:link, .btn__link:active {
   color: var(--color-secondary);
@@ -80,10 +84,23 @@ body {
   flex-flow: column nowrap;
   justify-content: space-around;
 }
-.media__container {
+.media__section-intro {
   background-image: url("../images/blue-blob-3.png");
-  background-size: cover;
+  background-position: 50% 50%;
+  background-size: 350%;
   background-repeat: no-repeat;
+  height: 30vh;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.media__heading {
+  background-color: rgba(51, 51, 51, 0.5);
+  padding: 2rem 1rem;
+  position: absolute;
+  left: 3rem;
+  top: 9rem;
+}
+.media__container {
   margin: 2rem 0;
   width: 32rem;
 }
@@ -194,8 +211,14 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
   padding: 7rem 2rem;
   margin-top: 7rem;
+}
+.header__title {
+  text-align: center;
 }
 .header__bg {
   background-image: url("../images/banner-blob-small.png");
@@ -203,6 +226,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   height: 40rem;
+  margin: 2rem 0 3rem;
   padding: 10rem 0 0;
 }
 .header__paragraph {

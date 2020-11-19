@@ -6,10 +6,27 @@
     flex-flow: column nowrap;
     justify-content: space-around;
 
-    &__container {
+    &__section-intro {
         background-image: url("../images/blue-blob-3.png");
-        background-size: cover;
+        background-position: 50% 50%;
+        background-size: 350%;
         background-repeat: no-repeat;
+        height: 30vh;
+        margin-bottom: 2rem;
+
+        position: relative;
+    }
+
+    &__heading {
+        @include textbox;
+        padding: 2rem 1rem;
+
+        position: absolute;
+        left: 3rem;
+        top: 9rem;
+    }
+
+    &__container {
         margin: 2rem 0;
         width: 32rem;
     }

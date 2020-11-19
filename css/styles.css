@@ -53,7 +53,7 @@ body {
 
 .btn {
   animation: glow 1s ease infinite alternate;
-  background-color: var(--color-secondary);
+  background-color: var(--text-color);
   border: none;
   border-radius: 10rem;
   display: inline-block;
@@ -62,7 +62,7 @@ body {
   margin-top: 4rem;
 }
 .btn__link:link, .btn__link:active {
-  color: var(--text-color);
+  color: var(--color-secondary);
   display: block;
   font-weight: 400;
   padding: 1.6rem 6rem;

@@ -75,12 +75,16 @@ body {
 
 .media {
   margin-top: 10rem;
-  padding: 7rem 2rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
 }
 .media__container {
   background-image: url("../images/blue-blob-3.png");
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 2rem 0;
   width: 32rem;
 }
 .media__file {

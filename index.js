@@ -15,4 +15,13 @@ menuCloseButton.addEventListener("click", function (e) {
 });
 
 //add and remove video controls
+function toggleControls() {
+    for (i = 0; i < mediaControls.length; i++) {
+        if (mediaControls[i].hasAttribute("controls")) {
+            mediaControls[i].removeAttribute("controls");
+        } else {
+            mediaControls[i].setAttribute("controls", "controls");
+        }
+    }
+}
 

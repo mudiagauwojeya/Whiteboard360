@@ -22,7 +22,9 @@
 
 //body
 body {
-    background-color: var(--body-color);
+    // background-color: var(--body-color);
+    background-image: url("../images/black-brick-wall.jpg");
+    background-size: contain;
     color: var(--text-color);
     font-family: var(--font-content);
     font-size: 1.8rem;

@@ -1,15 +1,16 @@
 .media {
-    margin-top: 10rem;
-    padding: 0 2rem;
+    background-color: var(--bg-color);
+    margin-top: 5rem;
+    padding: 8rem 2rem;
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
 
     &__section-intro {
-        background-image: url("../images/blue-blob-3.png");
-        background-position: 60% 50%;
-        background-size: 250%;
+        background-image: url("../images/blueblob-main.png");
+        background-position: 55% 50%;
+        background-size: 400%;
         background-repeat: no-repeat;
         height: 30vh;
         margin-bottom: 2rem;
@@ -23,7 +24,7 @@
 
         position: absolute;
         left: 3rem;
-        top: 10rem;
+        top: 8rem;
     }
 
     &__container {

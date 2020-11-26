@@ -17,9 +17,9 @@
 :root {
   --body-color: #333;
   --text-color: #fff;
-  --bg-color: #e6e6e6;
+  --bg-color: #e9ecef;
   --color-primary: #41aeee;
-  --color-secondary: #0da4fc;
+  --color-secondary: #007bff;
   --color-tertiary: #0b4363;
   --font-content: "Open sans", sans-serif;
   --font-heading: "Lora", serif;
@@ -34,7 +34,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .container {

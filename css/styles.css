@@ -80,7 +80,7 @@ body {
 }
 
 .navigation {
-  background-color: var(--color-secondary);
+  background-color: var(--bg-color);
   position: fixed;
   width: 100%;
   z-index: 100;

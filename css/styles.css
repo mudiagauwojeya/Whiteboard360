@@ -180,6 +180,7 @@ body {
 
 .header {
   background-image: url("../images/bg-blue.png");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -204,7 +205,6 @@ body {
 
 .media {
   background-color: var(--bg-color);
-  margin-top: 5rem;
   padding: 8rem 2rem;
   display: flex;
   flex-flow: column nowrap;

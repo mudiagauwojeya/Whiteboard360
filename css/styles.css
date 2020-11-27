@@ -27,7 +27,7 @@
 }
 
 body {
-  background-image: url("../images/black-brick-wall.jpg");
+  background-color: var(--body-color);
   background-size: contain;
   color: var(--text-color);
   font-family: var(--font-content);
@@ -182,7 +182,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  padding: 7rem 0;
+  padding: 7rem 2rem;
   margin-top: 7rem;
 }
 .header__title {

@@ -215,7 +215,7 @@ body {
 .media__section-intro {
   background-image: url("../images/cyan-blob.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 40rem;
   margin-bottom: 2rem;

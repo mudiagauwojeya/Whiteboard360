@@ -7,17 +7,19 @@
     flex-flow: column nowrap;
     justify-content: space-between;
 
-    padding: 5rem 2rem 8rem;
+    padding: 7rem 2rem 10rem;
     margin-top: 7rem;
 
     &__title {
+       @include textbox;
+       padding: .5rem 0;
        text-align: center;
     }
 
     &__paragraph {
         @include textbox;
         border-radius: .5rem;
-        margin: 3rem 0;
+        margin: 5rem 0;
         padding: 2rem;
     }
 }

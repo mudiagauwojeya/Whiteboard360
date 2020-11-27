@@ -247,11 +247,11 @@ body {
   justify-content: space-around;
 }
 .service__section-intro {
-  background-image: url("../images/blueblob-secondary.png");
-  background-position: 55% 37%;
-  background-size: 250%;
+  background-image: url("../images/cyan-blob.png");
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 40rem;
   margin-bottom: 2rem;
   position: relative;
 }
@@ -260,8 +260,8 @@ body {
   border-radius: 0.7rem;
   padding: 2rem 1rem;
   position: absolute;
-  left: 3rem;
-  top: 8rem;
+  left: 6rem;
+  top: 17rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

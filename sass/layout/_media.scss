@@ -8,11 +8,11 @@
     justify-content: space-around;
 
     &__section-intro {
-        background-image: url("../images/blueblob-main.png");
-        background-position: 55% 50%;
-        background-size: 400%;
+        background-image: url("../images/cyan-blob.png");
+        background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 30vh;
+        height: 40rem;
         margin-bottom: 2rem;
 
         position: relative;
@@ -24,7 +24,7 @@
 
         position: absolute;
         left: 3rem;
-        top: 8rem;
+        top: 17rem;
     }
 
     &__container {

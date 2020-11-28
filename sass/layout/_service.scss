@@ -10,7 +10,7 @@
     justify-content: space-around;
 
     &__section-intro {
-        background-image: url("../images/cyan-blob.png");
+        background-image: url("../images/yellow-blob.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -22,11 +22,11 @@
 
     &__heading {
         @include textbox;
+        display: inline-block;
+        padding: 1rem 0;
         text-align: center;
-        padding: 2rem 1rem;
-
         position: absolute;
-        left: 3rem;
+        left: 0;
         top: 17rem;
 
         &--detail {

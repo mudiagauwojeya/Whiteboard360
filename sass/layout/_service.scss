@@ -34,4 +34,34 @@
             font-size: 1.5rem;
         }
     }
+
+    &__container {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__services {
+        background-color: var(--bg-color);
+        border-radius: 50%;
+        height: 20rem;
+        width: 20rem;
+        padding: 2rem 0;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+
+        &:not(:last-of-type) {
+            margin-bottom: 6rem;
+        }
+    }
+
+    &__icon {
+        fill: var(--color-secondary);
+        height: 8rem;
+        width: 8rem;
+    }
 }

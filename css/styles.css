@@ -271,10 +271,15 @@ body {
 .service__heading {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 0.7rem;
+  text-align: center;
   padding: 2rem 1rem;
   position: absolute;
-  left: 6rem;
+  left: 3rem;
   top: 17rem;
+}
+.service__heading--detail {
+  white-space: nowrap;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

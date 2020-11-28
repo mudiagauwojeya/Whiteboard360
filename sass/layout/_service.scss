@@ -22,10 +22,16 @@
 
     &__heading {
         @include textbox;
+        text-align: center;
         padding: 2rem 1rem;
 
         position: absolute;
-        left: 6rem;
+        left: 3rem;
         top: 17rem;
+
+        &--detail {
+            white-space: nowrap;
+            font-size: 1.5rem;
+        }
     }
 }

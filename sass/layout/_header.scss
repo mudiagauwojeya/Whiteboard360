@@ -1,26 +1,40 @@
 .header {
     background-image: url("../images/bg-blue.png");
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
 
-    padding: 7rem 2rem 10rem;
+    padding: 5rem 2rem 10rem;
     margin-top: 7rem;
 
     &__title {
-       @include textbox;
-       padding: .5rem 0;
+       background-image: url("../images/orange-blob.png");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+       height: 30rem;
+       position: relative;
        text-align: center;
+
+       &--text {
+           @include textbox;
+           padding: .5rem 0;
+
+           position: absolute;
+           left: 0;
+           top: 10rem;
+       }
     }
 
     &__paragraph {
         @include textbox;
         border-radius: .5rem;
-        margin: 5rem 0;
+        margin: 0 0 5rem;
         padding: 2rem;
     }
 }

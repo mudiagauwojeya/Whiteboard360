@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
 }
 
-.heading, .heading-secondary, .heading-primary {
+.heading, .heading-tertiary, .heading-secondary, .heading-primary {
   font-family: var(--font-heading);
   font-weight: 700;
   text-transform: uppercase;
@@ -55,6 +55,10 @@ body {
 
 .heading-secondary {
   font-size: 2.3rem;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
 }
 
 .btn {

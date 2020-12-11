@@ -306,10 +306,39 @@ body {
 }
 .feature__title {
   color: var(--color-secondary);
-  white-space: pre-line;
+}
+.feature__title--1 {
   position: absolute;
-  left: 5rem;
+  left: 3.5rem;
   top: 12rem;
+  white-space: pre-line;
+}
+.feature__title--2 {
+  position: absolute;
+  left: 6.1rem;
+  top: 14rem;
+}
+.feature__title--3 {
+  position: absolute;
+  left: 1.5rem;
+  top: 12rem;
+  white-space: pre-line;
+}
+.feature__title--4 {
+  position: absolute;
+  left: 7.2rem;
+  top: 14rem;
+}
+.feature__title--5 {
+  position: absolute;
+  left: 5.5rem;
+  top: 14rem;
+}
+.feature__title--6 {
+  position: absolute;
+  left: 1.5rem;
+  top: 12rem;
+  white-space: pre-line;
 }
 
 /*# sourceMappingURL=styles.css.map */

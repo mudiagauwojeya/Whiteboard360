@@ -183,10 +183,6 @@ body {
 }
 
 .header {
-  background-image: url("../images/bg-blue.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -254,10 +250,6 @@ body {
 }
 
 .service {
-  background-image: url("../images/bg-deepblue.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 8rem 2rem;
   display: flex;
   flex-flow: column nowrap;

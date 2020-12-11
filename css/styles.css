@@ -274,6 +274,30 @@ body {
   white-space: pre-line;
 }
 
+.gallery {
+  background-color: var(--bg-color);
+  padding: 8rem 2rem;
+  text-align: center;
+}
+.gallery__title {
+  background-image: url("../images/purple-blob.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.gallery__title--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
+  padding: 2rem 4rem;
+}
+
 .header {
   display: flex;
   flex-flow: column nowrap;

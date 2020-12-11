@@ -306,14 +306,14 @@ body {
   padding: 2rem;
 }
 
-.media {
+.studio {
   background-color: var(--bg-color);
   padding: 8rem 2rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
 }
-.media__section-intro {
+.studio__section-intro {
   background-image: url("../images/cyan-blob.png");
   background-position: center;
   background-size: contain;
@@ -322,7 +322,7 @@ body {
   margin-bottom: 2rem;
   position: relative;
 }
-.media__heading {
+.studio__heading {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 0.7rem;
   padding: 2rem 1rem;
@@ -330,11 +330,11 @@ body {
   left: 3rem;
   top: 17rem;
 }
-.media__container {
+.studio__container {
   margin: 2rem 0;
   width: 32rem;
 }
-.media__file {
+.studio__file {
   border: 0.5rem solid var(--color-primary);
   border-radius: 0.9rem;
   display: block;

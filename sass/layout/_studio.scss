@@ -1,41 +1,41 @@
-.media {
-    background-color: var(--bg-color);
-    padding: 8rem 2rem;
+.studio {
+	background-color: var(--bg-color);
+	padding: 8rem 2rem;
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
 
-    &__section-intro {
-        background-image: url("../images/cyan-blob.png");
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 40rem;
-        margin-bottom: 2rem;
+	&__section-intro {
+		background-image: url("../images/cyan-blob.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40rem;
+		margin-bottom: 2rem;
 
-        position: relative;
-    }
+		position: relative;
+	}
 
-    &__heading {
-        @include textbox;
-        padding: 2rem 1rem;
+	&__heading {
+		@include textbox;
+		padding: 2rem 1rem;
 
-        position: absolute;
-        left: 3rem;
-        top: 17rem;
-    }
+		position: absolute;
+		left: 3rem;
+		top: 17rem;
+	}
 
-    &__container {
-        margin: 2rem 0;
-        width: 32rem;
-    }
+	&__container {
+		margin: 2rem 0;
+		width: 32rem;
+	}
 
-    &__file {
-        border: .5rem solid var(--color-primary);
-        border-radius: .9rem;
-        display: block;
+	&__file {
+		border: 0.5rem solid var(--color-primary);
+		border-radius: 0.9rem;
+		display: block;
 
-        width: 100%;
-    }
+		width: 100%;
+	}
 }

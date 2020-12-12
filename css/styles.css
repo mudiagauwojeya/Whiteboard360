@@ -365,23 +365,31 @@ body {
   height: 40rem;
   margin-bottom: 2rem;
   position: relative;
+  text-align: center;
 }
 .studio__heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 0.7rem;
+  display: block;
   padding: 2rem 1rem;
-  position: absolute;
-  left: 3rem;
-  top: 17rem;
+  width: 30rem;
+}
+.studio__grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, min-content);
+  gap: 0.5rem;
 }
 .studio__container {
-  margin: 2rem 0;
-  width: 32rem;
+  height: 15rem;
+  width: 15rem;
 }
 .studio__file {
-  border: 0.5rem solid var(--color-primary);
-  border-radius: 0.9rem;
-  display: block;
+  height: 100%;
   width: 100%;
 }
 

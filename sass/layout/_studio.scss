@@ -13,29 +13,33 @@
 		background-repeat: no-repeat;
 		height: 40rem;
 		margin-bottom: 2rem;
-
 		position: relative;
+		text-align: center;
 	}
 
 	&__heading {
+		@include centered;
 		@include textbox;
-		padding: 2rem 1rem;
 
-		position: absolute;
-		left: 3rem;
-		top: 17rem;
+		display: block;
+		padding: 2rem 1rem;
+		width: 30rem;
+	}
+
+	&__grid {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(2, min-content);
+		gap: 0.5rem;
 	}
 
 	&__container {
-		margin: 2rem 0;
-		width: 32rem;
+		height: 15rem;
+		width: 15rem;
 	}
 
 	&__file {
-		border: 0.5rem solid var(--color-primary);
-		border-radius: 0.9rem;
-		display: block;
-
+		height: 100%;
 		width: 100%;
 	}
 }

@@ -298,6 +298,18 @@ body {
   border-radius: 0.7rem;
   padding: 2rem 4rem;
 }
+.gallery__container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.gallery__item {
+  width: 15rem;
+}
+.gallery__image {
+  width: 100%;
+}
 
 .header {
   display: flex;

@@ -20,4 +20,19 @@
 			padding: 2rem 4rem;
 		}
 	}
+
+	&__container {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	&__item {
+		width: 15rem;
+	}
+
+	&__image {
+		width: 100%;
+	}
 }

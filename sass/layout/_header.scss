@@ -1,40 +1,37 @@
 .header {
-    // background-image: url("../images/bg-blue.png");
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+	// background-image: url("../images/bg-blue.png");
+	// background-position: center;
+	// background-repeat: no-repeat;
+	// background-size: cover;
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
 
-    padding: 5rem 2rem 10rem;
-    margin-top: 7rem;
+	padding: 5rem 2rem 10rem;
+	margin-top: 7rem;
 
-    &__title {
-       background-image: url("../images/orange-blob.png");
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
+	&__title {
+		background-image: url("../images/orange-blob.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40rem;
+		margin-bottom: 2rem;
+		position: relative;
+		text-align: center;
 
-       height: 30rem;
-       position: relative;
-       text-align: center;
+		&--text {
+			@include centered;
+			@include textbox;
+			padding: 0.5rem 0;
+		}
+	}
 
-       &--text {
-           @include textbox;
-           padding: .5rem 0;
-
-           position: absolute;
-           left: 0;
-           top: 10rem;
-       }
-    }
-
-    &__paragraph {
-        @include textbox;
-        border-radius: .5rem;
-        margin: 0 0 5rem;
-        padding: 2rem;
-    }
+	&__paragraph {
+		@include textbox;
+		border-radius: 0.5rem;
+		margin: 0 0 5rem;
+		padding: 2rem;
+	}
 }

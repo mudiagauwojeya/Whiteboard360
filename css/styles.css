@@ -304,6 +304,11 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.5rem;
+}
 .gallery__item {
   width: 15rem;
 }

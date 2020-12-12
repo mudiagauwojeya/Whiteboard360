@@ -1,128 +1,126 @@
 .navigation {
-    background-color: var(--bg-color);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+	background-color: var(--bg-color);
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 
+	&__brand {
+		margin-left: 0.5rem;
+		width: 8rem;
+	}
 
-    &__brand {
-        margin-left: .5rem;
-        width: 8rem;
-    }
+	&__brand-link {
+		&:link,
+		&:active,
+		&:visited {
+			text-decoration: none;
+		}
+	}
 
-    &__brand-link {
-        &:link,
-        &:active,
-        &:visited {
-            text-decoration: none;
-        }
-    }
+	&__logo {
+		width: 100%;
+	}
 
-    &__logo {
-        width: 100%;
-    }
+	&__bg {
+		background-color: transparent;
+		border-radius: 50%;
+		height: 6.1rem;
+		width: 6.1rem;
 
-    &__bg {
-        background-color: transparent;
-        border-radius: 50%;
-        height: 6.1rem;
-        width: 6.1rem;
+		position: absolute;
+		right: 1.4rem;
+		top: 0.5rem;
+	}
 
-        position: absolute;
-        right: 1.4rem;
-        top: .5rem;
-    }
+	//hamburger menu button
+	&__btn,
+	&__btn::after,
+	&__btn::before {
+		background-color: var(--color-tertiary);
+		display: block;
+		height: 2px;
+		transform-origin: center;
+		transition: transform 300ms ease;
+		width: 4rem;
 
-    //hamburger menu button
-    &__btn,
-    &__btn::after,
-    &__btn::before {
-        background-color: var(--color-tertiary);
-        display: block;
-        height: 2px;
-        transform-origin: center;
-        transition: transform 300ms ease;
-        width: 4rem;
+		position: absolute;
+	}
 
-        position: absolute;
-    }
+	&__btn {
+		@include centered;
+	}
 
-    &__btn {
-        @include centered;
-    }
+	&__btn::after,
+	&__btn::before {
+		content: "";
+	}
 
-    &__btn::after,
-    &__btn::before {
-        content: "";
-    }
+	&__btn::after {
+		top: 0.9rem;
+	}
 
-    &__btn::after {
-        top: .9rem;
-    }
+	&__btn::before {
+		top: -0.8rem;
+	}
 
-    &__btn::before {
-        top: -.8rem;
-    }
+	//navigation menu
+	&__menu {
+		background-color: var(--bg-color);
+		// display: none;
+		height: 100vh;
+		width: 100vw;
 
-    //navigation menu
-    &__menu {
-        background-color: var(--bg-color);
-        // display: none;
-        height: 100vh;
-        width: 100vw;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transform: translateX(100%);
+		transition: transform 400ms ease;
 
-        position: absolute;
-        right: 0;
-        top: 0;
-        transform: translateX(100%);
-        transition: transform 400ms ease;
+		&-list {
+			list-style: none;
+			text-align: center;
+			width: 30rem;
 
-        &-list {
-            list-style: none;
-            text-align: center;
-            width: 30rem;
+			@include centered;
+		}
 
-            @include centered;
-        }
+		&-item {
+			display: block;
+		}
 
-        &-item {
-            display: block;
-        }
+		&-link {
+			&:link,
+			&:active {
+				color: var(--color-tertiary);
+				display: inline-block;
+				font-weight: 700;
+				font-size: 1.7rem;
+				padding: 3rem;
+				text-decoration: none;
+				text-transform: uppercase;
+				width: 100%;
+			}
 
-        &-link {
+			&:visited {
+				color: var(--color-primary);
+			}
 
-            &:link,
-            &:active {
-                color: var(--color-tertiary);
-                display: inline-block;
-                font-weight: 700;
-                font-size: 1.7rem;
-                padding: 3rem;
-                text-decoration: none;
-                text-transform: uppercase;
-                width: 100%;
-            }
+			&:hover {
+				background-color: var(--color-tertiary);
+				color: var(--text-color);
+			}
+		}
 
-            &:visited {
-                color: var(--color-primary);
-            }
+		&-close {
+			color: var(--color-tertiary);
+			cursor: pointer;
+			display: inline;
+			font-size: 5rem;
+			padding: 2rem;
 
-            &:hover {
-                background-color: var(--color-tertiary);
-                color: var(--text-color);
-            }
-        }
-
-        &-close {
-            color: var(--color-tertiary);
-            cursor: pointer;
-            display: inline;
-            font-size: 5rem;
-            padding: 2rem;
-
-            position: absolute;
-            right: .8rem;
-            top: -1.5rem;
-        }
-    }
+			position: absolute;
+			right: 0.8rem;
+			top: -1.5rem;
+		}
+	}
 }

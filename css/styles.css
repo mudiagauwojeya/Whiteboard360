@@ -385,10 +385,12 @@ body {
   gap: 0.5rem;
 }
 .studio__container {
-  height: 15rem;
+  height: 18rem;
   width: 15rem;
 }
 .studio__file {
+  border: 2px solid var(--color-secondary);
+  display: block;
   height: 100%;
   width: 100%;
 }

@@ -61,6 +61,14 @@ body {
   font-size: 1.8rem;
 }
 
+.mt-s {
+  margin-top: 0.7rem !important;
+}
+
+.mt-m {
+  margin-top: 2rem !important;
+}
+
 .btn {
   animation: glow 1s ease infinite alternate;
   background-color: var(--text-color);
@@ -245,7 +253,6 @@ body {
   position: absolute;
   left: 3.5rem;
   top: 12rem;
-  white-space: pre-line;
 }
 .feature__title--2 {
   position: absolute;
@@ -256,7 +263,6 @@ body {
   position: absolute;
   left: 1.5rem;
   top: 12rem;
-  white-space: pre-line;
 }
 .feature__title--4 {
   position: absolute;
@@ -272,7 +278,16 @@ body {
   position: absolute;
   left: 1.5rem;
   top: 12rem;
-  white-space: pre-line;
+}
+.feature__title span {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 1.4rem;
+  left: 4rem;
+}
+.feature__title--text {
+  left: 5.8rem !important;
 }
 
 .gallery {

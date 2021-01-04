@@ -72,8 +72,6 @@
 			position: absolute;
 			left: 3.5rem;
 			top: 12rem;
-
-			white-space: pre-line;
 		}
 
 		&--2 {
@@ -86,8 +84,6 @@
 			position: absolute;
 			left: 1.5rem;
 			top: 12rem;
-
-			white-space: pre-line;
 		}
 
 		&--4 {
@@ -106,8 +102,19 @@
 			position: absolute;
 			left: 1.5rem;
 			top: 12rem;
+		}
 
-			white-space: pre-line;
+		span {
+			display: block;
+			margin: 0 auto;
+
+			position: relative;
+			top: 1.4rem;
+			left: 4rem;
+		}
+
+		&--text {
+			left: 5.8rem !important;
 		}
 	}
 }

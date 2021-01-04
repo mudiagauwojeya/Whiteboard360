@@ -313,7 +313,14 @@ body {
   width: 15rem;
 }
 .gallery__image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
+}
+.gallery__category--1 {
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
 }
 
 .header {

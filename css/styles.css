@@ -392,13 +392,14 @@ body {
   gap: 0.5rem;
 }
 .studio__container {
-  height: 18rem;
+  height: 15rem;
   width: 15rem;
 }
 .studio__file {
   border: 2px solid var(--color-secondary);
   display: block;
   height: 100%;
+  object-fit: fill;
   width: 100%;
 }
 

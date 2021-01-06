@@ -431,7 +431,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 40rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   position: relative;
 }
 .testimonial__title--text {
@@ -442,6 +442,30 @@ body {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 0.7rem;
   padding: 2rem 4rem;
+}
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial__customer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.testimonial__image {
+  fill: var(--text-color);
+  height: 9rem;
+  width: 9rem;
+}
+.testimonial__customer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.testimonial__customer-info > span {
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

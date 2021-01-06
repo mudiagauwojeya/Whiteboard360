@@ -9,7 +9,7 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		height: 40rem;
-		margin-bottom: 2rem;
+		margin-bottom: 4rem;
 
 		position: relative;
 
@@ -18,6 +18,35 @@
 			@include textbox;
 
 			padding: 2rem 4rem;
+		}
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__customer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+	}
+
+	&__image {
+		fill: var(--text-color);
+		height: 9rem;
+		width: 9rem;
+	}
+
+	&__customer-info {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+
+		& > span {
+			font-size: 1.3rem;
 		}
 	}
 }

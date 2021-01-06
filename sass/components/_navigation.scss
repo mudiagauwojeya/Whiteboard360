@@ -102,11 +102,11 @@
 			}
 
 			&:visited {
-				color: var(--color-primary);
+				color: var(--color-secondary);
 			}
 
 			&:hover {
-				background-color: var(--color-tertiary);
+				background-color: var(--color-primary);
 				color: var(--text-color);
 			}
 		}

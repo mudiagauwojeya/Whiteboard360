@@ -173,10 +173,10 @@ body {
   width: 100%;
 }
 .navigation__menu-link:visited {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 .navigation__menu-link:hover {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-primary);
   color: var(--text-color);
 }
 .navigation__menu-close {

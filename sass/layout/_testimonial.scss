@@ -31,6 +31,10 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-evenly;
+
+		&:not(:last-of-type) {
+			margin-bottom: 7rem;
+		}
 	}
 
 	&__image {
@@ -48,5 +52,9 @@
 		& > span {
 			font-size: 1.3rem;
 		}
+	}
+
+	&__comment {
+		font-size: 1.6rem;
 	}
 }

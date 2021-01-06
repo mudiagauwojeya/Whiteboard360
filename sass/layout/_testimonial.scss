@@ -1,0 +1,23 @@
+.testimonial {
+	background-color: var(--body-color);
+	padding: 8rem 2rem;
+	text-align: center;
+
+	&__title {
+		background-image: url("../images/banner-blob.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40rem;
+		margin-bottom: 2rem;
+
+		position: relative;
+
+		&--text {
+			@include centered;
+			@include textbox;
+
+			padding: 2rem 4rem;
+		}
+	}
+}

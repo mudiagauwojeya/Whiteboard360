@@ -318,8 +318,6 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
-}
-.gallery__container:not(:last-of-type) {
   margin-bottom: 12rem;
 }
 .gallery__grid {

@@ -190,6 +190,12 @@ body {
   top: -1.5rem;
 }
 
+.contact {
+  background-color: var(--bg-color);
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
 .feature {
   padding: 8rem 2rem;
   display: flex;

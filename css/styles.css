@@ -200,7 +200,7 @@ body {
   color: var(--body-color);
   display: block;
   font-size: 1.5rem;
-  padding: 2rem 0.8rem;
+  padding: 4rem 0.8rem;
 }
 .contact__label {
   display: block;
@@ -216,6 +216,20 @@ body {
   font-size: inherit;
   padding: 1.5rem 0 1.5rem 0.7rem;
   width: 100%;
+}
+.contact__input:valid {
+  border: 1.5px solid #20f020;
+}
+.contact__button {
+  background-color: var(--color-secondary);
+  border: none;
+  border-radius: 0.7rem;
+  color: var(--text-color);
+  display: block;
+  font-family: inherit;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  padding: 2rem 4rem;
 }
 
 .feature {

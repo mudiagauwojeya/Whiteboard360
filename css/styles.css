@@ -192,8 +192,30 @@ body {
 
 .contact {
   background-color: var(--bg-color);
-  padding: 8rem 2rem;
-  text-align: center;
+  padding: 10rem 2rem;
+}
+.contact__form {
+  background-color: var(--text-color);
+  border-radius: 0.4rem;
+  color: var(--body-color);
+  display: block;
+  font-size: 1.5rem;
+  padding: 2rem 0.8rem;
+}
+.contact__label {
+  display: block;
+  margin: 2rem 0 0.5rem;
+  padding-left: 0.7rem;
+}
+.contact__input {
+  background-color: #dde;
+  border: 1.5px solid var(--bg-color);
+  border-radius: 0.4rem;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1.5rem 0 1.5rem 0.7rem;
+  width: 100%;
 }
 
 .feature {

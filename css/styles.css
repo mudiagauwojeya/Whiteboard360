@@ -349,7 +349,29 @@ body {
 
 .footer {
   background-color: var(--body-color);
-  padding: 10rem 2rem;
+  padding: 6rem 2rem 0;
+}
+.footer__logo-image {
+  width: 100%;
+}
+.footer__quick-links {
+  color: var(--text-color);
+  display: block;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.footer__link-item {
+  display: block;
+  padding: 2rem 0;
+}
+.footer__copyright {
+  color: var(--bg-color);
+  font-size: 1.1rem;
+  text-align: center;
+}
+.footer__copyright-text {
+  color: inherit;
+  font-size: inherit;
 }
 
 .gallery {

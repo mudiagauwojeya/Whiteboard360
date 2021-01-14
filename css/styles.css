@@ -217,6 +217,9 @@ body {
   padding: 1.5rem 0 1.5rem 0.7rem;
   width: 100%;
 }
+.contact__input:focus {
+  outline: none;
+}
 .contact__input:valid {
   border: 1.5px solid #20f020;
 }
@@ -236,6 +239,12 @@ body {
 .contact__button:active {
   box-shadow: 0 0.5rem 0.5rem rgba(51, 51, 51, 0.4);
   transform: translateY(0.4rem);
+}
+.contact__button:focus {
+  outline: none;
+}
+.contact__button:visited {
+  text-decoration: none;
 }
 
 .feature {

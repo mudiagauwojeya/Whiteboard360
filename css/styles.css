@@ -70,13 +70,14 @@ body {
 }
 
 .btn {
-  animation: glow 1s ease infinite alternate;
   background-color: var(--color-secondary);
   border: none;
   border-radius: 10rem;
   display: inline-block;
   font-size: inherit;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 .btn__link:link, .btn__link:active {
   color: var(--text-color);
@@ -89,6 +90,18 @@ body {
 }
 .btn__link:visited {
   color: #dde;
+}
+.btn::after {
+  background-color: var(--color-secondary);
+  border-radius: 10rem;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -23rem;
+  height: 100%;
+  width: 100%;
+  transition: all 300ms ease;
 }
 
 .navigation {

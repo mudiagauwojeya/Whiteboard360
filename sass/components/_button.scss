@@ -1,11 +1,14 @@
 .btn {
-	animation: glow 1s ease infinite alternate;
+	// animation: glow 1s ease infinite alternate;
 	background-color: var(--color-secondary);
 	border: none;
 	border-radius: 10rem;
 	display: inline-block;
 	font-size: inherit;
 	margin: 0 auto;
+
+	position: relative;
+	overflow: hidden;
 
 	&__link {
 		&:link,
@@ -22,5 +25,20 @@
 		&:visited {
 			color: #dde;
 		}
+	}
+
+	&::after {
+		background-color: var(--color-secondary);
+		border-radius: 10rem;
+		content: "";
+		display: block;
+
+		position: absolute;
+		top: 0;
+		left: -23rem;
+		height: 100%;
+		width: 100%;
+
+		transition: all 300ms ease;
 	}
 }

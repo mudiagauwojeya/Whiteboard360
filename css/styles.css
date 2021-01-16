@@ -361,16 +361,22 @@ body {
 }
 .footer__link-item {
   display: block;
-  padding: 2rem 0;
 }
 .footer__link:link, .footer__link:active {
   color: var(--color-primary);
   cursor: pointer;
-  display: inline-block;
+  display: block;
+  padding: 2rem 0;
   text-decoration: none;
 }
 .footer__link:visited, .footer__link:hover {
   color: var(--color-secondary);
+}
+.footer__link:hover {
+  background-color: var(--bg-color);
+}
+.footer__attribution {
+  margin: 4rem 0;
 }
 .footer__copyright {
   color: var(--bg-color);
@@ -382,8 +388,9 @@ body {
   font-size: inherit;
 }
 .footer__heading {
-  color: var(--bg-color);
+  color: #dde;
   font-size: 1.4rem;
+  margin-bottom: 2rem;
 }
 
 .gallery {

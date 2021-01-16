@@ -14,7 +14,6 @@
 
 	&__link-item {
 		display: block;
-		padding: 2rem 0;
 	}
 
 	&__link {
@@ -22,7 +21,8 @@
 		&:active {
 			color: var(--color-primary);
 			cursor: pointer;
-			display: inline-block;
+			display: block;
+			padding: 2rem 0;
 			text-decoration: none;
 		}
 
@@ -30,6 +30,14 @@
 		&:hover {
 			color: var(--color-secondary);
 		}
+
+		&:hover {
+			background-color: var(--bg-color);
+		}
+	}
+
+	&__attribution {
+		margin: 4rem 0;
 	}
 
 	&__copyright {
@@ -44,7 +52,8 @@
 	}
 
 	&__heading {
-		color: var(--bg-color);
+		color: #dde;
 		font-size: 1.4rem;
+		margin-bottom: 2rem;
 	}
 }

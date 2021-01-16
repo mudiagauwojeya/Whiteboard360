@@ -3,6 +3,7 @@
 	background-color: var(--color-secondary);
 	border: none;
 	border-radius: 10rem;
+	box-shadow: 0 0.5rem 0.5rem rgba(#888, 0.4);
 	display: inline-block;
 	font-size: inherit;
 	margin: 0 auto;
@@ -28,7 +29,7 @@
 	}
 
 	&::after {
-		background-color: var(--color-secondary);
+		animation: flash 5s ease infinite;
 		border-radius: 10rem;
 		content: "";
 		display: block;
@@ -38,7 +39,5 @@
 		left: -23rem;
 		height: 100%;
 		width: 100%;
-
-		transition: all 300ms ease;
 	}
 }

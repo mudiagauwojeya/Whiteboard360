@@ -373,6 +373,10 @@ body {
   color: inherit;
   font-size: inherit;
 }
+.footer__heading {
+  color: var(--bg-color);
+  font-size: 1.4rem;
+}
 
 .gallery {
   background-color: var(--bg-color);

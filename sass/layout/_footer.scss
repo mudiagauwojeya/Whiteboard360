@@ -28,4 +28,9 @@
 			font-size: inherit;
 		}
 	}
+
+	&__heading {
+		color: var(--bg-color);
+		font-size: 1.4rem;
+	}
 }

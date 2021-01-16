@@ -1,9 +1,4 @@
 .header {
-	// background-image: url("../images/bg-blue.png");
-	// background-position: center;
-	// background-repeat: no-repeat;
-	// background-size: cover;
-
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
@@ -16,8 +11,7 @@
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
-		height: 40rem;
-		margin-bottom: 1rem;
+		height: 30rem;
 		position: relative;
 		text-align: center;
 
@@ -31,6 +25,7 @@
 	&__paragraph {
 		@include textbox;
 		border-radius: 0.5rem;
+		font-size: inherit;
 		margin: 0 0 5rem;
 		padding: 2rem;
 	}

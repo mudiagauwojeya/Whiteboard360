@@ -363,7 +363,7 @@ body {
   display: block;
 }
 .footer__link:link, .footer__link:active {
-  color: var(--color-primary);
+  color: var(--bg-color);
   cursor: pointer;
   display: block;
   padding: 2rem 0;
@@ -378,6 +378,17 @@ body {
 .footer__attribution {
   margin: 4rem 0;
 }
+.footer__attribution div {
+  color: var(--text-color);
+  font-size: 1.4rem;
+}
+.footer__attribution a:link, .footer__attribution a:active {
+  color: var(--color-secondary);
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 .footer__copyright {
   color: var(--bg-color);
   font-size: 1.1rem;
@@ -386,6 +397,7 @@ body {
 .footer__copyright-text {
   color: inherit;
   font-size: inherit;
+  opacity: 0.5;
 }
 .footer__heading {
   color: #dde;

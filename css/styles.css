@@ -71,7 +71,7 @@ body {
 
 .btn {
   animation: glow 1s ease infinite alternate;
-  background-color: var(--text-color);
+  background-color: var(--color-secondary);
   border: none;
   border-radius: 10rem;
   display: inline-block;
@@ -79,7 +79,7 @@ body {
   margin: 0 auto;
 }
 .btn__link:link, .btn__link:active {
-  color: var(--color-secondary);
+  color: var(--text-color);
   display: block;
   font-size: 1.85rem;
   font-weight: 400;
@@ -88,7 +88,7 @@ body {
   text-transform: uppercase;
 }
 .btn__link:visited {
-  color: var(--color-tertiary);
+  color: #dde;
 }
 
 .navigation {

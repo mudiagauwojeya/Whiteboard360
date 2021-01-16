@@ -355,7 +355,6 @@ body {
   width: 100%;
 }
 .footer__quick-links {
-  color: var(--text-color);
   display: block;
   font-size: 1.5rem;
   list-style: none;
@@ -363,6 +362,15 @@ body {
 .footer__link-item {
   display: block;
   padding: 2rem 0;
+}
+.footer__link:link, .footer__link:active {
+  color: var(--color-primary);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer__link:visited, .footer__link:hover {
+  color: var(--color-secondary);
 }
 .footer__copyright {
   color: var(--bg-color);

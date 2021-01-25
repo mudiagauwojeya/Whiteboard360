@@ -209,6 +209,37 @@ body {
   top: -1.5rem;
 }
 
+.pricing {
+  background-color: var(--bg-color);
+  color: var(--body-color);
+  padding: 8rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.pricing__section-intro {
+  background-image: url("../images/yellow-blob.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30rem;
+  margin: 7rem 0 2rem;
+  position: relative;
+  text-align: center;
+}
+.pricing__heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
+  color: var(--text-color);
+  display: block;
+  padding: 2rem 1rem;
+  width: 30rem;
+}
+
 .contact {
   background-color: var(--bg-color);
   padding: 10rem 2rem;

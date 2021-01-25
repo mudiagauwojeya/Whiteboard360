@@ -1,5 +1,6 @@
 .pricing {
 	background-color: var(--bg-color);
+	color: var(--body-color);
 	padding: 8rem 2rem;
 
 	display: flex;
@@ -7,12 +8,12 @@
 	justify-content: space-around;
 
 	&__section-intro {
-		background-image: url("../images/cyan-blob.png");
+		background-image: url("../images/yellow-blob.png");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
 		height: 30rem;
-		margin-bottom: 2rem;
+		margin: 7rem 0 2rem;
 		position: relative;
 		text-align: center;
 	}
@@ -21,6 +22,7 @@
 		@include centered;
 		@include textbox;
 
+		color: var(--text-color);
 		display: block;
 		padding: 2rem 1rem;
 		width: 30rem;

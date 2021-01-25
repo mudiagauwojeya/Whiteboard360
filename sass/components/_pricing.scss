@@ -1,6 +1,5 @@
 .pricing {
-	background-color: var(--bg-color);
-	color: var(--body-color);
+	color: var(--text-color);
 	padding: 8rem 2rem;
 
 	display: flex;
@@ -60,6 +59,7 @@
 
 	&__description {
 		background-color: var(--text-color);
+		color: var(--body-color);
 		display: block;
 		font-size: 1.3rem;
 		list-style-type: none;

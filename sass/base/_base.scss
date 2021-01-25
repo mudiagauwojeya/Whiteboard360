@@ -9,6 +9,9 @@
 
 //document root
 :root {
+	background-image: url("../images/bg-deepblue.png");
+	background-position: center;
+	background-size: contain;
 	--body-color: #333;
 	--text-color: #fff;
 	--bg-color: #e9ecef;
@@ -22,7 +25,6 @@
 
 //body
 body {
-	background-color: var(--body-color);
 	background-size: contain;
 	color: var(--text-color);
 	font-family: var(--font-content);

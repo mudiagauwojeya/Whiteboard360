@@ -1,0 +1,28 @@
+.pricing {
+	background-color: var(--bg-color);
+	padding: 8rem 2rem;
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+
+	&__section-intro {
+		background-image: url("../images/cyan-blob.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 30rem;
+		margin-bottom: 2rem;
+		position: relative;
+		text-align: center;
+	}
+
+	&__heading {
+		@include centered;
+		@include textbox;
+
+		display: block;
+		padding: 2rem 1rem;
+		width: 30rem;
+	}
+}

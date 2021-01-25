@@ -79,7 +79,7 @@ body {
 }
 
 .btn {
-  background-color: var(--color-secondary);
+  background-color: var(--text-color);
   border: none;
   border-radius: 10rem;
   box-shadow: 0 0.5rem 0.5rem rgba(136, 136, 136, 0.4);
@@ -90,16 +90,13 @@ body {
   overflow: hidden;
 }
 .btn__link:link, .btn__link:active {
-  color: var(--text-color);
+  color: var(--body-color);
   display: block;
   font-size: 1.85rem;
   font-weight: 400;
   padding: 2rem 6rem;
   text-decoration: none;
   text-transform: uppercase;
-}
-.btn__link:visited {
-  color: #dde;
 }
 .btn::after {
   animation: flash 5s ease infinite;

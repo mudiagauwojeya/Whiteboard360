@@ -239,6 +239,34 @@ body {
   padding: 2rem 1rem;
   width: 30rem;
 }
+.pricing__category {
+  font-size: 1.9rem;
+}
+.pricing__container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.pricing__package {
+  width: 100%;
+}
+.pricing__caption {
+  background-color: var(--color-secondary);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  color: var(--text-color);
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 100%;
+}
+.pricing__description {
+  background-color: var(--text-color);
+  display: block;
+  list-style-type: none;
+  padding: 2rem;
+}
 
 .contact {
   background-color: var(--bg-color);

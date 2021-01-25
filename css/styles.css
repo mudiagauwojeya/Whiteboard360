@@ -337,6 +337,52 @@ body {
   text-decoration: none;
 }
 
+.faq {
+  background-color: var(--bg-color);
+  color: var(--body-color);
+  padding: 8rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.faq__section-intro {
+  background-image: url("../images/orange-blob.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30rem;
+  margin: 7rem 0 2rem;
+  position: relative;
+  text-align: center;
+}
+.faq__heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
+  color: var(--text-color);
+  display: block;
+  padding: 2rem 1rem;
+  width: 30rem;
+}
+.faq__container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.faq__item {
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 100%;
+}
+.faq__answer {
+  font-size: 1.7rem;
+  margin-top: 1.5rem;
+}
+
 .feature {
   padding: 8rem 2rem;
   display: flex;

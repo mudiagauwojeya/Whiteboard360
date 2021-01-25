@@ -241,12 +241,14 @@ body {
 }
 .pricing__category {
   font-size: 1.9rem;
+  margin-top: 2rem;
 }
 .pricing__container {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  margin-top: 4rem;
 }
 .pricing__package {
   width: 100%;
@@ -274,10 +276,15 @@ body {
   align-items: center;
 }
 .pricing__icon {
-  fill: #20f020;
   margin-right: 1rem;
   height: 1.5rem;
   width: 1.5rem;
+}
+.pricing__icon--check {
+  fill: #20f020;
+}
+.pricing__icon--clear {
+  fill: #ff0c0c;
 }
 
 .contact {
@@ -372,10 +379,15 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
+}
+.faq__category {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  align-self: flex-start;
 }
 .faq__item {
   margin-top: 3rem;
-  padding: 2rem;
   width: 100%;
 }
 .faq__answer {

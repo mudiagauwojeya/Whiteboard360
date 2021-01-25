@@ -1,0 +1,49 @@
+.faq {
+	background-color: var(--bg-color);
+	color: var(--body-color);
+	padding: 8rem 2rem;
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+
+	&__section-intro {
+		background-image: url("../images/orange-blob.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 30rem;
+		margin: 7rem 0 2rem;
+		position: relative;
+		text-align: center;
+	}
+
+	&__heading {
+		@include centered;
+		@include textbox;
+
+		color: var(--text-color);
+		display: block;
+		padding: 2rem 1rem;
+		width: 30rem;
+	}
+
+	&__container {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__item {
+		margin-top: 3rem;
+		padding: 2rem;
+
+		width: 100%;
+	}
+
+	&__answer {
+		font-size: 1.7rem;
+		margin-top: 1.5rem;
+	}
+}

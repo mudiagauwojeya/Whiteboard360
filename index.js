@@ -16,16 +16,26 @@ const closeMenuBtn = () => {
 };
 menuCloseButton.addEventListener("click", closeMenuBtn);
 
-//disable video controls on page load
-const disableControls = () => {
+//make video fullscreen and play it
+const videoControl = (event) => {
+	if (!fullScreen) {
+		event.target.requestFullscreen();
+		event.target.play();
+	} else {
+		event.target.pause();
+	}
+};
+
+// add event listeners to video elements
+const addVideoListener = () => {
 	let i;
 	for (i = 0; i < videos.length; i++) {
-		if (videos[i].hasAttribute("controls")) {
-			videos[i].removeAttribute("controls");
+		if (!fullScreen) {
+			videos[i].addEventListener("click", videoControl);
 		}
 	}
 };
 
-videos.onload = disableControls();
+addVideoListener();
 
 contactLink.addEventListener("click", closeMenuBtn);

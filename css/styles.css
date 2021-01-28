@@ -685,7 +685,6 @@ body {
 }
 
 .testimonial {
-  background-color: var(--body-color);
   padding: 8rem 2rem;
   text-align: center;
 }
@@ -713,6 +712,9 @@ body {
   justify-content: space-between;
 }
 .testimonial__customer {
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
+  padding: 1rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;

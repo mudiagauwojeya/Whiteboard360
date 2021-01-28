@@ -683,6 +683,10 @@ body {
   object-fit: fill;
   width: 100%;
 }
+.studio__fullscreen {
+  height: 100%;
+  width: 100%;
+}
 
 .testimonial {
   background-color: var(--body-color);

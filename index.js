@@ -18,11 +18,12 @@ menuCloseButton.addEventListener("click", closeMenuBtn);
 
 //make video fullscreen and play it
 const videoControl = (event) => {
-	if (!fullScreen) {
-		event.target.requestFullscreen();
-		event.target.play();
-	} else {
-		event.target.pause();
+	const video = event.target;
+	video.parentElement.classList.remove("studio__container");
+	if (!document.fullscreenElement) {
+		video.requestFullscreen();
+		video.setAttribute("controls", true);
+		video.play();
 	}
 };
 

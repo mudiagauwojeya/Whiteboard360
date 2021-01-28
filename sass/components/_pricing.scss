@@ -28,8 +28,11 @@
 	}
 
 	&__category {
+		@include textbox;
+
 		font-size: 1.9rem;
 		margin-top: 2rem;
+		padding: 1.5rem;
 	}
 
 	&__container {

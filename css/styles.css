@@ -26,7 +26,6 @@
 :root {
   background-image: url("../images/bg-royal.png");
   background-position: center;
-  background-size: contain;
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e9ecef;
@@ -241,8 +240,11 @@ body {
   width: 30rem;
 }
 .pricing__category {
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
   font-size: 1.9rem;
   margin-top: 2rem;
+  padding: 1.5rem;
 }
 .pricing__container {
   display: flex;

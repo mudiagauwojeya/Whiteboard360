@@ -349,7 +349,7 @@ body {
 }
 
 .faq {
-  color: var(--body-color);
+  color: var(--text-color);
   padding: 8rem 2rem;
   display: flex;
   flex-flow: column nowrap;
@@ -385,8 +385,11 @@ body {
   margin-top: 3rem;
 }
 .faq__category {
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 0.7rem;
   font-size: 2rem;
   margin: 1.5rem 0;
+  padding: 1.5rem;
   align-self: flex-start;
 }
 .faq__item {

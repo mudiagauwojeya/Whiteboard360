@@ -1,5 +1,5 @@
 .faq {
-	color: var(--body-color);
+	color: var(--text-color);
 	padding: 8rem 2rem;
 
 	display: flex;
@@ -38,8 +38,11 @@
 	}
 
 	&__category {
+		@include textbox;
 		font-size: 2rem;
 		margin: 1.5rem 0;
+		padding: 1.5rem;
+
 		align-self: flex-start;
 	}
 

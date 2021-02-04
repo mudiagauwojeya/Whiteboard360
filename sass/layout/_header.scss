@@ -29,12 +29,14 @@
 	&__paragraph {
 		@include textbox;
 		border-radius: 0.5rem;
-		font-size: inherit;
-		margin: 0 0 5rem;
+		font-size: 1.6rem;
+		margin: 5rem 0;
+		max-width: 50rem;
 		padding: 2rem;
 
 		@include mediaQueries(33.31rem) {
 			font-size: 1.8rem;
+			margin: 6rem auto;
 			padding: 2rem 4rem;
 		}
 	}

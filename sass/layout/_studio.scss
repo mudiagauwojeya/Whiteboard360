@@ -36,6 +36,7 @@
 
 		@include mediaQueries(37.5rem) {
 			grid-template-columns: repeat(3, min-content);
+			gap: 1rem;
 		}
 	}
 

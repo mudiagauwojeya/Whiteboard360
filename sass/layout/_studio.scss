@@ -33,6 +33,10 @@
 		gap: 0.5rem;
 
 		margin-bottom: 9rem;
+
+		@include mediaQueries(37.5rem) {
+			grid-template-columns: repeat(3, min-content);
+		}
 	}
 
 	&__container {

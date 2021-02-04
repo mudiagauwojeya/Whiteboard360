@@ -35,6 +35,12 @@
 		flex-flow: column nowrap;
 		align-items: center;
 		justify-content: space-between;
+
+		@include mediaQueries(37.5rem) {
+			flex-flow: row wrap;
+			align-items: flex-start;
+			justify-content: space-evenly;
+		}
 	}
 
 	&__features {

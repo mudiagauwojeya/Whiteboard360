@@ -302,6 +302,13 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (min-width: 37.5rem) {
+  .feature__container {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}
 .feature__features {
   background-color: var(--bg-color);
   clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);

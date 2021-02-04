@@ -9,13 +9,14 @@
 
 @import "components/button";
 @import "components/navigation";
-@import "components/pricing";
 
 @import "layout/contact";
-@import "layout/faq";
 @import "layout/feature";
 @import "layout/footer";
 @import "layout/gallery";
 @import "layout/header";
 @import "layout/studio";
 @import "layout/testimonial";
+
+@import "pages/faq";
+@import "pages/pricing";

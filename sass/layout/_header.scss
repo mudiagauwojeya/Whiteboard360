@@ -6,6 +6,10 @@
 	padding: 5rem 2rem 10rem;
 	margin-top: 7rem;
 
+	@include mediaQueries(29.06rem) {
+		padding: 5rem 4rem 10rem;
+	}
+
 	&__title {
 		background-image: url("../images/orange-blob.png");
 		background-position: center;
@@ -28,5 +32,10 @@
 		font-size: inherit;
 		margin: 0 0 5rem;
 		padding: 2rem;
+
+		@include mediaQueries(33.31rem) {
+			font-size: 1.8rem;
+			padding: 2rem 4rem;
+		}
 	}
 }

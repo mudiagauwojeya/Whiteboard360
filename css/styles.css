@@ -480,6 +480,11 @@ body {
   padding: 5rem 2rem 10rem;
   margin-top: 7rem;
 }
+@media only screen and (min-width: 29.06rem) {
+  .header {
+    padding: 5rem 4rem 10rem;
+  }
+}
 .header__title {
   background-image: url("../images/orange-blob.png");
   background-position: center;
@@ -505,6 +510,12 @@ body {
   font-size: inherit;
   margin: 0 0 5rem;
   padding: 2rem;
+}
+@media only screen and (min-width: 33.31rem) {
+  .header__paragraph {
+    font-size: 1.8rem;
+    padding: 2rem 4rem;
+  }
 }
 
 .studio {

@@ -2,6 +2,11 @@
 	background-color: var(--body-color);
 	padding: 6rem 2rem 0;
 
+	&__logo {
+		margin: auto;
+		max-width: 35rem;
+	}
+
 	&__logo-image {
 		width: 100%;
 	}

@@ -379,6 +379,10 @@ body {
   background-color: var(--body-color);
   padding: 6rem 2rem 0;
 }
+.footer__logo {
+  margin: auto;
+  max-width: 35rem;
+}
 .footer__logo-image {
   width: 100%;
 }

@@ -118,7 +118,7 @@ body {
 }
 .navigation__brand {
   margin-left: 0.5rem;
-  width: 8rem;
+  max-width: 8rem;
 }
 .navigation__brand-link:link, .navigation__brand-link:active, .navigation__brand-link:visited {
   text-decoration: none;

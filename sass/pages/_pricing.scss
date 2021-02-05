@@ -42,9 +42,14 @@
 		justify-content: center;
 
 		margin-top: 4rem;
+
+		@include mediaQueries(37.5rem) {
+			flex-flow: row wrap;
+		}
 	}
 
 	&__package {
+		max-width: 35rem;
 		width: 100%;
 	}
 

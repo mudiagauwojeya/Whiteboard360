@@ -20,7 +20,7 @@
 		flex-flow: column nowrap;
 
 		@include mediaQueries(37.5rem) {
-			flex-flow: row wrap;
+			flex-flow: row nowrap;
 			justify-content: space-between;
 			margin-top: 4rem;
 		}

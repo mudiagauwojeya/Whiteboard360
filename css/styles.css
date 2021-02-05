@@ -397,7 +397,7 @@ body {
 }
 @media only screen and (min-width: 37.5rem) {
   .footer__links {
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     margin-top: 4rem;
   }
@@ -779,7 +779,13 @@ body {
   justify-content: center;
   margin-top: 4rem;
 }
+@media only screen and (min-width: 37.5rem) {
+  .pricing__container {
+    flex-flow: row wrap;
+  }
+}
 .pricing__package {
+  max-width: 35rem;
   width: 100%;
 }
 .pricing__caption {

@@ -769,8 +769,10 @@ body {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 0.7rem;
   font-size: 1.9rem;
-  margin-top: 2rem;
+  margin: 6rem auto 0;
+  max-width: 35rem;
   padding: 1.5rem;
+  text-align: center;
 }
 .pricing__container {
   display: flex;
@@ -782,6 +784,7 @@ body {
 @media only screen and (min-width: 37.5rem) {
   .pricing__container {
     flex-flow: row wrap;
+    justify-content: space-around;
   }
 }
 .pricing__package {

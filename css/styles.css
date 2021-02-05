@@ -727,8 +727,14 @@ body {
   padding: 1.5rem;
   align-self: flex-start;
 }
+@media only screen and (min-width: 37.5rem) {
+  .faq__category {
+    align-self: center;
+  }
+}
 .faq__item {
   margin-top: 3rem;
+  max-width: 60rem;
   width: 100%;
 }
 .faq__answer {

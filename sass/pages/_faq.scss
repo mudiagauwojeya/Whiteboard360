@@ -44,10 +44,15 @@
 		padding: 1.5rem;
 
 		align-self: flex-start;
+
+		@include mediaQueries(37.5rem) {
+			align-self: center;
+		}
 	}
 
 	&__item {
 		margin-top: 3rem;
+		max-width: 60rem;
 		width: 100%;
 	}
 

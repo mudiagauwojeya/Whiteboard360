@@ -219,7 +219,9 @@ body {
   color: var(--body-color);
   display: block;
   font-size: 1.5rem;
-  padding: 4rem 0.8rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 4rem 1.25rem;
 }
 .contact__label {
   display: block;

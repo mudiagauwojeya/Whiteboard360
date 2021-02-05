@@ -386,6 +386,16 @@ body {
 .footer__logo-image {
   width: 100%;
 }
+.footer__links {
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media only screen and (min-width: 37.5rem) {
+  .footer__links {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
 .footer__quick-links {
   display: block;
   font-size: 1.5rem;
@@ -415,11 +425,19 @@ body {
   font-size: 1.4rem;
 }
 .footer__attribution a:link, .footer__attribution a:active {
-  color: var(--color-secondary);
+  color: var(--bg-color);
   cursor: pointer;
   display: block;
   font-size: 1.5rem;
   text-decoration: none;
+}
+.footer__attribution a:visited, .footer__attribution a:hover {
+  color: var(--color-secondary);
+}
+@media only screen and (min-width: 37.5rem) {
+  .footer__attribution {
+    margin: 0;
+  }
 }
 .footer__copyright {
   color: var(--bg-color);

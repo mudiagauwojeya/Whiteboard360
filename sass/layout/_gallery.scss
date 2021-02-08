@@ -41,6 +41,7 @@
 	}
 
 	&__item {
+		box-shadow: 0 0.25rem 0.5rem rgba(#333, 0.3);
 		outline-offset: 1rem;
 		width: 15rem;
 		transition: all 100ms ease-in-out;

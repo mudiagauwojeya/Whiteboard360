@@ -21,8 +21,8 @@ const videoControl = (event) => {
 	const video = event.target;
 	if (!document.fullscreenElement) {
 		video.requestFullscreen();
-		// video.setAttribute("controls", true);
 		video.play();
+		screen.orientation.lock("landscape");
 	}
 	video.onfullscreenchange = () => {
 		if (!document.fullscreenElement) {

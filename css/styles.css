@@ -579,6 +579,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .header__paragraph {
+    font-size: 1.95rem;
     max-width: 70rem;
     padding: 3rem 4rem;
   }

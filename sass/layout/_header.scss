@@ -52,6 +52,7 @@
 		}
 
 		@include mediaQueries(55rem) {
+			font-size: 1.95rem;
 			max-width: 70rem;
 			padding: 3rem 4rem;
 		}

@@ -522,7 +522,14 @@ body {
   }
 }
 .gallery__item {
+  outline-offset: 1rem;
   width: 15rem;
+  transition: all 100ms ease-in-out;
+}
+.gallery__item:hover {
+  outline: 1rem solid var(--color-primary);
+  transform: scale(1.1);
+  z-index: 10;
 }
 .gallery__image {
   display: block;

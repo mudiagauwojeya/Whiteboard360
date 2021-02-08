@@ -280,7 +280,7 @@ body {
   justify-content: space-around;
 }
 .feature__section-intro {
-  background-image: url("../images/yellow-blob.png");
+  background-image: url("../images/yellow-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -487,7 +487,7 @@ body {
   text-align: center;
 }
 .gallery__title {
-  background-image: url("../images/purple-blob.png");
+  background-image: url("../images/purple-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -557,7 +557,7 @@ body {
   }
 }
 .header__title {
-  background-image: url("../images/orange-blob.png");
+  background-image: url("../images/orange-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -616,7 +616,7 @@ body {
   justify-content: space-around;
 }
 .studio__section-intro {
-  background-image: url("../images/cyan-blob.png");
+  background-image: url("../images/cyan-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -674,7 +674,7 @@ body {
   padding: 8rem 2rem;
 }
 .testimonial__title {
-  background-image: url("../images/banner-blob.png");
+  background-image: url("../images/banner-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -735,7 +735,7 @@ body {
   justify-content: space-around;
 }
 .faq__section-intro {
-  background-image: url("../images/orange-blob.png");
+  background-image: url("../images/orange-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -794,7 +794,7 @@ body {
   justify-content: space-around;
 }
 .pricing__section-intro {
-  background-image: url("../images/yellow-blob.png");
+  background-image: url("../images/yellow-blob.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

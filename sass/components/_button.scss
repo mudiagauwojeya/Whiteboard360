@@ -7,9 +7,14 @@
 	display: inline-block;
 	font-size: inherit;
 	margin: 0 auto;
+	transition: all 300ms ease-out;
 
 	position: relative;
 	overflow: hidden;
+
+	&:hover {
+		transform: scale(1.1);
+	}
 
 	&__link {
 		&:link,

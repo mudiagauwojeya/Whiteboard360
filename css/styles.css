@@ -86,8 +86,12 @@ body {
   display: inline-block;
   font-size: inherit;
   margin: 0 auto;
+  transition: all 300ms ease-out;
   position: relative;
   overflow: hidden;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
 .btn__link:link, .btn__link:active {
   color: var(--body-color);

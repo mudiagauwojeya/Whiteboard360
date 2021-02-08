@@ -21,8 +21,13 @@ const videoControl = (event) => {
 	const video = event.target;
 	if (!document.fullscreenElement) {
 		video.requestFullscreen();
-		video.setAttribute("controls", true);
+		// video.setAttribute("controls", true);
 		video.play();
+		document.onfullscreenchange = (event) => {
+			if (!document.fullscreenElement) {
+				event.target.pause();
+			}
+		};
 	}
 };
 

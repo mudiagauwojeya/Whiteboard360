@@ -317,6 +317,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .feature__container {
+    margin: 0 auto;
     max-width: 86rem;
   }
 }
@@ -638,6 +639,15 @@ body {
 .studio__container {
   height: 15rem;
   width: 15rem;
+  transition: all 100ms ease-in;
+}
+.studio__container:hover {
+  transform: translateY(-0.5rem);
+}
+@media only screen and (min-width: 55rem) {
+  .studio__container {
+    width: 25rem;
+  }
 }
 .studio__file {
   border: 2px solid var(--color-secondary);

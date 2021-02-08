@@ -43,6 +43,16 @@
 	&__container {
 		height: 15rem;
 		width: 15rem;
+
+		transition: all 100ms ease-in;
+
+		&:hover {
+			transform: translateY(-0.5rem);
+		}
+
+		@include mediaQueries(55rem) {
+			width: 25rem;
+		}
 	}
 
 	&__file {

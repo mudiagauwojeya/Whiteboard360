@@ -329,9 +329,13 @@ body {
   padding: 2rem 0;
   position: relative;
   text-align: center;
+  transition: all 100ms ease-in;
 }
 .feature__features:not(:last-of-type) {
   margin-bottom: 6rem;
+}
+.feature__features:hover {
+  transform: translateY(-0.5rem);
 }
 .feature__icon {
   fill: var(--color-secondary);

@@ -56,9 +56,14 @@
 		padding: 2rem 0;
 		position: relative;
 		text-align: center;
+		transition: all 100ms ease-in;
 
 		&:not(:last-of-type) {
 			margin-bottom: 6rem;
+		}
+
+		&:hover {
+			transform: translateY(-0.5rem);
 		}
 	}
 

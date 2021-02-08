@@ -82,7 +82,7 @@ body {
   background-color: var(--text-color);
   border: none;
   border-radius: 10rem;
-  box-shadow: 0 0.5rem 0.5rem rgba(136, 136, 136, 0.4);
+  box-shadow: 0 0.75rem 1rem rgba(51, 51, 51, 0.8);
   display: inline-block;
   font-size: inherit;
   margin: 0 auto;

@@ -10,6 +10,9 @@
 		padding: 5rem 4rem 10rem;
 	}
 
+	@include mediaQueries(55rem) {
+	}
+
 	&__title {
 		background-image: url("../images/orange-blob.png");
 		background-position: center;
@@ -27,6 +30,10 @@
 			@include mediaQueries(33.31rem) {
 				padding: 1.2rem 2rem;
 			}
+
+			@include mediaQueries(55rem) {
+				max-width: 39rem;
+			}
 		}
 	}
 
@@ -35,13 +42,18 @@
 		border-radius: 0.5rem;
 		font-size: 1.6rem;
 		margin: 5rem 0;
-		max-width: 50rem;
 		padding: 2rem;
 
 		@include mediaQueries(33.31rem) {
 			font-size: 1.8rem;
 			margin: 6rem auto;
 			padding: 2rem 4rem;
+			max-width: 50rem;
+		}
+
+		@include mediaQueries(55rem) {
+			max-width: 70rem;
+			padding: 3rem 4rem;
 		}
 	}
 }

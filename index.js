@@ -23,12 +23,16 @@ const videoControl = (event) => {
 		video.requestFullscreen();
 		// video.setAttribute("controls", true);
 		video.play();
-		document.onfullscreenchange = (event) => {
-			if (!document.fullscreenElement) {
-				event.target.pause();
-			}
-		};
 	}
+	video.onfullscreenchange = () => {
+		if (!document.fullscreenElement) {
+			video.pause();
+		}
+	};
+
+	video.onended = () => {
+		document.exitFullscreen();
+	};
 };
 
 // add event listeners to video elements

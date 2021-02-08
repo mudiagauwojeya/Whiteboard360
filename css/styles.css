@@ -838,8 +838,13 @@ body {
   }
 }
 .pricing__package {
+  box-shadow: 0 0.5rem rgba(51, 51, 51, 0.6);
   max-width: 35rem;
+  transition: all 100ms ease-in;
   width: 100%;
+}
+.pricing__package:hover {
+  transform: translateY(-0.5rem);
 }
 .pricing__caption {
   background-color: var(--color-secondary);

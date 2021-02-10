@@ -30,6 +30,10 @@
 		position: absolute;
 		right: 1.4rem;
 		top: 0.5rem;
+
+		@include mediaQueries(55rem) {
+			display: none;
+		}
 	}
 
 	//hamburger menu button
@@ -44,6 +48,10 @@
 		width: 4rem;
 
 		position: absolute;
+
+		@include mediaQueries(55rem) {
+			display: none;
+		}
 	}
 
 	&__btn {
@@ -66,7 +74,6 @@
 	//navigation menu
 	&__menu {
 		background-color: #dde;
-		// display: none;
 		height: 100vh;
 		width: 100vw;
 
@@ -75,6 +82,12 @@
 		top: 0;
 		transform: translateX(100%);
 		transition: transform 400ms ease;
+
+		@include mediaQueries(55rem) {
+			background-color: transparent;
+			transform: translateX(0);
+			transition: none;
+		}
 
 		&-list {
 			list-style: none;
@@ -86,6 +99,10 @@
 
 		&-item {
 			display: block;
+
+			@include mediaQueries(55rem) {
+				display: inline-block;
+			}
 		}
 
 		&-link {
@@ -121,6 +138,10 @@
 			position: absolute;
 			right: 0.8rem;
 			top: -1.5rem;
+
+			@include mediaQueries(55rem) {
+				display: none;
+			}
 		}
 	}
 }

@@ -12,7 +12,7 @@
 
 //MEDIA QUERIES
 
-//px / 16 equal breakpoint in em
+//px / 16 equal breakpoint in rem
 
 @mixin mediaQueries($breakpoint) {
 	@media only screen and (min-width: $breakpoint) {

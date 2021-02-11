@@ -85,6 +85,7 @@
 
 		@include mediaQueries(55rem) {
 			background-color: transparent;
+			height: 0;
 			transform: translateX(0);
 			transition: none;
 		}

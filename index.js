@@ -2,7 +2,7 @@ const navButton = document.querySelector(".navigation__bg");
 const menuOpenButton = document.querySelector(".navigation__menu");
 const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videos = document.querySelectorAll(".studio__file");
-const contactLink = document.querySelector("a[href='#contact']");
+const contactLink = document.getElementById("contact");
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -29,7 +29,6 @@ const videoControl = (event) => {
 			video.pause();
 		}
 	};
-
 	video.onended = () => {
 		document.exitFullscreen();
 	};

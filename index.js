@@ -21,8 +21,12 @@ const videoControl = (event) => {
 	const video = event.target;
 	if (!document.fullscreenElement) {
 		video.requestFullscreen();
+		screen.orientation.lock("landscape-primary").catch((error) => {
+			if (error) {
+				return;
+			}
+		});
 		video.play();
-		screen.orientation.lock("landscape");
 	}
 	video.onfullscreenchange = () => {
 		if (!document.fullscreenElement) {

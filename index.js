@@ -2,7 +2,7 @@ const navButton = document.querySelector(".navigation__bg");
 const menuOpenButton = document.querySelector(".navigation__menu");
 const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videos = document.querySelectorAll(".studio__file");
-const contactLink = document.getElementById("contact");
+const contactLink = document.getElementById("contact-link");
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -48,4 +48,6 @@ const addVideoListener = () => {
 
 addVideoListener();
 
-contactLink.addEventListener("click", closeMenuBtn);
+if (screen.width < 880) {
+	contactLink.addEventListener("click", closeMenuBtn);
+}

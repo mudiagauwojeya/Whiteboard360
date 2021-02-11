@@ -49,5 +49,7 @@ const addVideoListener = () => {
 addVideoListener();
 
 if (screen.width < 880) {
-	contactLink.addEventListener("click", closeMenuBtn);
+	if (!(contactLink === null)) {
+		contactLink.addEventListener("click", closeMenuBtn);
+	}
 }

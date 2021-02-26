@@ -5,6 +5,7 @@
 	z-index: 100;
 
 	&__brand {
+		display: inline-block;
 		margin-left: 0.5rem;
 		max-width: 8rem;
 	}
@@ -13,6 +14,7 @@
 		&:link,
 		&:active,
 		&:visited {
+			display: inline-block;
 			text-decoration: none;
 		}
 	}

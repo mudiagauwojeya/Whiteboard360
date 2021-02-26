@@ -123,10 +123,12 @@ body {
   z-index: 100;
 }
 .navigation__brand {
+  display: inline-block;
   margin-left: 0.5rem;
   max-width: 8rem;
 }
 .navigation__brand-link:link, .navigation__brand-link:active, .navigation__brand-link:visited {
+  display: inline-block;
   text-decoration: none;
 }
 .navigation__logo {

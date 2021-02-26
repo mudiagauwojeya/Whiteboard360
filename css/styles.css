@@ -614,13 +614,18 @@ body {
   }
 }
 .header__title {
-  background-image: url("../images/orange-blob.jpg");
+  background-image: url("../images/responsive_images/purple-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 30rem;
   position: relative;
   text-align: center;
+}
+@media only screen and (min-width: 55rem) {
+  .header__title {
+    background-image: url("../images/responsive_images/purple-blob-lg.jpg");
+  }
 }
 .header__title--text {
   position: absolute;

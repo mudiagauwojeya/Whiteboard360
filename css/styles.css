@@ -817,7 +817,7 @@ body {
   justify-content: space-around;
 }
 .faq__section-intro {
-  background-image: url("../images/orange-blob.jpg");
+  background-image: url("../images/responsive_images/orange-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -825,6 +825,11 @@ body {
   margin: 7rem 0 2rem;
   position: relative;
   text-align: center;
+}
+@media only screen and (min-width: 55rem) {
+  .faq__section-intro {
+    background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+  }
 }
 .faq__heading {
   position: absolute;
@@ -876,7 +881,7 @@ body {
   justify-content: space-around;
 }
 .pricing__section-intro {
-  background-image: url("../images/yellow-blob.jpg");
+  background-image: url("../images/responsive_images/yellow-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -884,6 +889,11 @@ body {
   margin: 7rem 0 2rem;
   position: relative;
   text-align: center;
+}
+@media only screen and (min-width: 55rem) {
+  .pricing__section-intro {
+    background-image: url("../images/responsive_images/yellow-blob-lg.jpg");
+  }
 }
 .pricing__heading {
   position: absolute;

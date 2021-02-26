@@ -2,7 +2,7 @@
 	padding: 8rem 2rem;
 
 	&__title {
-		background-image: url("../images/banner-blob.jpg");
+		background-image: url("../images/responsive_images/orange-blob-small.jpg");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -10,6 +10,10 @@
 		margin-bottom: 8rem;
 
 		position: relative;
+
+		@include mediaQueries(55rem) {
+			background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+		}
 
 		&--text {
 			@include centered;

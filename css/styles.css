@@ -330,13 +330,18 @@ body {
   justify-content: space-around;
 }
 .feature__section-intro {
-  background-image: url("../images/yellow-blob.jpg");
+  background-image: url("../images/responsive_images/yellow-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 30rem;
   margin-bottom: 2rem;
   position: relative;
+}
+@media only screen and (min-width: 55rem) {
+  .feature__section-intro {
+    background-image: url("../images/responsive_images/yellow-blob-lg.jpg");
+  }
 }
 .feature__heading {
   background-color: rgba(51, 51, 51, 0.6);
@@ -544,13 +549,18 @@ body {
   text-align: center;
 }
 .gallery__title {
-  background-image: url("../images/purple-blob.jpg");
+  background-image: url("../images/responsive_images/purple-blob-cube-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 30rem;
   margin-bottom: 2rem;
   position: relative;
+}
+@media only screen and (min-width: 55rem) {
+  .gallery__title {
+    background-image: url("../images/responsive_images/purple-blob-cube-lg.jpg");
+  }
 }
 .gallery__title--text {
   position: absolute;
@@ -741,13 +751,18 @@ body {
   padding: 8rem 2rem;
 }
 .testimonial__title {
-  background-image: url("../images/banner-blob.jpg");
+  background-image: url("../images/responsive_images/orange-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 30rem;
   margin-bottom: 8rem;
   position: relative;
+}
+@media only screen and (min-width: 55rem) {
+  .testimonial__title {
+    background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+  }
 }
 .testimonial__title--text {
   position: absolute;

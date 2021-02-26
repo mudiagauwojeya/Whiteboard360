@@ -4,7 +4,7 @@
 	text-align: center;
 
 	&__title {
-		background-image: url("../images/purple-blob.jpg");
+		background-image: url("../images/responsive_images/purple-blob-cube-small.jpg");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -12,6 +12,10 @@
 		margin-bottom: 2rem;
 
 		position: relative;
+
+		@include mediaQueries(55rem) {
+			background-image: url("../images/responsive_images/purple-blob-cube-lg.jpg");
+		}
 
 		&--text {
 			@include centered;

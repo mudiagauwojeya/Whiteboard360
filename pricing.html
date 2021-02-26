@@ -41,9 +41,17 @@
 			<div class="navigation__brand">
 				<a href="index.html" class="navigation__brand-link"
 					><img
-						src="images/360-logo.jpg"
+						srcset="
+							./images/responsive_images/360-logo-small.jpg 300w,
+							./images/responsive_images/360-logo-small.jpg 300w,
+							./images/responsive_images/360-logo-small.jpg 1x,
+							./images/responsive_images/360-logo-small.jpg 2x
+						"
+						width="80px"
+						height="auto"
 						alt="360 whiteboard logo"
 						class="navigation__logo"
+						src="./images/responsive_images/360-logo-small.jpg"
 					/>
 				</a>
 			</div>
@@ -68,7 +76,10 @@
 						<a href="faq.html" class="navigation__menu-link">FAQ</a>
 					</li>
 					<li class="navigation__menu-item">
-						<a href="index.html#contact" class="navigation__menu-link"
+						<a
+							href="index.html#contact"
+							class="navigation__menu-link"
+							id="contact-link"
 							>Contact</a
 						>
 					</li>
@@ -562,9 +573,20 @@
 		<footer class="footer">
 			<div class="footer__logo">
 				<img
-					src="images/whiteboard-360-logo.jpg"
+					srcset="
+					./images/responsive_images/360-banner-small.jpg 370w,
+					./images/responsive_images/360-banner-lg.jpg 500w,
+					./images/responsive_images/360-banner-small.jpg 1x,
+					./images/responsive_images/360-banner-small.jpg 2x,
+					./images/responsive_images/360-banner-lg.jpg 1x,
+					./images/responsive_images/360-banner-lg.jpg 2x
+					"
+					width="200px"
+					height="auto"
+					sizes="(min-width: 22.5em) 55vw, (min-width: 48em) 45vw, 350px"
+					src="./images/responsive_images/360-banner-lg.jpg"
 					alt="360 Whiteboard
-				Animation logo banner"
+					Animation logo banner"
 					class="footer__logo-image"
 				/>
 			</div>

@@ -678,7 +678,7 @@ body {
   justify-content: space-around;
 }
 .studio__section-intro {
-  background-image: url("../images/cyan-blob.jpg");
+  background-image: url("../images/responsive_images/cyan-blob-small.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -686,6 +686,11 @@ body {
   margin-bottom: 2rem;
   position: relative;
   text-align: center;
+}
+@media only screen and (min-width: 55rem) {
+  .studio__section-intro {
+    background-image: url("../images/responsive_images/cyan-blob-lg.jpg");
+  }
 }
 .studio__heading {
   position: absolute;

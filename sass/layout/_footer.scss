@@ -8,7 +8,11 @@
 
 	&__logo {
 		margin: auto;
-		max-width: 35rem;
+		max-width: 20rem;
+
+		@include mediaQueries(37.5rem) {
+			max-width: 35rem;
+		}
 	}
 
 	&__logo-image {

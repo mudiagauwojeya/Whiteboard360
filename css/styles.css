@@ -451,7 +451,12 @@ body {
 }
 .footer__logo {
   margin: auto;
-  max-width: 35rem;
+  max-width: 20rem;
+}
+@media only screen and (min-width: 37.5rem) {
+  .footer__logo {
+    max-width: 35rem;
+  }
 }
 .footer__logo-image {
   width: 100%;

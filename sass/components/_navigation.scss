@@ -13,18 +13,18 @@
 		&:link,
 		&:active,
 		&:visited {
-			display: inline-block;
+			display: block;
 			text-decoration: none;
 		}
 	}
 
 	&__logo {
+		display: inline-block;
 		width: 100%;
 	}
 
 	&__bg {
 		background-color: transparent;
-		border-radius: 50%;
 		height: 6.1rem;
 		width: 6.1rem;
 

@@ -127,15 +127,15 @@ body {
   max-width: 8rem;
 }
 .navigation__brand-link:link, .navigation__brand-link:active, .navigation__brand-link:visited {
-  display: inline-block;
+  display: block;
   text-decoration: none;
 }
 .navigation__logo {
+  display: inline-block;
   width: 100%;
 }
 .navigation__bg {
   background-color: transparent;
-  border-radius: 50%;
   height: 6.1rem;
   width: 6.1rem;
   position: absolute;

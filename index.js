@@ -3,6 +3,7 @@ const menuOpenButton = document.querySelector(".navigation__menu");
 const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videos = document.querySelectorAll(".studio__file");
 const contactLink = document.getElementById("contact-link");
+const copyrightYear = document.querySelector(".footer__copyright span");
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -53,3 +54,7 @@ if (screen.width < 880) {
 		contactLink.addEventListener("click", closeMenuBtn);
 	}
 }
+
+//Add copyright year to the footer
+const d = new Date();
+copyrightYear.textContent = `${d.getFullYear()}`;

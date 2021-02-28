@@ -49,6 +49,7 @@ const addVideoListener = () => {
 
 addVideoListener();
 
+// Add functionality to the hamburger menu for smaller screens
 if (screen.width < 880) {
 	if (!(contactLink === null)) {
 		contactLink.addEventListener("click", closeMenuBtn);

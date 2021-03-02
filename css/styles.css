@@ -140,11 +140,17 @@ body {
   background-color: var(--body-color);
   display: none;
   height: 100vh;
-  opacity: 0.8;
+  opacity: 0.4;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 200;
+}
+@supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+  .modal__backdrop {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+  }
 }
 
 .navigation {

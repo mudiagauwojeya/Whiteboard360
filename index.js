@@ -4,6 +4,7 @@ const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videos = document.querySelectorAll(".studio__file");
 const contactLink = document.getElementById("contact-link");
 const copyrightYear = document.querySelector(".footer__copyright span");
+const getQuoteBtn = document.querySelector(".quote");
 
 //open menu button on mobile
 const openMenuBtn = () => {

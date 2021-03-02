@@ -35,46 +35,43 @@
 	<body class="container">
 		<!-- modal -->
 		<template class="modal__template">
-			<div class="modal__backdrop">
-				<div class="modal__content">
-					<form action="#" class="modal__form">
-						<label for="select" class="modal__form-label">
-							<select name="project" id="select" modal__form-input>
-								<option value="Whiteboard Animation">
-									Whiteboard Animation
-								</option>
-								<option value="Cartoon Portrait">
-									Cartoon Portrait
-								</option>
-								<option value="Logo Design">Logo Design</option>
-							</select>
-						</label>
-						<label for="duration" class="modal__form-label">
-							<input
-								type="number"
-								name="duration"
-								id="duration"
-								class="modal__form-input"
-							/>
-						</label>
-						<label for="budget" class="modal__form-label">
-							<input
-								type="range"
-								name="budget"
-								id="budget"
-								class="modal__form-input"
-							/>
-						</label>
-						<label for="delivery" class="modal__form-label">
-							<input
-								type="number"
-								name="delivery"
-								id="delivery"
-								class="modal__form-input"
-							/>
-						</label>
-					</form>
-				</div>
+			<div class="modal__backdrop"></div>
+			<div class="modal__content">
+				<form action="#" class="modal__form">
+					<label for="select" class="modal__form-label">
+						<select name="project" id="select" modal__form-input>
+							<option value="Whiteboard Animation">
+								Whiteboard Animation
+							</option>
+							<option value="Cartoon Portrait">Cartoon Portrait</option>
+							<option value="Logo Design">Logo Design</option>
+						</select>
+					</label>
+					<label for="duration" class="modal__form-label">
+						<input
+							type="number"
+							name="duration"
+							id="duration"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="budget" class="modal__form-label">
+						<input
+							type="range"
+							name="budget"
+							id="budget"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="delivery" class="modal__form-label">
+						<input
+							type="number"
+							name="delivery"
+							id="delivery"
+							class="modal__form-input"
+						/>
+					</label>
+				</form>
 			</div>
 		</template>
 
@@ -148,7 +145,7 @@
 
 			<!-- call to action button -->
 			<button class="btn quote">
-				<a href="#" class="btn__link">Get a quote</a>
+				<span>Get a quote</span>
 			</button>
 		</header>
 

@@ -4,7 +4,7 @@ const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videos = document.querySelectorAll(".studio__file");
 const contactLink = document.getElementById("contact-link");
 const copyrightYear = document.querySelector(".footer__copyright span");
-const getQuoteBtn = document.querySelector(".quote");
+const getQuoteBtn = document.querySelectorAll(".quote");
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -60,3 +60,15 @@ if (screen.width < 880) {
 //Add copyright year to the footer
 const d = new Date();
 copyrightYear.textContent = `${d.getFullYear()}`;
+
+//Get a quote function
+const onGetQuote = (e) => {
+	const modalTemplate = document.querySelector(".modal__template");
+	const modal = document.importNode(modalTemplate.content, true);
+	console.log(modal);
+};
+
+//Add eventlistener to each get-a-quote button
+for (const btn of getQuoteBtn) {
+	btn.addEventListener("click", onGetQuote);
+}

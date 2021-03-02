@@ -6,6 +6,12 @@ const contactLink = document.getElementById("contact-link");
 const copyrightYear = document.querySelector(".footer__copyright span");
 const getQuoteBtn = document.querySelectorAll(".quote");
 
+//Modal DOM Elements
+const modalTemplate = document.querySelector(".modal__template");
+const modal = document.importNode(modalTemplate.content, true);
+const backdrop = modal.querySelector(".modal__backdrop");
+const modalForm = modal.querySelector(".modal__form");
+
 //open menu button on mobile
 const openMenuBtn = () => {
 	menuOpenButton.style.transform = "translateX(0)";
@@ -63,14 +69,18 @@ copyrightYear.textContent = `${d.getFullYear()}`;
 
 //Get a quote function
 const onGetQuote = (e) => {
-	const modalTemplate = document.querySelector(".modal__template");
-	const modal = document.importNode(modalTemplate.content, true);
-	const backdrop = modal.querySelector(".modal__backdrop");
 	backdrop.style.display = "block";
-	console.log(modal, backdrop, e);
+	document.body.prepend(backdrop);
+};
+
+//Close modal function
+const onCloseModal = (e) => {
+	backdrop.style.display = "none";
 };
 
 //Add eventlistener to each get-a-quote button
 for (const btn of getQuoteBtn) {
 	btn.addEventListener("click", onGetQuote);
 }
+
+backdrop.addEventListener("click", onCloseModal);

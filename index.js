@@ -65,7 +65,9 @@ copyrightYear.textContent = `${d.getFullYear()}`;
 const onGetQuote = (e) => {
 	const modalTemplate = document.querySelector(".modal__template");
 	const modal = document.importNode(modalTemplate.content, true);
-	console.log(modal);
+	const backdrop = modal.querySelector(".modal__backdrop");
+	backdrop.style.display = "block";
+	console.log(modal, backdrop, e);
 };
 
 //Add eventlistener to each get-a-quote button

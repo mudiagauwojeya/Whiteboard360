@@ -116,7 +116,7 @@ body {
   width: 100%;
 }
 
-button {
+.btn--blue {
   background-color: var(--color-secondary);
   border: none;
   border-radius: 0.7rem;
@@ -129,14 +129,14 @@ button {
   padding: 2rem 4rem;
   transition: all 200ms ease;
 }
-button:active {
+.btn--blue:active {
   box-shadow: 0 0.5rem 0.5rem rgba(51, 51, 51, 0.4);
   transform: translateY(0.4rem);
 }
-button:focus {
+.btn--blue:focus {
   outline: none;
 }
-button:visited {
+.btn--blue:visited {
   text-decoration: none;
 }
 

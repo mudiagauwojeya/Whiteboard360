@@ -8,9 +8,11 @@ const getQuoteBtn = document.querySelectorAll(".quote");
 
 //Modal DOM Elements
 const modalTemplate = document.querySelector(".modal__template");
-const modal = document.importNode(modalTemplate.content, true);
-const backdrop = modal.querySelector(".modal__backdrop");
-const modalForm = modal.querySelector(".modal__form");
+const modal = modalTemplate
+	? document.importNode(modalTemplate.content, true)
+	: null;
+const backdrop = modal ? modal.querySelector(".modal__backdrop") : null;
+const modalForm = modal ? modal.querySelector(".modal__form") : null;
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -80,7 +82,10 @@ const onCloseModal = (e) => {
 
 //Add eventlistener to each get-a-quote button
 for (const btn of getQuoteBtn) {
-	btn.addEventListener("click", onGetQuote);
+	if (getQuoteBtn) {
+		btn.addEventListener("click", onGetQuote);
+	}
 }
-
-backdrop.addEventListener("click", onCloseModal);
+if (backdrop) {
+	backdrop.addEventListener("click", onCloseModal);
+}

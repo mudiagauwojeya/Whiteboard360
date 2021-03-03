@@ -346,7 +346,7 @@ body {
   justify-content: space-around;
 }
 .feature__section-intro {
-  background-image: url("../images/responsive_images/yellow-blob-small.jpg");
+  background-image: url("../images/responsive_images/cyan-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .feature__section-intro {
-    background-image: url("../images/responsive_images/yellow-blob-lg.jpg");
+    background-image: url("../images/responsive_images/cyan-blob-sm.webp");
   }
 }
 .feature__heading {
@@ -565,7 +565,7 @@ body {
   text-align: center;
 }
 .gallery__title {
-  background-image: url("../images/responsive_images/purple-blob-cube-small.jpg");
+  background-image: url("../images/responsive_images/pink-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -575,7 +575,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .gallery__title {
-    background-image: url("../images/responsive_images/purple-blob-cube-lg.jpg");
+    background-image: url("../images/responsive_images/pink-blob-lg.webp");
   }
 }
 .gallery__title--text {
@@ -640,7 +640,7 @@ body {
   }
 }
 .header__title {
-  background-image: url("../images/responsive_images/purple-blob-small.jpg");
+  background-image: url("../images/responsive_images/orange-frame-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -650,7 +650,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .header__title {
-    background-image: url("../images/responsive_images/purple-blob-lg.jpg");
+    background-image: url("../images/responsive_images/orange-frame-blob-lg.webp");
   }
 }
 .header__title--text {
@@ -704,7 +704,7 @@ body {
   justify-content: space-around;
 }
 .studio__section-intro {
-  background-image: url("../images/responsive_images/cyan-blob-small.jpg");
+  background-image: url("../images/responsive_images/purple-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -715,7 +715,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .studio__section-intro {
-    background-image: url("../images/responsive_images/cyan-blob-lg.jpg");
+    background-image: url("../images/responsive_images/purple-blob-lg.webp");
   }
 }
 .studio__heading {
@@ -767,7 +767,7 @@ body {
   padding: 8rem 2rem;
 }
 .testimonial__title {
-  background-image: url("../images/responsive_images/orange-blob-small.jpg");
+  background-image: url("../images/responsive_images/yellow-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -777,7 +777,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .testimonial__title {
-    background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+    background-image: url("../images/responsive_images/yellow-blob-lg.webp");
   }
 }
 .testimonial__title--text {

@@ -2,7 +2,7 @@
 	padding: 8rem 2rem;
 
 	&__title {
-		background-image: url("../images/responsive_images/orange-blob-small.jpg");
+		background-image: url("../images/responsive_images/yellow-blob-sm.webp");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 		position: relative;
 
 		@include mediaQueries(55rem) {
-			background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+			background-image: url("../images/responsive_images/yellow-blob-lg.webp");
 		}
 
 		&--text {

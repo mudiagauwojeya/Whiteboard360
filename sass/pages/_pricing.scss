@@ -7,7 +7,7 @@
 	justify-content: space-around;
 
 	&__section-intro {
-		background-image: url("../images/responsive_images/yellow-blob-small.jpg");
+		background-image: url("../images/responsive_images/purple-blob-sm.webp");
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 		text-align: center;
 
 		@include mediaQueries(55rem) {
-			background-image: url("../images/responsive_images/yellow-blob-lg.jpg");
+			background-image: url("../images/responsive_images/purple-blob-lg.webp");
 		}
 	}
 

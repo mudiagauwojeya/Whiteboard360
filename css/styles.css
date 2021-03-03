@@ -833,7 +833,7 @@ body {
   justify-content: space-around;
 }
 .faq__section-intro {
-  background-image: url("../images/responsive_images/orange-blob-small.jpg");
+  background-image: url("../images/responsive_images/yellow-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -844,7 +844,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .faq__section-intro {
-    background-image: url("../images/responsive_images/orange-blob-lg.jpg");
+    background-image: url("../images/responsive_images/yellow-blob-lg.webp");
   }
 }
 .faq__heading {
@@ -897,7 +897,7 @@ body {
   justify-content: space-around;
 }
 .pricing__section-intro {
-  background-image: url("../images/responsive_images/yellow-blob-small.jpg");
+  background-image: url("../images/responsive_images/purple-blob-sm.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -908,7 +908,7 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .pricing__section-intro {
-    background-image: url("../images/responsive_images/yellow-blob-lg.jpg");
+    background-image: url("../images/responsive_images/purple-blob-lg.webp");
   }
 }
 .pricing__heading {

@@ -35,25 +35,67 @@
 	</head>
 
 	<body class="container">
+		<!-- modal -->
+		<template class="modal__template">
+			<div class="modal__backdrop"></div>
+			<div class="modal__content">
+				<form action="#" class="modal__form">
+					<label for="select" class="modal__form-label">
+						<select name="project" id="select" modal__form-input>
+							<option value="Whiteboard Animation">
+								Whiteboard Animation
+							</option>
+							<option value="Cartoon Portrait">Cartoon Portrait</option>
+							<option value="Logo Design">Logo Design</option>
+						</select>
+					</label>
+					<label for="duration" class="modal__form-label">
+						<input
+							type="number"
+							name="duration"
+							id="duration"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="budget" class="modal__form-label">
+						<input
+							type="range"
+							name="budget"
+							id="budget"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="delivery" class="modal__form-label">
+						<input
+							type="number"
+							name="delivery"
+							id="delivery"
+							class="modal__form-input"
+						/>
+					</label>
+				</form>
+			</div>
+		</template>
+
 		<!-- navigation -->
 		<nav class="navigation">
 			<!-- brand -->
 			<div class="navigation__brand">
 				<a href="index.html" class="navigation__brand-link"
 					><img
-					srcset="
+						srcset="
 						./images/responsive_images/360-logo-small.webp 300w,
 						./images/responsive_images/360-logo.webp 500w,
 						./images/responsive_images/360-logo-small.webp 1x,
 						./images/responsive_images/360-logo.webp 2x
 					"
-					width="80px"
-					height="auto"
-					alt="360 whiteboard logo"
-					class="navigation__logo"
-					src="./images/responsive_images/360-logo.webp"
-				/>
-			</a>
+						width="80px"
+						height="auto"
+						alt="360 whiteboard logo"
+						class="navigation__logo"
+						src="./images/responsive_images/360-logo.webp"
+					/>
+				</a>
 			</div>
 
 			<div class="navigation__bg">

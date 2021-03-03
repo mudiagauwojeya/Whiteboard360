@@ -88,6 +88,7 @@ body {
   font-size: 1.85rem;
   margin: 0 auto;
   padding: 2rem 6rem;
+  text-transform: uppercase;
   transition: transform 300ms ease-out;
   will-change: transform;
   position: relative;
@@ -123,6 +124,7 @@ body {
   font-size: 1.6rem;
   margin-top: 2.5rem;
   padding: 2rem 4rem;
+  text-transform: uppercase;
   transition: all 200ms ease;
 }
 .btn--blue:active {

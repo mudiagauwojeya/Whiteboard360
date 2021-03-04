@@ -24,7 +24,10 @@
 }
 
 :root {
-  background-image: linear-gradient(to right bottom, var(--color-primary) 0% 5%, var(--color-tertiary) 40%, var(--color-tertiary) 50%);
+  background-image: url("../images/responsive_images/bg-sm.webp");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e9ecef;
@@ -34,6 +37,11 @@
   --font-content: "Open sans", sans-serif;
   --font-heading: "Lora", serif;
   font-size: 62.5%;
+}
+@media only screen and (min-width: 55rem) {
+  :root {
+    background-image: url("../images/responsive_images/bg-lg.webp");
+  }
 }
 
 body {

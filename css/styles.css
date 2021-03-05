@@ -312,7 +312,6 @@ body {
 }
 
 .contact {
-  background-color: var(--bg-color);
   padding: 10rem 2rem;
 }
 .contact__form {
@@ -569,7 +568,6 @@ body {
 }
 
 .gallery {
-  background-color: var(--bg-color);
   padding: 8rem 2rem;
   text-align: center;
 }
@@ -706,7 +704,6 @@ body {
 }
 
 .studio {
-  background-color: var(--bg-color);
   padding: 8rem 2rem;
   display: flex;
   flex-flow: column nowrap;

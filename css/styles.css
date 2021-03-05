@@ -25,9 +25,10 @@
 
 :root {
   background-image: url("../images/responsive_images/bg-sm.webp");
+  background-attachment: fixed;
   background-position: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   --body-color: #333;
   --text-color: #fff;
   --bg-color: #e9ecef;

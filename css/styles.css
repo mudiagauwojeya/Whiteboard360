@@ -29,14 +29,6 @@
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  --body-color: #333;
-  --text-color: #fff;
-  --bg-color: #e9ecef;
-  --color-primary: #5ff2fe;
-  --color-secondary: #007bff;
-  --color-tertiary: #0b4363;
-  --font-content: "Open sans", sans-serif;
-  --font-heading: "Lora", serif;
   font-size: 62.5%;
 }
 @media only screen and (min-width: 55rem) {

@@ -1,5 +1,6 @@
 .navigation {
-	background-color: var(--bg-color);
+	background-color: $color-grey-3;
+	color: $color-secondary;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
@@ -41,7 +42,7 @@
 	&__btn,
 	&__btn::after,
 	&__btn::before {
-		background-color: var(--color-tertiary);
+		background-color: $color-secondary;
 		display: block;
 		height: 2px;
 		transform-origin: center;
@@ -74,7 +75,7 @@
 
 	//navigation menu
 	&__menu {
-		background-color: #dde;
+		background-color: $color-grey-3;
 		height: 100vh;
 		width: 100vw;
 
@@ -119,7 +120,7 @@
 		&-link {
 			&:link,
 			&:active {
-				color: var(--color-tertiary);
+				color: inherit;
 				display: inline-block;
 				font-weight: 700;
 				font-size: 1.7rem;
@@ -134,20 +135,17 @@
 			}
 
 			&:visited {
-				color: var(--color-secondary);
+				color: $color-grey-4;
 			}
 
 			&:hover {
-				color: var(--text-color);
-
-				@include mediaQueries(55rem) {
-					background-color: var(--color-primary);
-				}
+				color: $color-secondary;
+				background-color: $color-primary;
 			}
 		}
 
 		&-close {
-			color: var(--color-tertiary);
+			color: $color-secondary;
 			cursor: pointer;
 			display: inline;
 			font-size: 5rem;

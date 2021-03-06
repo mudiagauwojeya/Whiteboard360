@@ -158,7 +158,8 @@ body {
 }
 
 .navigation {
-  background-color: var(--bg-color);
+  background-color: #92967d;
+  color: #ff165d;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -189,7 +190,7 @@ body {
   }
 }
 .navigation__btn, .navigation__btn::after, .navigation__btn::before {
-  background-color: var(--color-tertiary);
+  background-color: #ff165d;
   display: block;
   height: 2px;
   transform-origin: center;
@@ -218,7 +219,7 @@ body {
   top: -0.8rem;
 }
 .navigation__menu {
-  background-color: #dde;
+  background-color: #92967d;
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -263,7 +264,7 @@ body {
   }
 }
 .navigation__menu-link:link, .navigation__menu-link:active {
-  color: var(--color-tertiary);
+  color: inherit;
   display: inline-block;
   font-weight: 700;
   font-size: 1.7rem;
@@ -278,18 +279,14 @@ body {
   }
 }
 .navigation__menu-link:visited {
-  color: var(--color-secondary);
+  color: #c8c6a7;
 }
 .navigation__menu-link:hover {
-  color: var(--text-color);
-}
-@media only screen and (min-width: 55rem) {
-  .navigation__menu-link:hover {
-    background-color: var(--color-primary);
-  }
+  color: #ff165d;
+  background-color: #ff9a00;
 }
 .navigation__menu-close {
-  color: var(--color-tertiary);
+  color: #ff165d;
   cursor: pointer;
   display: inline;
   font-size: 5rem;

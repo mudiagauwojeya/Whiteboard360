@@ -80,10 +80,11 @@ body {
 }
 
 .btn {
-  background-color: var(--text-color);
+  background-color: #ff165d;
   border: none;
   border-radius: 10rem;
-  box-shadow: 0 0.75rem 1rem rgba(51, 51, 51, 0.8);
+  box-shadow: 0 0.35rem 0.4rem rgba(67, 85, 96, 0.8);
+  color: inherit;
   display: inline-block;
   font-family: inherit;
   font-size: 1.85rem;
@@ -118,8 +119,8 @@ body {
   background-color: var(--color-secondary);
   border: none;
   border-radius: 0.7rem;
-  box-shadow: 0 0.8rem 0.5rem rgba(51, 51, 51, 0.4);
-  color: var(--text-color);
+  box-shadow: 0 0.8rem 0.5rem rgba(67, 85, 96, 0.4);
+  color: inherit;
   display: block;
   font-family: inherit;
   font-size: 1.6rem;

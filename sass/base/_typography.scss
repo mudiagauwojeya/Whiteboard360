@@ -1,20 +1,20 @@
 .heading {
-    font-family: var(--font-heading);
-    font-weight: 700;
-    text-transform: uppercase;
+	font-family: $heading;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .heading-primary {
-    @extend .heading;
-    font-size: 4rem;
+	@extend .heading;
+	font-size: 4rem;
 }
 
 .heading-secondary {
-    @extend .heading;
-    font-size: 2.3rem;
+	@extend .heading;
+	font-size: 2.3rem;
 }
 
 .heading-tertiary {
-    @extend .heading;
-    font-size: 1.8rem;
+	@extend .heading;
+	font-size: 1.8rem;
 }

@@ -39,7 +39,7 @@
 
 body {
   background-size: contain;
-  color: "#c8c6a7";
+  color: #c8c6a7;
   font-family: "Open sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -54,7 +54,7 @@ body {
 }
 
 .heading, .heading-tertiary, .heading-secondary, .heading-primary {
-  font-family: var(--font-heading);
+  font-family: "Lora", serif;
   font-weight: 700;
   text-transform: uppercase;
 }

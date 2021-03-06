@@ -24,8 +24,8 @@
 //body
 body {
 	background-size: contain;
-	color: var(--text-color);
-	font-family: var(--font-content);
+	color: $color-grey-4;
+	font-family: $content;
 	font-size: 1.6rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;

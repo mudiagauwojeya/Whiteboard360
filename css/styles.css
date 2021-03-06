@@ -39,8 +39,8 @@
 
 body {
   background-size: contain;
-  color: var(--text-color);
-  font-family: var(--font-content);
+  color: "#c8c6a7";
+  font-family: "Open sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.2rem;

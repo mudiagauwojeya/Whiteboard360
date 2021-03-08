@@ -1,6 +1,6 @@
 @keyframes flash {
   0% {
-    background-color: #6e7c7c;
+    background-color: #ff9a00;
     left: -24rem;
     opacity: 0.5;
   }

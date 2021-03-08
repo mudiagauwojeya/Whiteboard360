@@ -615,7 +615,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 12rem;
+  margin: 9rem 0;
 }
 .gallery__grid {
   display: grid;

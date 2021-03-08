@@ -79,8 +79,24 @@ body {
   margin-top: 2rem !important;
 }
 
+.mt-l {
+  margin-top: 4rem i !important;
+}
+
+.mb-s {
+  margin-bottom: 0.7rem !important;
+}
+
+.mb-m {
+  margin-bottom: 2rem !important;
+}
+
+.mb-l {
+  margin-bottom: 4rem !important;
+}
+
 .center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .btn {

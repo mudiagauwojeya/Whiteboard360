@@ -1,5 +1,5 @@
 .footer {
-	background-color: var(--body-color);
+	background-color: $color-grey-3;
 	padding: 6rem 2rem 0;
 
 	@include mediaQueries(37.5rem) {
@@ -49,20 +49,20 @@
 	&__link {
 		&:link,
 		&:active {
-			color: var(--bg-color);
+			color: $color-secondary;
 			cursor: pointer;
 			display: block;
 			padding: 2rem 0;
 			text-decoration: none;
 		}
 
-		&:visited,
-		&:hover {
-			color: var(--color-secondary);
+		&:visited {
+			color: $color-grey-3;
 		}
 
 		&:hover {
-			background-color: var(--bg-color);
+			background-color: $color-primary;
+			color: $color-secondary;
 		}
 	}
 

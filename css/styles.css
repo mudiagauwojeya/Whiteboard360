@@ -460,7 +460,7 @@ body {
 }
 
 .footer {
-  background-color: var(--body-color);
+  background-color: #92967d;
   padding: 6rem 2rem 0;
 }
 @media only screen and (min-width: 37.5rem) {
@@ -507,17 +507,18 @@ body {
   display: block;
 }
 .footer__link:link, .footer__link:active {
-  color: var(--bg-color);
+  color: #ff165d;
   cursor: pointer;
   display: block;
   padding: 2rem 0;
   text-decoration: none;
 }
-.footer__link:visited, .footer__link:hover {
-  color: var(--color-secondary);
+.footer__link:visited {
+  color: #92967d;
 }
 .footer__link:hover {
-  background-color: var(--bg-color);
+  background-color: #ff9a00;
+  color: #ff165d;
 }
 .footer__attribution {
   margin: 4rem 0;

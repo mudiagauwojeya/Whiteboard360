@@ -79,6 +79,10 @@ body {
   margin-top: 2rem !important;
 }
 
+.center {
+  text-align: center;
+}
+
 .btn {
   background-color: #ff165d;
   border: none;

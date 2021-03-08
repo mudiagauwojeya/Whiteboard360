@@ -363,7 +363,7 @@ body {
 }
 
 .feature {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -584,7 +584,7 @@ body {
 }
 
 .gallery {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
 .gallery__title {
@@ -720,7 +720,7 @@ body {
 }
 
 .studio {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -786,7 +786,7 @@ body {
 }
 
 .testimonial {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
 }
 .testimonial__title {
   background-image: url("../images/responsive_images/yellow-blob-sm.webp");

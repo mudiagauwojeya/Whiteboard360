@@ -338,6 +338,9 @@ body {
   max-width: 60rem;
   padding: 2rem 1.25rem 4rem;
 }
+.contact__form > h2 {
+  color: #ff165d;
+}
 .contact__label {
   color: #c8c6a7;
   display: block;

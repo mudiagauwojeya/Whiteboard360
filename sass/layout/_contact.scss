@@ -11,6 +11,10 @@
 		padding: 2rem 1.25rem 4rem;
 	}
 
+	&__form > h2 {
+		color: $color-secondary;
+	}
+
 	&__label {
 		color: $color-grey-4;
 		display: block;

@@ -80,7 +80,7 @@ body {
 }
 
 .mt-l {
-  margin-top: 4rem i !important;
+  margin-top: 4rem !important;
 }
 
 .mb-s {
@@ -93,6 +93,10 @@ body {
 
 .mb-l {
   margin-bottom: 4rem !important;
+}
+
+.my {
+  margin: 40rem 0;
 }
 
 .center {

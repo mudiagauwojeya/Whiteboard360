@@ -59,7 +59,9 @@
 	}
 
 	&__file {
-		border: 2px solid var(--color-secondary);
+		border: 2px solid $color-secondary;
+		border-radius: 1rem;
+
 		display: block;
 		height: 100%;
 		object-fit: fill;

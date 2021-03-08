@@ -778,7 +778,8 @@ body {
   }
 }
 .studio__file {
-  border: 2px solid var(--color-secondary);
+  border: 2px solid #ff165d;
+  border-radius: 1rem;
   display: block;
   height: 100%;
   object-fit: fill;

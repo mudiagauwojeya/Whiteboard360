@@ -332,7 +332,7 @@ body {
   font-size: 1.6rem;
   margin: 0 auto;
   max-width: 60rem;
-  padding: 4rem 1.25rem;
+  padding: 2rem 1.25rem 4rem;
 }
 .contact__label {
   color: #c8c6a7;

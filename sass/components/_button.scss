@@ -40,8 +40,8 @@
 	}
 }
 
-.btn--blue {
-	background-color: var(--color-secondary);
+.btn--red {
+	background-color: $color-secondary;
 	border: none;
 	border-radius: 0.7rem;
 	box-shadow: 0 0.8rem 0.5rem rgba($color-grey-2, 0.4);
@@ -55,7 +55,7 @@
 	transition: all 200ms ease;
 
 	&:active {
-		box-shadow: 0 0.5rem 0.5rem rgba(#333, 0.4);
+		box-shadow: 0 0.5rem 0.5rem rgba($color-grey-2, 0.4);
 		transform: translateY(0.4rem);
 	}
 

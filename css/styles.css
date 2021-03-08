@@ -305,24 +305,25 @@ body {
   padding: 10rem 2rem;
 }
 .contact__form {
-  background-color: var(--text-color);
+  background-color: #92967d;
   border-radius: 0.4rem;
-  box-shadow: 0 0.95rem 1rem rgba(51, 51, 51, 0.4);
-  color: var(--body-color);
+  box-shadow: 0 0.95rem 1rem rgba(67, 85, 96, 0.4);
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 0 auto;
   max-width: 60rem;
   padding: 4rem 1.25rem;
 }
 .contact__label {
+  color: #c8c6a7;
   display: block;
+  font-weight: bolder;
   margin: 2rem 0 0.5rem;
   padding-left: 0.7rem;
 }
 .contact__input {
-  background-color: #dde;
-  border: 1.5px solid var(--bg-color);
+  background-color: #c8c6a7;
+  border: 1.5px solid #435560;
   border-radius: 0.4rem;
   display: block;
   font-family: inherit;

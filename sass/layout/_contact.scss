@@ -1,26 +1,27 @@
 .contact {
 	padding: 10rem 2rem;
 	&__form {
-		background-color: var(--text-color);
+		background-color: $color-grey-3;
 		border-radius: 0.4rem;
-		box-shadow: 0 0.95rem 1rem rgba(#333, 0.4);
-		color: var(--body-color);
+		box-shadow: 0 0.95rem 1rem rgba($color-grey-2, 0.4);
 		display: block;
-		font-size: 1.5rem;
+		font-size: 1.6rem;
 		margin: 0 auto;
 		max-width: 60rem;
 		padding: 4rem 1.25rem;
 	}
 
 	&__label {
+		color: $color-grey-4;
 		display: block;
+		font-weight: bolder;
 		margin: 2rem 0 0.5rem;
 		padding-left: 0.7rem;
 	}
 
 	&__input {
-		background-color: #dde;
-		border: 1.5px solid var(--bg-color);
+		background-color: $color-grey-4;
+		border: 1.5px solid $color-grey-2;
 		border-radius: 0.4rem;
 		display: block;
 		font-family: inherit;

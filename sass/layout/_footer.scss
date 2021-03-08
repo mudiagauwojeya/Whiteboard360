@@ -57,7 +57,7 @@
 		}
 
 		&:visited {
-			color: $color-grey-3;
+			color: $color-grey-4;
 		}
 
 		&:hover {
@@ -70,23 +70,26 @@
 		margin: 4rem 0;
 
 		& div {
-			color: var(--text-color);
 			font-size: 1.4rem;
 		}
 
 		& a {
 			&:link,
 			&:active {
-				color: var(--bg-color);
+				color: $color-secondary;
 				cursor: pointer;
 				display: block;
 				font-size: 1.5rem;
 				text-decoration: none;
 			}
 
-			&:visited,
+			&:visited {
+				color: $color-grey-4;
+			}
+
 			&:hover {
-				color: var(--color-secondary);
+				background-color: $color-primary;
+				color: $color-secondary;
 			}
 		}
 
@@ -96,8 +99,7 @@
 	}
 
 	&__copyright {
-		color: var(--bg-color);
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		text-align: center;
 
 		&-text {
@@ -105,11 +107,5 @@
 			font-size: inherit;
 			opacity: 0.5;
 		}
-	}
-
-	&__heading {
-		color: #dde;
-		font-size: 1.4rem;
-		margin-bottom: 2rem;
 	}
 }

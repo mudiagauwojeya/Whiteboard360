@@ -1,5 +1,5 @@
 .btn {
-	background-color: $color-secondary;
+	background-color: $color-red-primary;
 	border: none;
 	border-radius: 10rem;
 	box-shadow: 0 0.35rem 0.4rem rgba($color-grey-2, 0.8);
@@ -41,7 +41,7 @@
 }
 
 .btn--red {
-	background-color: $color-secondary;
+	background-color: $color-red-primary;
 	border: none;
 	border-radius: 0.7rem;
 	box-shadow: 0 0.8rem 0.5rem rgba($color-grey-2, 0.4);

@@ -1,6 +1,6 @@
 .navigation {
 	background-color: $color-grey-3;
-	color: $color-secondary;
+	color: $color-red-primary;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
@@ -42,7 +42,7 @@
 	&__btn,
 	&__btn::after,
 	&__btn::before {
-		background-color: $color-secondary;
+		background-color: $color-red-primary;
 		display: block;
 		height: 2px;
 		transform-origin: center;
@@ -139,13 +139,13 @@
 			}
 
 			&:hover {
-				color: $color-secondary;
-				background-color: $color-primary;
+				color: $color-red-primary;
+				background-color: $color-yellow-primary;
 			}
 		}
 
 		&-close {
-			color: $color-secondary;
+			color: $color-red-primary;
 			cursor: pointer;
 			display: inline;
 			font-size: 5rem;

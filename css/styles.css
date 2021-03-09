@@ -976,9 +976,6 @@ body {
   transition: all 100ms ease-in;
   width: 100%;
 }
-.pricing__package:hover {
-  transform: translateY(-0.5rem);
-}
 .pricing__caption {
   background-color: var(--color-secondary);
   border-top-left-radius: 0.5rem;

@@ -1,7 +1,7 @@
 const navButton = document.querySelector(".navigation__bg");
 const menuOpenButton = document.querySelector(".navigation__menu");
 const menuCloseButton = document.querySelector(".navigation__menu-close");
-const videos = document.querySelectorAll(".studio__file");
+const videoGridContainer = document.querySelector(".studio__grid");
 const contactLink = document.getElementById("contact-link");
 const copyrightYear = document.querySelector(".footer__copyright span");
 const getQuoteBtn = document.querySelectorAll(".quote");
@@ -28,6 +28,9 @@ menuCloseButton.addEventListener("click", closeMenuBtn);
 
 //make video fullscreen and play it
 const videoControl = (event) => {
+	if (event.target.nodeName !== "VIDEO" || event.target.tagName !== "VIDEO") {
+		return;
+	}
 	const video = event.target;
 	if (!document.fullscreenElement) {
 		video.requestFullscreen();
@@ -48,15 +51,8 @@ const videoControl = (event) => {
 	};
 };
 
-// add event listeners to video elements
-const addVideoListener = () => {
-	let i;
-	for (i = 0; i < videos.length; i++) {
-		videos[i].addEventListener("click", videoControl);
-	}
-};
-
-addVideoListener();
+// add event listener to the video grid container
+videoGridContainer.addEventListener("click", videoControl);
 
 // Add functionality to the hamburger menu for smaller screens
 if (screen.width < 880) {

@@ -52,7 +52,9 @@ const videoControl = (event) => {
 };
 
 // add event listener to the video grid container
-videoGridContainer.addEventListener("click", videoControl);
+videoGridContainer
+	? videoGridContainer.addEventListener("click", videoControl)
+	: null;
 
 // Add functionality to the hamburger menu for smaller screens
 if (screen.width < 880) {

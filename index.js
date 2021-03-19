@@ -92,13 +92,15 @@ if (backdrop) {
 document.addEventListener("DOMContentLoaded", () => {
 	const options = {
 		root: null,
-		rootMargin: "0px 0px -200px",
-		threshold: 0.05,
+		rootMargin: "0px 0px -50px",
+		threshold: 0.03,
 	};
 	const slideIn = (elements) => {
 		for (const element of elements) {
 			if (element.isIntersecting) {
-				console.log("is intersecting");
+				element.target.classList.add("slideIn");
+			} else {
+				element.target.classList.remove("slideIn");
 			}
 		}
 	};

@@ -40,3 +40,16 @@ body {
 }
 
 // ::selection {}
+
+//animation for intersection observer
+.observe {
+	opacity: 0;
+	transform: translateY(50rem);
+	transition: all 1s ease-in;
+}
+
+.slideIn {
+	opacity: 1;
+	transform: translateY(0);
+	transition: all 1s ease-out;
+}

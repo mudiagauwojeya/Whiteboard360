@@ -87,3 +87,25 @@ for (const btn of getQuoteBtn) {
 if (backdrop) {
 	backdrop.addEventListener("click", onCloseModal);
 }
+
+//Intersection observer section
+document.addEventListener("DOMContentLoaded", () => {
+	const options = {
+		root: null,
+		rootMargin: "0px 0px -200px",
+		threshold: 0.05,
+	};
+	const slideIn = (elements) => {
+		for (const element of elements) {
+			if (element.isIntersecting) {
+				console.log("is intersecting");
+			}
+		}
+	};
+
+	const observer = new IntersectionObserver(slideIn, options);
+	const observedEl = document.getElementsByClassName("observe");
+	for (const element of observedEl) {
+		observer.observe(element);
+	}
+});

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="A company that provides whiteboard animation, 2d animation, voiceover, and script-writing"
+		/>
+		<meta
+			name="keywords"
+			content="whiteboard whiteboard-animation 2d animation doodles"
+		/>
+		<meta name="author" content="Mudiaga Moody" />
+		<title>Whiteboard 360</title>
+
+		<!-- delivering critical resources -->
+		<link rel="preload" href="css/styles.css" as="style" />
+
+		<!-- script for the mobile menu -->
+		<script src="index.js" defer></script>
+
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!--Personal stylesheet-->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- compressed stylesheet -->
+		<!-- <link rel="stylesheet" href="css/styles.min.css"> -->
+	</head>
+
+	<body class="container">
+		<!-- modal -->
+		<template class="modal__template">
+			<div class="modal__backdrop"></div>
+			<div class="modal__content">
+				<form action="#" class="modal__form">
+					<label for="select" class="modal__form-label">
+						<select name="project" id="select" modal__form-input>
+							<option value="Whiteboard Animation">
+								Whiteboard Animation
+							</option>
+							<option value="Cartoon Portrait">Cartoon Portrait</option>
+							<option value="Logo Design">Logo Design</option>
+						</select>
+					</label>
+					<label for="duration" class="modal__form-label">
+						<input
+							type="number"
+							name="duration"
+							id="duration"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="budget" class="modal__form-label">
+						<input
+							type="range"
+							name="budget"
+							id="budget"
+							class="modal__form-input"
+						/>
+					</label>
+					<label for="delivery" class="modal__form-label">
+						<input
+							type="number"
+							name="delivery"
+							id="delivery"
+							class="modal__form-input"
+						/>
+					</label>
+				</form>
+			</div>
+		</template>
+
+		<!-- navigation -->
+		<nav class="navigation">
+			<!-- brand -->
+			<div class="navigation__brand">
+				<a href="index.html" class="navigation__brand-link"
+					><img
+						srcset="
+						./images/responsive_images/360-logo-small.webp 300w,
+						./images/responsive_images/360-logo.webp 500w,
+						./images/responsive_images/360-logo-small.webp 1x,
+						./images/responsive_images/360-logo.webp 2x
+					"
+						width="80px"
+						height="auto"
+						alt="360 whiteboard logo"
+						class="navigation__logo"
+						src="./images/responsive_images/360-logo.webp"
+					/>
+				</a>
+			</div>
+
+			<div class="navigation__bg">
+				<span class="navigation__btn"></span>
+			</div>
+
+			<div class="navigation__menu">
+				<span class="navigation__menu-close">&Cross;</span>
+
+				<ul class="navigation__menu-list">
+					<li class="navigation__menu-item">
+						<a href="index.html" class="navigation__menu-link">Home</a>
+					</li>
+					<li class="navigation__menu-item">
+						<a href="pricing.html" class="navigation__menu-link"
+							>Pricing</a
+						>
+					</li>
+					<li class="navigation__menu-item">
+						<a href="faq.html" class="navigation__menu-link">FAQ</a>
+					</li>
+					<li class="navigation__menu-item">
+						<a
+							href="index.html#contact"
+							class="navigation__menu-link"
+							id="contact-link"
+							>Contact</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- pricing section -->
+		<section class="pricing">
+			<div class="pricing__section-intro">
+				<h2 class="heading-secondary pricing__heading">Pricing</h2>
+			</div>
+
+			<h3 class="heading-secondary pricing__category">
+				Whiteboard Animation
+			</h3>
+			<div class="pricing__container">
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Basic - $350</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Voice over</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Script writing</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Background music</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>0-30s running time</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>75 words</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>2 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>21 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">
+						Standard - $600
+					</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Voice over</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Script writing</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Background music</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>60s running time</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>150 words</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>14 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Premium - $750</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Voice over</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Script writing</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Background music</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>90s running time</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>220 words</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>14 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="heading-secondary pricing__category">logo design</h3>
+			<div class="pricing__container">
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Basic - $30</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>1 initial concept</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Logo transparency</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Stationery designs</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Social media kit</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Vector file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>2 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Standard - $60</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>2 initial concepts</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Logo transparency</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Stationery designs</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Social media kit</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Vector file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>6 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Premium - $150</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 initial concepts</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Logo transparency</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Stationery designs</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Social media kit</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Vector file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>unlimited revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>6 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="heading-secondary pricing__category">Cartoon portraits</h3>
+			<div class="pricing__container">
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Basic - $10</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Figures - 1</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Head to shoulder</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--clear">
+								<use href="images/sprite.svg#icon-clear"></use>
+							</svg>
+							<div>Commercial use</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 revisions</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Standard - $20</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Figures - 1</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Half body</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Commercial use</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Unlimited</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+				<div class="pricing__package">
+					<h3 class="heading-tertiary pricing__caption">Premium - $50</h3>
+					<ul class="pricing__description">
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Source file</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>High Resolution</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Figures - 1</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Full body</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Commercial use</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>Unlimited</div>
+						</li>
+						<li class="pricing__item">
+							<svg class="pricing__icon pricing__icon--check">
+								<use href="images/sprite.svg#icon-check"></use>
+							</svg>
+							<div>3 days delivery</div>
+						</li>
+						<button type="button" class="btn--red quote">
+							Get A Quote
+						</button>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="footer__logo">
+				<img
+					srcset="
+				./images/responsive_images/whiteboard-360-banner-sm.webp 370w,
+				./images/responsive_images/whiteboard-360-banner-lg.webp 500w,
+				./images/responsive_images/whiteboard-360-banner-sm.webp 1x,
+				./images/responsive_images/whiteboard-360-banner-sm.webp 2x,
+				./images/responsive_images/whiteboard-360-banner-lg.webp 1x,
+				./images/responsive_images/whiteboard-360-banner-lg.webp 2x
+				"
+					width="200px"
+					height="auto"
+					sizes="(min-width: 22.5em) 55vw, (min-width: 48em) 45vw, 350px"
+					src="./images/responsive_images/360-banner-lg.webp"
+					alt="360 Whiteboard
+					Animation logo banner"
+					class="footer__logo-image"
+				/>
+			</div>
+			<div class="footer__links">
+				<ul class="footer__quick-links">
+					<h3 class="heading-tertiary footer__heading">Quick Links</h3>
+					<li class="footer__link-item">
+						<a href="index.html" class="footer__link">Home</a>
+					</li>
+					<li class="footer__link-item">
+						<a href="pricing.html" class="footer__link">Pricing</a>
+					</li>
+					<li class="footer__link-item">
+						<a href="faq.html" class="footer__link">FAQ</a>
+					</li>
+					<li class="footer__link-item">
+						<a href="index.html#contact" class="footer__link">Contact</a>
+					</li>
+				</ul>
+				<div class="footer__attribution">
+					<h3 class="heading-tertiary footer__heading">Attribution</h3>
+					<div>
+						All abstract organic forms with frame
+						<a href="http://www.freepik.com"
+							>Designed by pch.vector / Freepik</a
+						>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				<p class="footer__copyright-text">
+					&copy;<span></span> 360Whiteboard All rights reserved!
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

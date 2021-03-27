@@ -19,6 +19,7 @@
 
 	&__content {
 		background-color: $color-grey-4;
+		border-radius: 0.5rem;
 		display: none;
 		width: 35rem;
 
@@ -26,5 +27,12 @@
 		left: 3rem;
 		top: 20rem;
 		z-index: 250;
+	}
+
+	&__form {
+		background-color: $color-grey-3;
+		border-radius: 0.5rem;
+		padding: 4rem 1.5rem;
+		width: 100%;
 	}
 }

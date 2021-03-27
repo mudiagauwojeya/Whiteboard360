@@ -199,12 +199,19 @@ body {
 }
 .modal__content {
   background-color: #c8c6a7;
+  border-radius: 0.5rem;
   display: none;
   width: 35rem;
   position: fixed;
   left: 3rem;
   top: 20rem;
   z-index: 250;
+}
+.modal__form {
+  background-color: #92967d;
+  border-radius: 0.5rem;
+  padding: 4rem 1.5rem;
+  width: 100%;
 }
 
 .navigation {

@@ -197,6 +197,11 @@ body {
     backdrop-filter: blur(30px);
   }
 }
+.modal__content {
+  display: none;
+  position: relative;
+  top: 0;
+}
 
 .navigation {
   background-color: #92967d;

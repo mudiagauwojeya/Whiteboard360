@@ -39,7 +39,11 @@ body {
 	justify-content: space-between;
 }
 
-// ::selection {}
+//style for selection
+::selection {
+	background-color: $color-yellow-primary;
+	color: $color-grey-3;
+}
 
 //animation for intersection observer
 .observe {

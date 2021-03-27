@@ -213,6 +213,13 @@ body {
   padding: 4rem 1.5rem;
   width: 100%;
 }
+.modal__form-input {
+  border: none;
+  border-radius: 0.3rem;
+  margin: 0.7rem 0;
+  padding: 1.25rem 1rem;
+  width: 100%;
+}
 
 .navigation {
   background-color: #92967d;

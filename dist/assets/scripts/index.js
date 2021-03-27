@@ -12,7 +12,7 @@ const modal = modalTemplate
 	? document.importNode(modalTemplate.content, true)
 	: null;
 const backdrop = modal ? modal.querySelector(".modal__backdrop") : null;
-const modalForm = modal ? modal.querySelector(".modal__form") : null;
+const modalContent = modal ? modal.querySelector(".modal__content") : null;
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -70,9 +70,9 @@ copyrightYear.textContent = `${d.getFullYear()}`;
 //Get a quote function
 const onGetQuote = (e) => {
 	backdrop.style.display = "block";
-	modalForm.style.display = "block";
-	document.body.prepend(modalForm);
-	document.body.prepend(backdrop);
+	modalContent.style.display = "block";
+	document.body.append(backdrop);
+	document.body.append(modalContent);
 };
 
 //Close modal function

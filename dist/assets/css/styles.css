@@ -182,7 +182,7 @@ body {
 }
 
 .modal__backdrop {
-  background-color: var(--body-color);
+  background-color: #435560;
   display: none;
   height: 100vh;
   opacity: 0.8;
@@ -198,9 +198,13 @@ body {
   }
 }
 .modal__content {
+  background-color: #c8c6a7;
   display: none;
-  position: relative;
-  top: 0;
+  width: 35rem;
+  position: fixed;
+  left: 3rem;
+  top: 20rem;
+  z-index: 250;
 }
 
 .navigation {

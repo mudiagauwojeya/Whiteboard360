@@ -70,6 +70,8 @@ copyrightYear.textContent = `${d.getFullYear()}`;
 //Get a quote function
 const onGetQuote = (e) => {
 	backdrop.style.display = "block";
+	modalForm.style.display = "block";
+	document.body.prepend(modalForm);
 	document.body.prepend(backdrop);
 };
 

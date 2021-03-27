@@ -77,6 +77,7 @@ const onGetQuote = (e) => {
 
 //Close modal function
 const onCloseModal = (e) => {
+	modalContent.style.display = "none";
 	backdrop.style.display = "none";
 };
 

@@ -181,8 +181,8 @@ body {
   text-decoration: none;
 }
 
-.btn--success {
-  background-color: #ff9a00;
+.btn--cancel {
+  background-color: #435560;
   border: none;
   border-radius: 0.7rem;
   box-shadow: 0 0.8rem 0.5rem rgba(67, 85, 96, 0.4);
@@ -195,14 +195,14 @@ body {
   text-transform: uppercase;
   transition: all 200ms ease;
 }
-.btn--success:active {
+.btn--cancel:active {
   box-shadow: 0 0.5rem 0.5rem rgba(67, 85, 96, 0.4);
   transform: translateY(0.4rem);
 }
-.btn--success:focus {
+.btn--cancel:focus {
   outline: none;
 }
-.btn--success:visited {
+.btn--cancel:visited {
   text-decoration: none;
 }
 

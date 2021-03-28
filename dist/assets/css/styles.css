@@ -201,10 +201,11 @@ body {
   background-color: #c8c6a7;
   border-radius: 0.5rem;
   display: none;
+  overflow-y: scroll;
   width: 35rem;
   position: fixed;
   left: 3rem;
-  top: 20rem;
+  top: 15rem;
   z-index: 250;
 }
 .modal__form {

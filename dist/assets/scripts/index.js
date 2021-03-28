@@ -95,8 +95,8 @@ if (backdrop) {
 document.addEventListener("DOMContentLoaded", () => {
 	const options = {
 		root: null,
-		rootMargin: "0px 0px -50px",
-		threshold: 0.03,
+		rootMargin: "0px 0px -20px",
+		threshold: 0.02,
 	};
 	const slideIn = (elements) => {
 		for (const element of elements) {

@@ -23,9 +23,11 @@
 		display: none;
 		width: 35rem;
 
+		//use scrollTop to center this element
 		position: absolute;
-		left: 3rem;
-		top: 50rem;
+		left: 50%;
+		top: 90rem;
+		transform: translate(-50%, -50%);
 		z-index: 250;
 	}
 
@@ -38,7 +40,8 @@
 		&-input {
 			border: none;
 			border-radius: 0.3rem;
-			margin: 0.7rem 0;
+			font-family: inherit;
+			margin: 2rem 0 1rem;
 			padding: 1.25rem 1rem;
 			width: 100%;
 		}

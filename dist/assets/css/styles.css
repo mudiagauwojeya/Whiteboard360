@@ -162,7 +162,7 @@ body {
   border-radius: 0.7rem;
   box-shadow: 0 0.8rem 0.5rem rgba(67, 85, 96, 0.4);
   color: inherit;
-  display: block;
+  display: inline-block;
   font-family: inherit;
   font-size: 1.6rem;
   margin-top: 2.5rem;
@@ -178,6 +178,31 @@ body {
   outline: none;
 }
 .btn--red:visited {
+  text-decoration: none;
+}
+
+.btn--success {
+  background-color: #ff9a00;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0 0.8rem 0.5rem rgba(67, 85, 96, 0.4);
+  color: inherit;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  transition: all 200ms ease;
+}
+.btn--success:active {
+  box-shadow: 0 0.5rem 0.5rem rgba(67, 85, 96, 0.4);
+  transform: translateY(0.4rem);
+}
+.btn--success:focus {
+  outline: none;
+}
+.btn--success:visited {
   text-decoration: none;
 }
 

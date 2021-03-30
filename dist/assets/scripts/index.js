@@ -82,8 +82,8 @@ const onCloseModal = (e) => {
 };
 
 //Add eventlistener to each get-a-quote button
-for (const btn of getQuoteBtn) {
-	if (getQuoteBtn) {
+if (getQuoteBtn) {
+	for (const btn of getQuoteBtn) {
 		btn.addEventListener("click", onGetQuote);
 	}
 }

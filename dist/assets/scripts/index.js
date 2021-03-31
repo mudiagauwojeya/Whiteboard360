@@ -71,7 +71,7 @@ copyrightYear.textContent = `${d.getFullYear()}`;
 const onGetQuote = (e) => {
 	backdrop.style.display = "block";
 	modalContent.style.display = "block";
-	modalContent.scrollIntoView({ behavior: "smooth" });
+	document.documentElement.scrollTo({ top: 180, behavior: "smooth" });
 	document.body.append(backdrop);
 	document.body.append(modalContent);
 };

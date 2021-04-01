@@ -100,7 +100,14 @@ modalForm.addEventListener("submit", (e) => {
 		onCloseModal();
 		return;
 	}
-	console.log(e);
+	const formData = {
+		project: modalForm.project.value,
+		duration: modalForm.duration.value,
+		budget: modalForm.budget.value,
+		delivery: modalForm.delivery.value,
+	};
+	modalForm.reset();
+	console.log(formData);
 });
 
 //Intersection observer section

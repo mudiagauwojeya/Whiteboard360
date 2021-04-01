@@ -13,6 +13,7 @@ const modal = modalTemplate
 	: null;
 const backdrop = modal ? modal.querySelector(".modal__backdrop") : null;
 const modalContent = modal ? modal.querySelector(".modal__content") : null;
+const modalForm = modal ? modal.querySelector(".modal__form") : null;
 
 //open menu button on mobile
 const openMenuBtn = () => {
@@ -91,6 +92,16 @@ if (getQuoteBtn) {
 if (backdrop) {
 	backdrop.addEventListener("click", onCloseModal);
 }
+
+//modal form interactivity
+modalForm.addEventListener("submit", (e) => {
+	e.preventDefault();
+	if (e.submitter.innerText === "CANCEL") {
+		onCloseModal();
+		return;
+	}
+	console.log(e);
+});
 
 //Intersection observer section
 document.addEventListener("DOMContentLoaded", () => {

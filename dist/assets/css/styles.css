@@ -27,11 +27,6 @@
   background-image: linear-gradient(89.8deg, #de4a4a 4.7%, #1e1d1d 120.3%);
   font-size: 62.5%;
 }
-@media only screen and (min-width: 55rem) {
-  :root {
-    background-image: url("../images/responsive_images/bg-lg.webp");
-  }
-}
 
 body {
   background-size: contain;

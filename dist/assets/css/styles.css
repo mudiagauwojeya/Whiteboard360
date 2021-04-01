@@ -30,7 +30,7 @@
 
 body {
   background-size: contain;
-  color: #c8c6a7;
+  color: #dae0dc;
   font-family: "Open sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -214,7 +214,7 @@ body {
   }
 }
 .modal__content {
-  background-color: #c8c6a7;
+  background-color: #dae0dc;
   border-radius: 0.5rem;
   display: none;
   width: 35rem;
@@ -241,7 +241,7 @@ body {
 
 .navigation {
   background-color: #92967d;
-  color: #c8c6a7;
+  color: #dae0dc;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -361,10 +361,10 @@ body {
   }
 }
 .navigation__menu-link:visited {
-  color: #c8c6a7;
+  color: #dae0dc;
 }
 .navigation__menu-link:hover {
-  color: #7d2a25;
+  color: #ba685f;
   background-color: #fd554c;
 }
 .navigation__menu-close {
@@ -397,17 +397,17 @@ body {
   padding: 2rem 1.25rem 4rem;
 }
 .contact__form > h2 {
-  color: #7d0600;
+  color: #3b0f08;
 }
 .contact__label {
-  color: #c8c6a7;
+  color: #dae0dc;
   display: block;
   font-weight: bolder;
   margin: 2rem 0 0.5rem;
   padding-left: 0.7rem;
 }
 .contact__input {
-  background-color: #c8c6a7;
+  background-color: #dae0dc;
   border: 1.5px solid #435560;
   border-radius: 0.4rem;
   display: block;
@@ -420,7 +420,7 @@ body {
   outline: none;
 }
 .contact__input:valid {
-  border: 1.5px solid #a7ff83;
+  border: 1.5px solid #85fa61;
 }
 
 .feature {
@@ -479,9 +479,9 @@ body {
   }
 }
 .feature__features {
-  background-color: #c8c6a7;
+  background-color: #dae0dc;
   clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
-  color: #7d0600;
+  color: #3b0f08;
   height: 25rem;
   width: 25rem;
   padding: 2rem 0;
@@ -504,7 +504,7 @@ body {
   top: 5rem;
 }
 .feature__title {
-  color: #7d2a25;
+  color: #ba685f;
 }
 .feature__title--1 {
   position: absolute;
@@ -595,18 +595,18 @@ body {
   display: block;
 }
 .footer__link:link, .footer__link:active {
-  color: #7d2a25;
+  color: #ba685f;
   cursor: pointer;
   display: block;
   padding: 2rem 0;
   text-decoration: none;
 }
 .footer__link:visited {
-  color: #c8c6a7;
+  color: #dae0dc;
 }
 .footer__link:hover {
   background-color: #fd554c;
-  color: #7d0600;
+  color: #3b0f08;
 }
 .footer__attribution {
   margin: 4rem 0;
@@ -615,18 +615,18 @@ body {
   font-size: 1.4rem;
 }
 .footer__attribution a:link, .footer__attribution a:active {
-  color: #7d0600;
+  color: #3b0f08;
   cursor: pointer;
   display: block;
   font-size: 1.5rem;
   text-decoration: none;
 }
 .footer__attribution a:visited {
-  color: #c8c6a7;
+  color: #dae0dc;
 }
 .footer__attribution a:hover {
   background-color: #fd554c;
-  color: #7d2a25;
+  color: #ba685f;
 }
 @media only screen and (min-width: 37.5rem) {
   .footer__attribution {
@@ -1039,7 +1039,7 @@ body {
   width: 100%;
 }
 .pricing__description {
-  background-color: #c8c6a7;
+  background-color: #dae0dc;
   color: #435560;
   display: block;
   font-size: 1.3rem;
@@ -1057,7 +1057,7 @@ body {
   width: 1.5rem;
 }
 .pricing__icon--check {
-  fill: #a7ff83;
+  fill: #85fa61;
 }
 .pricing__icon--clear {
   fill: #fd554c;

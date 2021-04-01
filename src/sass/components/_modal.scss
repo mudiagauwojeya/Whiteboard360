@@ -10,15 +10,12 @@
 		top: 0;
 		z-index: 200;
 
-		@supports (-webkit-backdrop-filter: blur(10px)) or
-			(backdrop-filter: blur(10px)) {
-			-webkit-backdrop-filter: blur(10px);
-			backdrop-filter: blur(30px);
+		@supports (backdrop-filter: blur(1px)) {
+			backdrop-filter: blur(90px);
 		}
 	}
 
 	&__content {
-		background-color: $color-grey-4;
 		border-radius: 0.5rem;
 		display: none;
 		width: 35rem;
@@ -32,10 +29,14 @@
 	}
 
 	&__form {
-		background-color: $color-grey-3;
+		background-color: $color-grey-4;
 		border-radius: 0.5rem;
 		padding: 4rem 1.5rem;
 		width: 100%;
+
+		&-label {
+			color: $color-primary-shade-1;
+		}
 
 		&-input {
 			border: none;

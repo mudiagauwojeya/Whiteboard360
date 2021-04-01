@@ -387,7 +387,7 @@ body {
   padding: 10rem 2rem;
 }
 .contact__form {
-  background-color: #92967d;
+  background-color: #dae0dc;
   border-radius: 0.4rem;
   box-shadow: 0 0.95rem 1rem rgba(67, 85, 96, 0.4);
   display: block;
@@ -400,16 +400,16 @@ body {
   color: #3b0f08;
 }
 .contact__label {
-  color: #dae0dc;
+  color: #3b0f08;
   display: block;
   font-weight: bolder;
   margin: 2rem 0 0.5rem;
   padding-left: 0.7rem;
 }
 .contact__input {
-  background-color: #dae0dc;
   border: 1.5px solid #435560;
   border-radius: 0.4rem;
+  color: #faf7e0;
   display: block;
   font-family: inherit;
   font-size: inherit;
@@ -417,6 +417,7 @@ body {
   width: 100%;
 }
 .contact__input:focus {
+  background-color: #92967d;
   outline: none;
 }
 .contact__input:valid {

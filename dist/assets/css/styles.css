@@ -240,8 +240,8 @@ body {
 }
 
 .navigation {
-  background-color: #92967d;
-  color: #dae0dc;
+  background-color: #dae0dc;
+  color: #3b0f08;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -301,7 +301,7 @@ body {
   top: -0.8rem;
 }
 .navigation__menu {
-  background-color: #92967d;
+  background-color: #dae0dc;
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -361,10 +361,10 @@ body {
   }
 }
 .navigation__menu-link:visited {
-  color: #dae0dc;
+  color: #ba685f;
 }
 .navigation__menu-link:hover {
-  color: #ba685f;
+  color: #3b0f08;
   background-color: #fd554c;
 }
 .navigation__menu-close {

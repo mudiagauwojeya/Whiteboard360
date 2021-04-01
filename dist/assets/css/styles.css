@@ -548,7 +548,7 @@ body {
 }
 
 .footer {
-  background-color: #92967d;
+  background-color: #dae0dc;
   padding: 6rem 2rem 0;
 }
 @media only screen and (min-width: 37.5rem) {
@@ -602,7 +602,7 @@ body {
   text-decoration: none;
 }
 .footer__link:visited {
-  color: #dae0dc;
+  color: #ba685f;
 }
 .footer__link:hover {
   background-color: #fd554c;
@@ -622,11 +622,11 @@ body {
   text-decoration: none;
 }
 .footer__attribution a:visited {
-  color: #dae0dc;
+  color: #ba685f;
 }
 .footer__attribution a:hover {
   background-color: #fd554c;
-  color: #ba685f;
+  color: #3b0f08;
 }
 @media only screen and (min-width: 37.5rem) {
   .footer__attribution {
@@ -638,7 +638,7 @@ body {
   text-align: center;
 }
 .footer__copyright-text {
-  color: inherit;
+  color: #435560;
   font-size: inherit;
   opacity: 0.5;
 }

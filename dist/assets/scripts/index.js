@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const options = {
 		root: null,
 		rootMargin: "0px 0px -5px",
-		threshold: 0.02,
+		threshold: 0.01,
 	};
 	const slideIn = (elements) => {
 		for (const element of elements) {

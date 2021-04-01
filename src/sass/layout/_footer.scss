@@ -49,7 +49,7 @@
 	&__link {
 		&:link,
 		&:active {
-			color: $color-red-primary;
+			color: $color-primary-shade-4;
 			cursor: pointer;
 			display: block;
 			padding: 2rem 0;
@@ -61,8 +61,8 @@
 		}
 
 		&:hover {
-			background-color: $color-yellow-primary;
-			color: $color-red-primary;
+			background-color: $color-primary-shade-2;
+			color: $color-primary-shade-1;
 		}
 	}
 
@@ -76,7 +76,7 @@
 		& a {
 			&:link,
 			&:active {
-				color: $color-red-primary;
+				color: $color-primary-shade-1;
 				cursor: pointer;
 				display: block;
 				font-size: 1.5rem;
@@ -88,8 +88,8 @@
 			}
 
 			&:hover {
-				background-color: $color-yellow-primary;
-				color: $color-red-primary;
+				background-color: $color-primary-shade-2;
+				color: $color-primary-shade-4;
 			}
 		}
 

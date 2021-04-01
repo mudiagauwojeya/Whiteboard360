@@ -56,7 +56,7 @@
 	&__features {
 		background-color: $color-grey-4;
 		clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
-		color: $color-red-primary;
+		color: $color-primary-shade-1;
 		height: 25rem;
 		width: 25rem;
 		padding: 2rem 0;
@@ -74,7 +74,7 @@
 	}
 
 	&__icon {
-		fill: $color-yellow-primary;
+		fill: $color-primary-shade-2;
 		height: 8rem;
 		width: 8rem;
 
@@ -84,7 +84,7 @@
 	}
 
 	&__title {
-		color: var(--color-secondary);
+		color: $color-primary-shade-4;
 
 		&--1 {
 			position: absolute;

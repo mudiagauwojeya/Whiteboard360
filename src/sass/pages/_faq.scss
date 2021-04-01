@@ -1,5 +1,4 @@
 .faq {
-	color: var(--text-color);
 	padding: 8rem 2rem;
 
 	display: flex;
@@ -25,7 +24,6 @@
 		@include centered;
 		@include textbox;
 
-		color: var(--text-color);
 		display: block;
 		padding: 2rem 1rem;
 		width: 30rem;

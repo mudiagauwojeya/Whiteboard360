@@ -50,7 +50,7 @@
 		transition: all 100ms ease-in-out;
 
 		&:hover {
-			outline: 1rem solid $color-red-primary;
+			outline: 1rem solid $color-primary-shade-3;
 			transform: scale(1.1);
 			z-index: 10;
 		}
@@ -64,7 +64,7 @@
 	}
 
 	&__category--1 {
-		color: $color-red-primary;
+		color: $color-primary-shade-3;
 		margin-bottom: 2rem;
 	}
 }

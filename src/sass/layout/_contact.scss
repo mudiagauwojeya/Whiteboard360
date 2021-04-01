@@ -12,7 +12,7 @@
 	}
 
 	&__form > h2 {
-		color: $color-red-primary;
+		color: $color-primary-shade-1;
 	}
 
 	&__label {
@@ -39,6 +39,6 @@
 	}
 
 	&__input:valid {
-		border: 1.5px solid #20f020;
+		border: 1.5px solid $color-success;
 	}
 }

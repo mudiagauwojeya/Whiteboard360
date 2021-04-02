@@ -111,11 +111,11 @@ body {
 }
 
 .btn {
-  background-color: #fd554c;
+  background-color: #dae0dc;
   border: none;
   border-radius: 10rem;
   box-shadow: 0 0.35rem 0.4rem rgba(67, 85, 96, 0.8);
-  color: inherit;
+  color: #3b0f08;
   display: inline-block;
   font-family: inherit;
   font-size: 1.85rem;

@@ -1,17 +1,14 @@
 @keyframes flash {
   0% {
-    background-color: #fc0d00;
-    left: -24rem;
+    transform: scale(1);
     opacity: 0.5;
   }
   10% {
-    background-color: transparent;
-    left: 24rem;
+    transform: scale(1.4);
     opacity: 0;
   }
   100% {
-    background-color: transparent;
-    left: 24rem;
+    transform: scale(1.2);
     opacity: 0;
   }
 }
@@ -119,13 +116,13 @@ body {
   display: inline-block;
   font-family: inherit;
   font-size: 1.85rem;
+  font-weight: bolder;
   margin: 0 auto;
   padding: 2rem 6rem;
   text-transform: uppercase;
   transition: transform 300ms ease-out;
   will-change: transform;
   position: relative;
-  overflow: hidden;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -134,14 +131,15 @@ body {
 .btn:focus {
   outline: none;
 }
-.btn::after {
+.btn::before {
   animation: flash 5s ease infinite;
+  background-color: #dae0dc;
   border-radius: 10rem;
   content: "";
   display: block;
   position: absolute;
   top: 0;
-  left: -23rem;
+  left: 0;
   height: 100%;
   width: 100%;
 }

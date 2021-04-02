@@ -713,6 +713,7 @@ body {
 
 .header {
   background-image: linear-gradient(89.8deg, #de4a4a 4.7%, #1e1d1d 120.3%);
+  height: 90vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -725,27 +726,15 @@ body {
   }
 }
 .header__title {
-  background-image: url("../images/responsive_images/orange-frame-blob-sm.webp");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 30rem;
+  padding-top: 6rem;
   position: relative;
   text-align: center;
-}
-@media only screen and (min-width: 55rem) {
-  .header__title {
-    background-image: url("../images/responsive_images/orange-frame-blob-lg.webp");
-  }
 }
 .header__title--text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(67, 85, 96, 0.6);
-  border-radius: 0.7rem;
-  padding: 0.75rem;
 }
 @media only screen and (min-width: 33.31rem) {
   .header__title--text {
@@ -758,10 +747,8 @@ body {
   }
 }
 .header__paragraph {
-  background-color: rgba(67, 85, 96, 0.6);
-  border-radius: 0.7rem;
   border-radius: 0.5rem;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin: 8rem 0;
   padding: 2rem;
 }

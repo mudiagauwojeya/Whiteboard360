@@ -4,6 +4,8 @@
 		rgba(222, 74, 74, 1) 4.7%,
 		rgba(30, 29, 29, 1) 120.3%
 	);
+	height: 90vh;
+
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
@@ -19,22 +21,12 @@
 	}
 
 	&__title {
-		background-image: url("../images/responsive_images/orange-frame-blob-sm.webp");
-		background-position: center;
-		background-size: contain;
-		background-repeat: no-repeat;
-		height: 30rem;
+		padding-top: 6rem;
 		position: relative;
 		text-align: center;
 
-		@include mediaQueries(55rem) {
-			background-image: url("../images/responsive_images/orange-frame-blob-lg.webp");
-		}
-
 		&--text {
 			@include centered;
-			@include textbox;
-			padding: 0.75rem;
 
 			@include mediaQueries(33.31rem) {
 				padding: 1.2rem 2rem;
@@ -47,9 +39,8 @@
 	}
 
 	&__paragraph {
-		@include textbox;
 		border-radius: 0.5rem;
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 		margin: 8rem 0;
 		padding: 2rem;
 

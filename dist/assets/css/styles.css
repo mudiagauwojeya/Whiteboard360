@@ -24,7 +24,6 @@
 }
 
 :root {
-  background-image: linear-gradient(89.8deg, #de4a4a 4.7%, #1e1d1d 120.3%);
   font-size: 62.5%;
 }
 
@@ -713,6 +712,7 @@ body {
 }
 
 .header {
+  background-image: linear-gradient(89.8deg, #de4a4a 4.7%, #1e1d1d 120.3%);
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;

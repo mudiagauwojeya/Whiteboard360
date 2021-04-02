@@ -9,11 +9,6 @@
 
 //document root
 :root {
-	// background-image: linear-gradient(
-	// 	89.8deg,
-	// 	rgba(222, 74, 74, 1) 4.7%,
-	// 	rgba(30, 29, 29, 1) 120.3%
-	// );
 	font-size: 62.5%;
 }
 
@@ -28,7 +23,7 @@ body {
 	line-height: 1.32;
 }
 
-//grid container for the body
+//layout container for the body
 .container {
 	display: flex;
 	flex-flow: column nowrap;

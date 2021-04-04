@@ -115,14 +115,18 @@ modalForm.addEventListener("submit", (e) => {
 		modalForm.email.value.length === 0 &&
 		modalForm.email.value.trim() === ""
 	) {
-		console.log("Cannot be empty");
+		errorMessage = "Please, enter your email to proceed";
+		errorEl = modalForm.querySelector("#emailError");
+		errorEl.textContent = errorMessage;
 		return;
 	}
 	if (
 		modalForm.phone.value.length === 0 &&
 		modalForm.phone.value.trim() === ""
 	) {
-		console.log("Cannot be empty");
+		errorMessage = "Please, enter your telephone number";
+		errorEl = modalForm.querySelector("#phoneError");
+		errorEl.textContent = errorMessage;
 		return;
 	}
 	const formData = {
@@ -131,6 +135,8 @@ modalForm.addEventListener("submit", (e) => {
 		email: modalForm.email.value.trim(),
 		tel: modalForm.phone.value.trim(),
 	};
+	errorMessage = null;
+	errorEl = null;
 	modalForm.reset();
 	console.log(formData);
 });

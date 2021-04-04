@@ -96,6 +96,8 @@ if (backdrop) {
 //modal form interactivity
 modalForm.addEventListener("submit", (e) => {
 	e.preventDefault();
+	let errorMessage;
+	let errorEl;
 	if (e.submitter.innerText === "CANCEL") {
 		onCloseModal();
 		return;
@@ -104,7 +106,9 @@ modalForm.addEventListener("submit", (e) => {
 		modalForm.name.value.length === 0 &&
 		modalForm.name.value.trim() === ""
 	) {
-		console.log("Cannot be empty");
+		errorMessage = "Please, enter your names to proceed";
+		errorEl = modalForm.querySelector("#nameError");
+		errorEl.textContent = errorMessage;
 		return;
 	}
 	if (

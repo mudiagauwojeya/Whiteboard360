@@ -102,9 +102,9 @@ modalForm.addEventListener("submit", (e) => {
 	}
 	const formData = {
 		project: modalForm.project.value,
-		duration: modalForm.duration.value,
-		budget: modalForm.budget.value,
-		delivery: modalForm.delivery.value,
+		name: modalForm.name.value,
+		email: modalForm.email.value,
+		tel: modalForm.phone.value,
 	};
 	modalForm.reset();
 	console.log(formData);

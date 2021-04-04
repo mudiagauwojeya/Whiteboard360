@@ -42,9 +42,15 @@
 			border: none;
 			border-radius: 0.3rem;
 			font-family: inherit;
-			margin: 0.5rem 0 2rem;
+			margin: 0.5rem 0;
 			padding: 1.25rem 1rem;
 			width: 100%;
+		}
+
+		&-error {
+			color: $color-primary-shade-5;
+			font-size: 1.3rem;
+			margin: 1rem 0;
 		}
 	}
 }

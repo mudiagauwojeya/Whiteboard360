@@ -76,7 +76,7 @@
 			<div class="modal__content">
 				<form action="#" class="modal__form">
 					<label for="Project" class="modal__form-label">
-						What do you want to do?
+						Project type:
 					</label>
 					<select name="project" id="select" class="modal__form-input">
 						<option value="Whiteboard Animation">
@@ -85,29 +85,31 @@
 						<option value="Cartoon Portrait">Cartoon Portrait</option>
 						<option value="Logo Design">Logo Design</option>
 					</select>
-					<label for="duration" class="modal__form-label">
-						Animation duration
+					<label for="customer-name" class="modal__form-label">
+						Names:
 					</label>
 					<input
-						type="number"
-						name="duration"
-						id="duration"
+						type="text"
+						name="name"
+						id="customer-name"
 						class="modal__form-input"
 					/>
-					<label for="budget" class="modal__form-label"> Budget </label>
+					<label for="customer-email" class="modal__form-label">
+						Email:
+					</label>
 					<input
-						type="range"
+						type="email"
 						name="budget"
-						id="budget"
+						id="customer-email"
 						class="modal__form-input"
 					/>
-					<label for="delivery" class="modal__form-label">
+					<label for="customer-phone" class="modal__form-label">
 						Delivery date
 					</label>
 					<input
-						type="number"
-						name="delivery"
-						id="delivery"
+						type="tel"
+						name="phone"
+						id="customer-phone"
 						class="modal__form-input"
 					/>
 					<button type="submit" class="btn--red">Submit</button>

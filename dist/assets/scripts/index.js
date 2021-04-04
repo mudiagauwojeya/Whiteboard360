@@ -100,11 +100,32 @@ modalForm.addEventListener("submit", (e) => {
 		onCloseModal();
 		return;
 	}
+	if (
+		modalForm.name.value.length === 0 &&
+		modalForm.name.value.trim() === ""
+	) {
+		console.log("Cannot be empty");
+		return;
+	}
+	if (
+		modalForm.email.value.length === 0 &&
+		modalForm.email.value.trim() === ""
+	) {
+		console.log("Cannot be empty");
+		return;
+	}
+	if (
+		modalForm.phone.value.length === 0 &&
+		modalForm.phone.value.trim() === ""
+	) {
+		console.log("Cannot be empty");
+		return;
+	}
 	const formData = {
-		project: modalForm.project.value,
-		name: modalForm.name.value,
-		email: modalForm.email.value,
-		tel: modalForm.phone.value,
+		project: modalForm.project.value.trim(),
+		name: modalForm.name.value.trim(),
+		email: modalForm.email.value.trim(),
+		tel: modalForm.phone.value.trim(),
 	};
 	modalForm.reset();
 	console.log(formData);

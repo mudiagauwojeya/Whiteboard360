@@ -3,7 +3,7 @@
 	border: none;
 	border-radius: 10rem;
 	box-shadow: 0 0.35rem 0.4rem rgba($color-grey-2, 0.8);
-	color: $color-primary-shade-1;
+	color: $color-primary-shade-3;
 	display: inline-block;
 	font-family: inherit;
 	font-size: 1.85rem;
@@ -46,10 +46,11 @@
 	border: none;
 	border-radius: 0.7rem;
 	box-shadow: 0 0.8rem 0.5rem rgba($color-grey-2, 0.4);
-	color: inherit;
+	color: $color-grey-1;
 	display: inline-block;
 	font-family: inherit;
 	font-size: 1.6rem;
+	font-weight: bolder;
 	margin-top: 2.5rem;
 	padding: 2rem 4rem;
 	text-transform: uppercase;

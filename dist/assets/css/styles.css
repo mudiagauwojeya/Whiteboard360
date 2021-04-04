@@ -112,7 +112,7 @@ body {
   border: none;
   border-radius: 10rem;
   box-shadow: 0 0.35rem 0.4rem rgba(67, 85, 96, 0.8);
-  color: #3b0f08;
+  color: #fc0d00;
   display: inline-block;
   font-family: inherit;
   font-size: 1.85rem;
@@ -149,10 +149,11 @@ body {
   border: none;
   border-radius: 0.7rem;
   box-shadow: 0 0.8rem 0.5rem rgba(67, 85, 96, 0.4);
-  color: inherit;
+  color: #faf7e0;
   display: inline-block;
   font-family: inherit;
   font-size: 1.6rem;
+  font-weight: bolder;
   margin-top: 2.5rem;
   padding: 2rem 4rem;
   text-transform: uppercase;

@@ -233,14 +233,18 @@ body {
   border: none;
   border-radius: 0.3rem;
   font-family: inherit;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0;
   padding: 1.25rem 1rem;
   width: 100%;
 }
+.modal__form > #select {
+  margin-bottom: 2.3rem;
+}
 .modal__form-error {
   color: #c90a00;
-  font-size: 1.3rem;
-  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.2rem 0 1.2rem;
 }
 
 .navigation {

@@ -419,7 +419,7 @@ body {
   outline: none;
 }
 .contact__input:valid {
-  border: 1.5px solid #85fa61;
+  border: 1.5px solid #52fc1f;
 }
 
 .feature {
@@ -1017,7 +1017,7 @@ body {
   width: 100%;
 }
 .pricing__caption {
-  background-color: #435560;
+  background-color: #fd554c;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   font-size: 2.2rem;
@@ -1026,7 +1026,7 @@ body {
   width: 100%;
 }
 .pricing__description {
-  background-color: #dae0dc;
+  background-color: #faf7e0;
   color: #435560;
   display: block;
   font-size: 1.3rem;
@@ -1044,7 +1044,7 @@ body {
   width: 1.5rem;
 }
 .pricing__icon--check {
-  fill: #85fa61;
+  fill: #52fc1f;
 }
 .pricing__icon--clear {
   fill: #fd554c;

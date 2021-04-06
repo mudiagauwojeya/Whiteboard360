@@ -8,10 +8,9 @@
 
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-between;
+	justify-content: space-around;
 
-	padding: 5rem 2rem 10rem;
-	margin-top: 7rem;
+	padding: 2rem 2rem;
 
 	@include mediaQueries(29.06rem) {
 		padding: 5rem 4rem 10rem;
@@ -22,19 +21,17 @@
 	}
 
 	&__title {
-		padding-top: 6rem;
+		padding-top: 4rem;
 		position: relative;
 		text-align: center;
 
 		&--text {
-			@include centered;
-
 			@include mediaQueries(33.31rem) {
 				padding: 1.2rem 2rem;
 			}
 
 			@include mediaQueries(55rem) {
-				max-width: 39rem;
+				max-width: 75rem;
 			}
 		}
 	}
@@ -42,7 +39,7 @@
 	&__paragraph {
 		border-radius: 0.5rem;
 		font-size: 1.7rem;
-		margin: 8rem 0;
+		margin: 2rem 0;
 		padding: 0 2rem;
 
 		@include mediaQueries(33.31rem) {

@@ -724,9 +724,8 @@ body {
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
-  padding: 5rem 2rem 10rem;
-  margin-top: 7rem;
+  justify-content: space-around;
+  padding: 2rem 2rem;
 }
 @media only screen and (min-width: 29.06rem) {
   .header {
@@ -739,15 +738,9 @@ body {
   }
 }
 .header__title {
-  padding-top: 6rem;
+  padding-top: 4rem;
   position: relative;
   text-align: center;
-}
-.header__title--text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 33.31rem) {
   .header__title--text {
@@ -756,13 +749,13 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .header__title--text {
-    max-width: 39rem;
+    max-width: 75rem;
   }
 }
 .header__paragraph {
   border-radius: 0.5rem;
   font-size: 1.7rem;
-  margin: 8rem 0;
+  margin: 2rem 0;
   padding: 0 2rem;
 }
 @media only screen and (min-width: 33.31rem) {

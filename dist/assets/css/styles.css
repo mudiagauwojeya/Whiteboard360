@@ -800,6 +800,9 @@ body {
   object-fit: fill;
   width: 100%;
 }
+.studio > button {
+  align-self: center;
+}
 
 .testimonial {
   padding: 4rem 2rem;

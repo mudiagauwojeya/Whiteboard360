@@ -63,4 +63,8 @@
 		object-fit: fill;
 		width: 100%;
 	}
+
+	& > button {
+		align-self: center;
+	}
 }

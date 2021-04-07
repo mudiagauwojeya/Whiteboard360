@@ -799,6 +799,7 @@ body {
 
 .testimonial {
   padding: 4rem 2rem;
+  text-align: center;
 }
 .testimonial__title {
   background-image: url("../images/responsive_images/yellow-blob-sm.webp");
@@ -827,6 +828,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 6rem;
 }
 .testimonial__customer {
   background-color: rgba(67, 85, 96, 0.6);

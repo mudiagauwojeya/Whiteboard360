@@ -1,5 +1,6 @@
 .testimonial {
 	padding: 4rem 2rem;
+	text-align: center;
 
 	&__title {
 		background-image: url("../images/responsive_images/yellow-blob-sm.webp");
@@ -27,6 +28,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		margin-bottom: 6rem;
 	}
 
 	&__customer {

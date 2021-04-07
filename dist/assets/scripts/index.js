@@ -2,7 +2,6 @@ const navButton = document.querySelector(".navigation__bg");
 const menuOpenButton = document.querySelector(".navigation__menu");
 const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videoGridContainer = document.querySelector(".studio__grid");
-const contactLink = document.getElementById("contact-link");
 const copyrightYear = document.querySelector(".footer__copyright span");
 const getQuoteBtn = document.querySelectorAll(".quote");
 
@@ -56,13 +55,6 @@ const videoControl = (event) => {
 videoGridContainer
 	? videoGridContainer.addEventListener("click", videoControl)
 	: null;
-
-// Add functionality to the hamburger menu for smaller screens
-if (screen.width < 880) {
-	if (!(contactLink === null)) {
-		contactLink.addEventListener("click", closeMenuBtn);
-	}
-}
 
 //Add copyright year to the footer
 const d = new Date();

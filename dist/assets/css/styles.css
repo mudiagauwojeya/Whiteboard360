@@ -129,6 +129,7 @@ body {
   transition: transform 150ms ease-in;
 }
 .btn:focus {
+  background-color: #ba685f;
   outline: none;
 }
 .btn::before {
@@ -158,12 +159,14 @@ body {
   padding: 2rem 4rem;
   text-transform: uppercase;
   transition: all 200ms ease;
+  width: 22rem;
 }
 .btn--red:active {
   box-shadow: 0 0.5rem 0.5rem rgba(67, 85, 96, 0.4);
   transform: translateY(0.4rem);
 }
 .btn--red:focus {
+  background-color: #ba685f;
   outline: none;
 }
 .btn--red:visited {
@@ -189,6 +192,7 @@ body {
   transform: translateY(0.4rem);
 }
 .btn--cancel:focus {
+  background-color: #ba685f;
   outline: none;
 }
 .btn--cancel:visited {

@@ -23,6 +23,7 @@
 	}
 
 	&:focus {
+		background-color: $color-primary-shade-4;
 		outline: none;
 	}
 
@@ -55,6 +56,7 @@
 	padding: 2rem 4rem;
 	text-transform: uppercase;
 	transition: all 200ms ease;
+	width: 22rem;
 
 	&:active {
 		box-shadow: 0 0.5rem 0.5rem rgba($color-grey-2, 0.4);
@@ -62,6 +64,7 @@
 	}
 
 	&:focus {
+		background-color: $color-primary-shade-4;
 		outline: none;
 	}
 
@@ -90,6 +93,7 @@
 	}
 
 	&:focus {
+		background-color: $color-primary-shade-4;
 		outline: none;
 	}
 

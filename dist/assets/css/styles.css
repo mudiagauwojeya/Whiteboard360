@@ -391,47 +391,6 @@ body {
   }
 }
 
-.contact {
-  padding: 10rem 2rem;
-}
-.contact__form {
-  background-color: #dae0dc;
-  border-radius: 0.4rem;
-  box-shadow: 0 0.95rem 1rem rgba(67, 85, 96, 0.4);
-  display: block;
-  font-size: 1.6rem;
-  margin: 0 auto;
-  max-width: 60rem;
-  padding: 2rem 1.25rem 4rem;
-}
-.contact__form > h2 {
-  color: #3b0f08;
-}
-.contact__label {
-  color: #3b0f08;
-  display: block;
-  font-weight: bolder;
-  margin: 2rem 0 0.5rem;
-  padding-left: 0.7rem;
-}
-.contact__input {
-  border: 1.5px solid #435560;
-  border-radius: 0.4rem;
-  color: #faf7e0;
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  padding: 1.5rem 0 1.5rem 0.7rem;
-  width: 100%;
-}
-.contact__input:focus {
-  background-color: #92967d;
-  outline: none;
-}
-.contact__input:valid {
-  border: 1.5px solid #52fc1f;
-}
-
 .feature {
   padding: 4rem 2rem;
   display: flex;

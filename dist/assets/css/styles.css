@@ -246,8 +246,8 @@ body {
   padding: 1.25rem 1rem;
 }
 .modal__form-input:focus, .modal__form > #select:focus {
-  background-color: #ba685f;
-  color: #faf7e0;
+  background-color: #faf7e0;
+  color: #3b0f08;
   font-weight: bold;
   outline: none;
 }

@@ -54,8 +54,8 @@
 
 		&-input:focus,
 		& > #select:focus {
-			background-color: $color-primary-shade-4;
-			color: $color-grey-1;
+			background-color: $color-grey-1;
+			color: $color-primary-shade-1;
 			font-weight: bold;
 			outline: none;
 		}

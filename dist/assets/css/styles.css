@@ -243,6 +243,13 @@ body {
 }
 .modal__form > #select {
   margin-bottom: 2.3rem;
+  padding: 1.25rem 1rem;
+}
+.modal__form-input:focus, .modal__form > #select:focus {
+  background-color: #ba685f;
+  color: #faf7e0;
+  font-weight: bold;
+  outline: none;
 }
 .modal__form-error {
   color: #c90a00;

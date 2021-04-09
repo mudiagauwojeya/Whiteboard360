@@ -49,6 +49,15 @@
 
 		& > #select {
 			margin-bottom: 2.3rem;
+			padding: 1.25rem 1rem;
+		}
+
+		&-input:focus,
+		& > #select:focus {
+			background-color: $color-primary-shade-4;
+			color: $color-grey-1;
+			font-weight: bold;
+			outline: none;
 		}
 
 		&-error {

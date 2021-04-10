@@ -86,52 +86,54 @@ if (backdrop) {
 }
 
 //modal form interactivity
-modalForm.addEventListener("submit", (e) => {
-	e.preventDefault();
-	let errorMessage;
-	let errorEl;
-	if (e.submitter.innerText === "CANCEL") {
-		onCloseModal();
-		return;
-	}
-	if (
-		modalForm.name.value.length === 0 &&
-		modalForm.name.value.trim() === ""
-	) {
-		errorMessage = "Please, enter your names to proceed";
-		errorEl = modalForm.querySelector("#nameError");
-		errorEl.textContent = errorMessage;
-		return;
-	}
-	if (
-		modalForm.email.value.length === 0 &&
-		modalForm.email.value.trim() === ""
-	) {
-		errorMessage = "Please, enter your email to proceed";
-		errorEl = modalForm.querySelector("#emailError");
-		errorEl.textContent = errorMessage;
-		return;
-	}
-	if (
-		modalForm.phone.value.length === 0 &&
-		modalForm.phone.value.trim() === ""
-	) {
-		errorMessage = "Please, enter your telephone number";
-		errorEl = modalForm.querySelector("#phoneError");
-		errorEl.textContent = errorMessage;
-		return;
-	}
-	const formData = {
-		project: modalForm.project.value.trim(),
-		name: modalForm.name.value.trim(),
-		email: modalForm.email.value.trim(),
-		tel: modalForm.phone.value.trim(),
-	};
-	errorMessage = null;
-	errorEl = null;
-	modalForm.reset();
-	console.log(formData);
-});
+if (modalForm) {
+	modalForm.addEventListener("submit", (e) => {
+		e.preventDefault();
+		let errorMessage;
+		let errorEl;
+		if (e.submitter.innerText === "CANCEL") {
+			onCloseModal();
+			return;
+		}
+		if (
+			modalForm.name.value.length === 0 &&
+			modalForm.name.value.trim() === ""
+		) {
+			errorMessage = "Please, enter your names to proceed";
+			errorEl = modalForm.querySelector("#nameError");
+			errorEl.textContent = errorMessage;
+			return;
+		}
+		if (
+			modalForm.email.value.length === 0 &&
+			modalForm.email.value.trim() === ""
+		) {
+			errorMessage = "Please, enter your email to proceed";
+			errorEl = modalForm.querySelector("#emailError");
+			errorEl.textContent = errorMessage;
+			return;
+		}
+		if (
+			modalForm.phone.value.length === 0 &&
+			modalForm.phone.value.trim() === ""
+		) {
+			errorMessage = "Please, enter your telephone number";
+			errorEl = modalForm.querySelector("#phoneError");
+			errorEl.textContent = errorMessage;
+			return;
+		}
+		const formData = {
+			project: modalForm.project.value.trim(),
+			name: modalForm.name.value.trim(),
+			email: modalForm.email.value.trim(),
+			tel: modalForm.phone.value.trim(),
+		};
+		errorMessage = null;
+		errorEl = null;
+		modalForm.reset();
+		console.log(formData);
+	});
+}
 
 //Intersection observer section
 document.addEventListener("DOMContentLoaded", () => {

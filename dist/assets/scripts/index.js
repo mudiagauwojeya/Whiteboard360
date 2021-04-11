@@ -131,7 +131,6 @@ if (modalForm) {
 		errorMessage = null;
 		errorEl = null;
 		modalForm.reset();
-		console.log(formData);
 	});
 }
 

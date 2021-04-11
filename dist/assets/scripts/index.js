@@ -142,12 +142,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		rootMargin: "0px 0px -5px",
 		threshold: 0.03,
 	};
-	const slideIn = (elements) => {
+	const slideIn = (elements, observer) => {
 		for (const element of elements) {
 			if (element.isIntersecting) {
 				element.target.classList.add("slideIn");
-			} else {
-				element.target.classList.remove("slideIn");
+				observer.unobserve(element.target);
 			}
 		}
 	};

@@ -703,12 +703,14 @@ body {
 }
 @media only screen and (min-width: 29.06rem) {
   .header {
+    height: 85vh;
     padding: 5rem 4rem 10rem;
   }
 }
 @media only screen and (min-width: 55rem) {
   .header {
     height: 95vh;
+    justify-content: space-between;
   }
 }
 .header__title {
@@ -723,27 +725,29 @@ body {
 }
 @media only screen and (min-width: 55rem) {
   .header__title--text {
-    max-width: 75rem;
+    margin: 0 auto;
   }
 }
 .header__paragraph {
   border-radius: 0.5rem;
   font-size: 1.7rem;
+  font-weight: lighter;
   margin: 2rem 0;
   padding: 0 2rem;
 }
 @media only screen and (min-width: 33.31rem) {
   .header__paragraph {
     font-size: 1.8rem;
-    margin: 6rem auto;
+    margin: 1rem auto;
+    max-width: 65rem;
     padding: 2rem 4rem;
-    max-width: 50rem;
   }
 }
 @media only screen and (min-width: 55rem) {
   .header__paragraph {
     font-size: 1.95rem;
-    max-width: 70rem;
+    margin: 5rem auto;
+    max-width: 65rem;
     padding: 3rem 4rem;
   }
 }

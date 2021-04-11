@@ -13,11 +13,13 @@
 	padding: 2rem 2rem;
 
 	@include mediaQueries(29.06rem) {
+		height: 85vh;
 		padding: 5rem 4rem 10rem;
 	}
 
 	@include mediaQueries(55rem) {
 		height: 95vh;
+		justify-content: space-between;
 	}
 
 	&__title {
@@ -31,7 +33,7 @@
 			}
 
 			@include mediaQueries(55rem) {
-				max-width: 75rem;
+				margin: 0 auto;
 			}
 		}
 	}
@@ -39,19 +41,21 @@
 	&__paragraph {
 		border-radius: 0.5rem;
 		font-size: 1.7rem;
+		font-weight: lighter;
 		margin: 2rem 0;
 		padding: 0 2rem;
 
 		@include mediaQueries(33.31rem) {
 			font-size: 1.8rem;
-			margin: 6rem auto;
+			margin: 1rem auto;
+			max-width: 65rem;
 			padding: 2rem 4rem;
-			max-width: 50rem;
 		}
 
 		@include mediaQueries(55rem) {
 			font-size: 1.95rem;
-			max-width: 70rem;
+			margin: 5rem auto;
+			max-width: 65rem;
 			padding: 3rem 4rem;
 		}
 	}

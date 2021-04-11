@@ -138,8 +138,8 @@ if (modalForm) {
 document.addEventListener("DOMContentLoaded", () => {
 	const options = {
 		root: null,
-		rootMargin: "0px",
-		threshold: 0.05,
+		rootMargin: "0px 0px -10px",
+		threshold: 0.1,
 	};
 	const slideIn = (elements, observer) => {
 		for (const element of elements) {

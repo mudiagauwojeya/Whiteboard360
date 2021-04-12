@@ -93,7 +93,7 @@ if (modalForm) {
 		let errorEl;
 		if (e.submitter.innerText === "CANCEL") {
 			onCloseModal();
-			let errorEl = modalForm.querySelectorAll("div");
+			errorEl = modalForm.querySelectorAll("div");
 			for (const el of errorEl) {
 				el.textContent = " ";
 			}

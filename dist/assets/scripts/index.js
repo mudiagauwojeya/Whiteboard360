@@ -97,6 +97,7 @@ if (modalForm) {
 			for (const el of errorEl) {
 				el.textContent = " ";
 			}
+			modalForm.reset();
 			return;
 		}
 		if (

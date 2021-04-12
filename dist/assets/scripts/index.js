@@ -93,6 +93,10 @@ if (modalForm) {
 		let errorEl;
 		if (e.submitter.innerText === "CANCEL") {
 			onCloseModal();
+			let errorEl = modalForm.querySelectorAll("div");
+			for (const el of errorEl) {
+				el.textContent = " ";
+			}
 			return;
 		}
 		if (
@@ -128,8 +132,6 @@ if (modalForm) {
 			email: modalForm.email.value.trim(),
 			tel: modalForm.phone.value.trim(),
 		};
-		errorMessage = null;
-		errorEl = null;
 		modalForm.reset();
 	});
 }

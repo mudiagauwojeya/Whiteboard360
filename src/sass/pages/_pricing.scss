@@ -56,10 +56,14 @@
 	}
 
 	&__package {
-		box-shadow: 0.3rem 0.5rem rgba($color-grey-2, 0.6);
+		box-shadow: 0.3rem 0.5rem rgba($color-grey-2, 0.3);
 		max-width: 35rem;
 		transition: all 100ms ease-in;
 		width: 100%;
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
 	}
 
 	&__caption {
@@ -67,9 +71,7 @@
 		border-top-left-radius: 0.5rem;
 		border-top-right-radius: 0.5rem;
 		font-size: 2.2rem;
-		margin-top: 3rem;
 		padding: 2rem;
-
 		width: 100%;
 	}
 
@@ -80,6 +82,10 @@
 		font-size: 1.3rem;
 		list-style-type: none;
 		padding: 2rem;
+
+		// &:not(:last-of-type) {
+		// 	margin-bottom: 3rem;
+		// }
 	}
 
 	&__item {

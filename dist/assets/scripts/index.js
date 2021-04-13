@@ -95,7 +95,7 @@ if (modalForm) {
 			onCloseModal();
 			errorEl = modalForm.querySelectorAll("div");
 			for (const el of errorEl) {
-				el.textContent = " ";
+				el.textContent = "\xa0";
 			}
 			modalForm.reset();
 			return;

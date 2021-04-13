@@ -1002,7 +1002,7 @@ body {
   }
 }
 .pricing__package {
-  box-shadow: 0 0.3rem rgba(67, 85, 96, 0.6);
+  box-shadow: 0.3rem 0.5rem rgba(67, 85, 96, 0.6);
   max-width: 35rem;
   transition: all 100ms ease-in;
   width: 100%;

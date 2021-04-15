@@ -677,7 +677,7 @@ body {
   transition: all 100ms ease-in-out;
 }
 .gallery__item:hover {
-  outline: 1rem solid #fc0d00;
+  outline: 1rem solid #fd554c;
   transform: scale(1.1);
   z-index: 10;
 }

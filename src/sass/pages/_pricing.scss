@@ -64,6 +64,16 @@
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: space-between;
+
+		&:not(:last-of-type) {
+			margin-bottom: 3rem;
+		}
+
+		@include mediaQueries(55rem) {
+			&:not(:last-of-type) {
+				margin-bottom: 0;
+			}
+		}
 	}
 
 	&__caption {
@@ -82,10 +92,6 @@
 		font-size: 1.3rem;
 		list-style-type: none;
 		padding: 2rem;
-
-		// &:not(:last-of-type) {
-		// 	margin-bottom: 3rem;
-		// }
 	}
 
 	&__item {

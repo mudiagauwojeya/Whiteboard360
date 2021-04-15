@@ -1010,6 +1010,14 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+.pricing__package:not(:last-of-type) {
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 55rem) {
+  .pricing__package:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+}
 .pricing__caption {
   background-color: #fd554c;
   border-top-left-radius: 0.5rem;

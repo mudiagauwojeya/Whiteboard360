@@ -4,6 +4,7 @@ const menuCloseButton = document.querySelector(".navigation__menu-close");
 const videoGridContainer = document.querySelector(".studio__grid");
 const copyrightYear = document.querySelector(".footer__copyright span");
 const getQuoteBtn = document.querySelectorAll(".quote");
+const jumpBtn = document.querySelector(".jump-btn");
 
 //Modal DOM Elements
 const modalTemplate = document.querySelector(".modal__template");

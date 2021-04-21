@@ -160,3 +160,13 @@ document.addEventListener("DOMContentLoaded", () => {
 		observer.observe(element);
 	}
 });
+
+//jump-btn functionality
+const handleScroll = () => {
+	if (document.documentElement.scrollTop > 1600) {
+		jumpBtn.style.opacity = 1;
+	} else {
+		jumpBtn.style.opacity = 0;
+	}
+};
+document.addEventListener("scroll", handleScroll);

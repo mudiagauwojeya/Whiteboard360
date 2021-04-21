@@ -165,6 +165,9 @@ document.addEventListener("DOMContentLoaded", () => {
 const handleScroll = () => {
 	if (document.documentElement.scrollTop > 1600) {
 		jumpBtn.style.opacity = 1;
+		jumpBtn.addEventListener("click", () => {
+			document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+		});
 	} else {
 		jumpBtn.style.opacity = 0;
 	}

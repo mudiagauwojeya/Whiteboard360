@@ -57,6 +57,22 @@ body {
   transition: all 1s ease-out;
 }
 
+.jump-btn {
+  background-color: #fd554c;
+  border: none;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  opacity: 0;
+}
+
 .heading, .heading-tertiary, .heading-secondary, .heading-primary {
   font-family: "Lora", serif;
   font-weight: 700;

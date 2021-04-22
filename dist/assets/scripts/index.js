@@ -162,17 +162,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //jump-btn functionality
-const jumpTo = () => {
-	document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
-};
-
 const handleScroll = () => {
+	const scrollToTop = () => {
+		document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+	};
+
 	if (document.documentElement.scrollTop >= 1600) {
 		jumpBtn.style.opacity = 1;
+		jumpBtn.addEventListener("click", scrollToTop);
 	} else {
 		jumpBtn.style.opacity = 0;
+		jumpBtn.removeEventListener("click", scrollToTop);
 	}
 };
 
-jumpBtn.addEventListener("click", jumpTo);
 document.addEventListener("scroll", handleScroll);

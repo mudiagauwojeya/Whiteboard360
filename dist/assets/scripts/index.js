@@ -166,18 +166,20 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //jump-btn functionality
-const handleScroll = () => {
-	const scrollToTop = () => {
-		document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+if (jumpBtn) {
+	const handleScroll = () => {
+		const scrollToTop = () => {
+			document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+		};
+
+		if (document.documentElement.scrollTop >= 1600) {
+			jumpBtn.style.opacity = 1;
+			jumpBtn.addEventListener("click", scrollToTop);
+		} else {
+			jumpBtn.style.opacity = 0;
+			jumpBtn.removeEventListener("click", scrollToTop);
+		}
 	};
 
-	if (document.documentElement.scrollTop >= 1600) {
-		jumpBtn.style.opacity = 1;
-		jumpBtn.addEventListener("click", scrollToTop);
-	} else {
-		jumpBtn.style.opacity = 0;
-		jumpBtn.removeEventListener("click", scrollToTop);
-	}
-};
-
-document.addEventListener("scroll", handleScroll);
+	document.addEventListener("scroll", handleScroll);
+}

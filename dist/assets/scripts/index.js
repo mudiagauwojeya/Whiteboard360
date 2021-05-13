@@ -92,12 +92,16 @@ if (modalForm) {
 		e.preventDefault();
 		let errorMessage;
 		let errorEl;
+
+		//Form cancel button logic
 		if (e.submitter.innerText === "CANCEL") {
 			onCloseModal();
 			errorEl = modalForm.querySelectorAll("div");
 			for (const el of errorEl) {
+				//clear error messages
 				el.textContent = "\xa0";
 			}
+			//reset form input fields
 			modalForm.reset();
 			return;
 		}

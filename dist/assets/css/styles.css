@@ -289,6 +289,8 @@ body {
 .navigation__brand {
   display: inline-block;
   max-width: 8rem;
+  position: relative;
+  z-index: 150;
 }
 .navigation__brand-link:link, .navigation__brand-link:active, .navigation__brand-link:visited {
   display: block;

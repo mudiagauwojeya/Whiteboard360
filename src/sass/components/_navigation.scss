@@ -8,6 +8,9 @@
 	&__brand {
 		display: inline-block;
 		max-width: 8rem;
+
+		position: relative;
+		z-index: 150;
 	}
 
 	&__brand-link {

@@ -82,6 +82,8 @@ if (getQuoteBtn) {
 		btn.addEventListener("click", onGetQuote);
 	}
 }
+
+//Close backdrop on click
 if (backdrop) {
 	backdrop.addEventListener("click", onCloseModal);
 }
@@ -105,6 +107,8 @@ if (modalForm) {
 			modalForm.reset();
 			return;
 		}
+
+		//form validation
 		if (
 			modalForm.name.value.length === 0 &&
 			modalForm.name.value.trim() === ""
@@ -132,12 +136,15 @@ if (modalForm) {
 			errorEl.textContent = errorMessage;
 			return;
 		}
+
+		//form input values object
 		const formData = {
 			project: modalForm.project.value.trim(),
 			name: modalForm.name.value.trim(),
 			email: modalForm.email.value.trim(),
 			tel: modalForm.phone.value.trim(),
 		};
+
 		modalForm.reset();
 	});
 }

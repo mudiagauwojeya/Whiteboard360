@@ -121,9 +121,10 @@ if (modalForm) {
 		}
 		if (
 			modalForm.email.value.length === 0 &&
-			modalForm.email.value.trim() === ""
+			modalForm.email.value.trim() === "" &&
+			!modalForm.email.value.match(emailRegex)
 		) {
-			errorMessage = "Please, enter your email to proceed";
+			errorMessage = "Please, enter a valid email to proceed";
 			errorEl = modalForm.querySelector("#emailError");
 			errorEl.textContent = errorMessage;
 			return;

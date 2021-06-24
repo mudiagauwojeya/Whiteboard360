@@ -14,6 +14,7 @@ const modal = modalTemplate
 const backdrop = modal ? modal.querySelector(".modal__backdrop") : null;
 const modalContent = modal ? modal.querySelector(".modal__content") : null;
 const modalForm = modal ? modal.querySelector(".modal__form") : null;
+const emailRegex = /^\S+@\S+\.\S+$/;
 
 //open menu button on mobile
 const openMenuBtn = () => {

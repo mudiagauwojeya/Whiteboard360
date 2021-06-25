@@ -23,9 +23,9 @@
 		//use scrollTop to center this element
 		position: fixed;
 		left: 50rem;
-		top: 10rem;
+		top: 4rem;
+		z-index: 250;
 		// transform: translate(-50%, -50%);
-		// z-index: 250;
 	}
 
 	&__form {

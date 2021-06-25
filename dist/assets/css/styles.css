@@ -239,7 +239,8 @@ body {
   width: 35rem;
   position: fixed;
   left: 50rem;
-  top: 10rem;
+  top: 4rem;
+  z-index: 250;
 }
 .modal__form {
   background-color: #dae0dc;

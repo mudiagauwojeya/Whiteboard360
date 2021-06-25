@@ -3,7 +3,7 @@
 		background-color: $color-grey-2;
 		display: none;
 		height: 100vh;
-		opacity: 0.8;
+		opacity: 0.6;
 		width: 100%;
 
 		position: fixed;
@@ -11,7 +11,7 @@
 		z-index: 200;
 
 		@supports (backdrop-filter: blur(1px)) {
-			backdrop-filter: blur(90px);
+			backdrop-filter: blur(95px);
 		}
 	}
 

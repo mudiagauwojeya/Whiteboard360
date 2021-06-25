@@ -237,10 +237,20 @@ body {
   border-radius: 0.5rem;
   display: none;
   width: 35rem;
-  position: fixed;
-  left: 50rem;
-  top: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 250;
+}
+@media only screen and (min-width: 55rem) {
+  .modal__content {
+    position: fixed;
+    left: 50rem;
+    top: 4rem;
+    transform: translate(0, 0);
+    z-index: 250;
+  }
 }
 .modal__form {
   background-color: #dae0dc;

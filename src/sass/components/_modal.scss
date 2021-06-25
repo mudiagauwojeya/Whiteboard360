@@ -21,11 +21,19 @@
 		width: 35rem;
 
 		//use scrollTop to center this element
-		position: fixed;
-		left: 50rem;
-		top: 4rem;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 		z-index: 250;
-		// transform: translate(-50%, -50%);
+
+		@include mediaQueries(55rem) {
+			position: fixed;
+			left: 50rem;
+			top: 4rem;
+			transform: translate(0, 0);
+			z-index: 250;
+		}
 	}
 
 	&__form {

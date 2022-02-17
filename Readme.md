@@ -19,3 +19,10 @@ to gradually include backend capabilities.
 The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.
 
 ## DEPENDENCIES 📦📦📦📦
+
+-  sass
+-  postcss
+-  autoprefixer
+-  live-server
+-  npm-run-all
+-  postcss-cli

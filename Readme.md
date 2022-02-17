@@ -2,7 +2,7 @@
 
 <hr>
 
-This is the official website of Whiteboard360, a business owned by a freelancer that makes whiteboard
+This is the official website of **Whiteboard360**, a business owned by a freelancer that makes whiteboard
 animation videos, 2d explainer videos, logo designs, and portrait cartoonification. This website is 
 meant to create online presence for the business. It is meant to be a simple frontend website with plans 
 to gradually include backend capabilities. 
@@ -14,3 +14,6 @@ to gradually include backend capabilities.
 - Sample logo mocks
 - Sample portrait cartoonification
 
+## PAGES
+
+The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.

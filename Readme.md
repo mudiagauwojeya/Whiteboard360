@@ -7,6 +7,9 @@ animation videos, 2d explainer videos, logo designs, and portrait cartoonificati
 meant to create online presence for the business. It is meant to be a simple frontend website with plans
 to gradually include backend capabilities.
 
+<br>
+<br>
+
 ## FEATURES
 
 -  Call-to-action buttons to increase conversion
@@ -14,10 +17,14 @@ to gradually include backend capabilities.
 -  Sample logo mocks
 -  Sample portrait cartoonification
 
+<br>
+<br>
 ## PAGES
 
 The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.
 
+<br>
+<br>
 ## DEPENDENCIES 📦📦📦📦
 
 -  sass

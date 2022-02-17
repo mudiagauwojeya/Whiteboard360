@@ -17,3 +17,5 @@ to gradually include backend capabilities.
 ## PAGES
 
 The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.
+
+## DEPENDENCIES :package:

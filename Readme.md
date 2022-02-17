@@ -19,12 +19,14 @@ to gradually include backend capabilities.
 
 <br>
 <br>
+
 ## PAGES 📃📃📃📃
 
 The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.
 
 <br>
 <br>
+
 ## DEPENDENCIES 📦📦📦📦
 
 -  sass

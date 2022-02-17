@@ -37,7 +37,7 @@ The website has 3 pages, namely - the home page, the pricing page, and the FAQ p
 <br>
 <br>
 
-## BUILD 🔧🔧🔧🔧
+## WORKFLOW 🔧🔧🔧🔧
 
 -  Use `npm run build` to run the production scripts.
 -  Use `npm start` to run the development scripts.

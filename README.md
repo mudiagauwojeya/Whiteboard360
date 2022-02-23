@@ -27,12 +27,12 @@ The website has 3 pages, namely - the home page, the pricing page, and the FAQ p
 
 ## DEPENDENCIES 📦📦📦📦
 
--  sass
--  postcss
 -  autoprefixer
 -  live-server
 -  npm-run-all
+-  postcss
 -  postcss-cli
+-  sass
 
 <br>
 <br>

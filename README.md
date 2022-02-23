@@ -64,5 +64,5 @@ The website has 3 pages, namely - the home page, the pricing page, and the FAQ p
 ### Ready to deploy build?
 Simply run the build scripts
 ```javascript
-    npm run build
+   npm run build
 ```

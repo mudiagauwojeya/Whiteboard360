@@ -35,15 +35,15 @@ The website has 3 pages, namely - the home page, the pricing page, and the FAQ p
 <br>
 <br>
 
-## WORKFLOW 🔧🔧🔧🔧
+## WORKFLOWS 🔧🔧🔧🔧
 
 -  Use `npm start` to run the development scripts.
 -  Use `npm run build` to run the production scripts.
 
 <br>
 
-#### How to: development
-* First clone the project into your home directory or desktop or path of choice
+### How to run project on your local machine
+* On your terminal, first clone the project into your home directory or desktop or path of choice
 ```javascript
     git clone <url-of-this-project>
 ```
@@ -58,4 +58,11 @@ The website has 3 pages, namely - the home page, the pricing page, and the FAQ p
 * Run the development scripts
 ```javascript
     npm start
+```
+<br>
+
+### Ready to deploy build?
+Simply run the build scripts
+```javascript
+    npm run build
 ```

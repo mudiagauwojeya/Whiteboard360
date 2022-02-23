@@ -66,3 +66,11 @@ Simply run the build scripts
 ```javascript
    npm run build
 ```
+<br>
+<br>
+
+> ## TODO 
+>
+> * Add scripts to send email
+> * Add video to the hero section
+

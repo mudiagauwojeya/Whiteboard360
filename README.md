@@ -21,7 +21,8 @@ LIVE LINK: [https://uwojeyamudiaga.github.io/Whiteboard360/](https://uwojeyamudi
 
 ## FEATURES 🚀🚀🚀🚀
 
--  Call-to-action buttons to increase conversion
+-  Ubiquitous call-to-action buttons to increase conversion
+-  Clicking the CTA buttons will display the contact form
 -  Sample whiteboard animation videos
 -  Sample logo mocks
 -  Sample portrait cartoonification
@@ -89,4 +90,5 @@ Simply run the build scripts
 >
 > * Add scripts to send email
 > * Add background video to the hero section
+> * Add carousel to circle testimonials in and out
 

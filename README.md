@@ -6,6 +6,15 @@ This is the official website of **Whiteboard360**, a business owned by a freelan
 <br>
 <br>
 
+## SCREENSHOTS
+
+![hero section and sample video section of website](./dist/assets/images/screenshots/screenshot-hero-videos.png)
+![features and sample photos/logo section of website](./dist/assets/images/screenshots/screenshot-studio-photos.png)
+![testimonial and footer sections of website](./dist/assets/images/screenshots/screenshot-testimonials-footer.png)
+
+<br>
+<br>
+
 ## FEATURES 🚀🚀🚀🚀
 
 -  Call-to-action buttons to increase conversion

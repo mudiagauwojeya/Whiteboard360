@@ -10,7 +10,6 @@ This is the official website of **Whiteboard360**, a business owned by a freelan
 LIVE LINK: [https://uwojeyamudiaga.github.io/Whiteboard360/](https://uwojeyamudiaga.github.io/Whiteboard360/)
 
 <br>
-<br>
 
 ## SCREENSHOTS
 

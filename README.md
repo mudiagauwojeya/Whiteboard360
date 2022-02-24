@@ -72,5 +72,5 @@ Simply run the build scripts
 > ## TODO 
 >
 > * Add scripts to send email
-> * Add video to the hero section
+> * Add background video to the hero section
 

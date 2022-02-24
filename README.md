@@ -27,7 +27,9 @@ This is the official website of **Whiteboard360**, a business owned by a freelan
 
 ## PAGES 📃📃📃📃
 
-The website has 3 pages, namely - the home page, the pricing page, and the FAQ page.
+The website has 3 pages, namely - the home page(as seen in the screenshots above), the pricing page, and the FAQ page. 
+The pricing page contains pricing plans for whiteboard animation, portraits and logos. There are three categories of prices, namely: basic, standard and premium.
+Then there is the frequently asked questions page that provides answers to some frequently asked questions.
 
 <br>
 <br>

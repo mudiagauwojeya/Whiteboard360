@@ -9,7 +9,6 @@ This is the official website of **Whiteboard360**, a business owned by a freelan
 
 LIVE LINK: [https://uwojeyamudiaga.github.io/Whiteboard360/](https://uwojeyamudiaga.github.io/Whiteboard360/)
 
-<br>
 
 ## SCREENSHOTS
 
@@ -92,4 +91,7 @@ Simply run the build scripts
 > * Add scripts to send email
 > * Add background video to the hero section
 > * Add carousel to circle testimonials in and out
+> * Add backend support
 
+<br>
+<br>

@@ -26,6 +26,7 @@ LIVE LINK: [https://uwojeyamudiaga.github.io/Whiteboard360/](https://uwojeyamudi
 -  Sample whiteboard animation videos
 -  Sample logo mocks
 -  Sample portrait cartoonification
+-  Dynamic jump to top button
 
 <br>
 <br>

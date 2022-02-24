@@ -53,7 +53,11 @@ Then there is the frequently asked questions page that provides answers to some 
 ### How to run project on your local machine
 * On your terminal, first clone the project into your home directory or desktop or path of choice
 ```javascript
-    git clone <url-of-this-project>
+    //for https
+    git clone https://github.com/uwojeyamudiaga/Whiteboard360.git
+
+    //for ssh
+    git clone git@github.com:uwojeyamudiaga/Whiteboard360.git
 ```
 * Navigate into project
 ```javascript
